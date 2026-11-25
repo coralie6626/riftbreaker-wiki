@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Defense Towers · Riftbreaker Field Guide</title>
+<meta name="description" content="Every Riftbreaker defense tower by damage type and range, built from the game's own data files.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">Riftbreaker <span>Field Guide</span></a>
+    <nav>
+      <a href="index.html#calculator">Energy calculator</a>
+      <a href="index.html#power">Power sources</a>
+      <a href="defense.html" aria-current="page">Defense towers</a>
+      <a href="enemies.html">Enemies</a>
+      <a href="viewer.html">Data browser</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap panel first" id="towers">
+    <div class="panel-head">
+      <div>
+        <h2>Defense towers</h2>
+        <p class="sub">Filter by damage type, range or air targeting. Select a tower for its cost and notes. The link keeps your filters.</p>
+      </div>
+      <div class="seg" role="radiogroup" aria-label="Upgrade level" id="d-level">
+        <button type="button" role="radio" data-level="1" aria-checked="true">Level 1</button>
+        <button type="button" role="radio" data-level="2" aria-checked="false">Level 2</button>
+        <button type="button" role="radio" data-level="3" aria-checked="false">Level 3</button>
+      </div>
+    </div>
+
+    <div class="d-filters">
+      <div class="d-search">
+        <label for="d-search" class="label">Search</label>
+        <input id="d-search" type="search" placeholder="Name or keyword, e.g. laser, slow, artillery" autocomplete="off">
+      </div>
+      <div>
+        <span class="label" id="d-type-label">Damage type</span>
+        <div class="cat-filter" id="d-types" role="group" aria-labelledby="d-type-label"></div>
+      </div>
+      <div class="d-range">
+        <label for="d-reach" class="label">Reaches at least <output id="d-reach-out">0</output> m</label>
+        <input id="d-reach" type="range" min="0" max="200" step="5" value="0">
+      </div>
+      <div class="d-toggles">
+        <label class="d-check"><input type="checkbox" id="d-air"> Hits air units</label>
+        <label class="d-check"><input type="checkbox" id="d-nomin"> No minimum range</label>
+        <label class="d-check"><input type="checkbox" id="d-noammo"> No ammo needed</label>
+      </div>
+      <div class="d-sort">
+        <label for="d-sort" class="label">Sort by</label>
+        <select id="d-sort">
+          <option value="range">Range (longest first)</option>
+          <option value="damage">Damage per hit</option>
+          <option value="type">Damage type</option>
+          <option value="name">Name</option>
+          <option value="energy">Energy use (lowest first)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="d-meta">
+      <p class="note" id="d-count" aria-live="polite"></p>
+      <button type="button" class="btn btn-quiet" id="d-reset">Reset filters</button>
+    </div>
+
+    <div class="d-list" id="d-list" role="list"></div>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <p>Data extracted from the game files with <code>tools/</code>. Range is the turret's aim range in meters; drone and mine towers show the area their drones cover. Beam towers (flamers, lasers) damage continuously, so they have no fire rate. Values are base stats before research bonuses and mods.</p>
+</footer>
+
+<script src="assets/defense.js"></script>
+</body>
+</html>

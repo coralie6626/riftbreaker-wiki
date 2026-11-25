@@ -1,0 +1,6 @@
+# Raw game files: large and not ours to redistribute
+extracted/
+# Local tooling
+.claude/
+__pycache__/
+*.pyc

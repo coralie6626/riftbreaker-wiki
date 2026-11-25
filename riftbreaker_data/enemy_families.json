@@ -1,0 +1,4497 @@
+[
+ {
+  "name": "arachnoid",
+  "category": "fauna",
+  "specimen": "specimen_arachnoid",
+  "description": "monster_description/arachnoid",
+  "specimen_chance": 0.02,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Arachnoids secrete strongly acidic substance from their tails and jaws. The acid is primarily used to make food easier to digest, but it can also be used offensively. Arachnoids are often seen attacking their enemies by launching acidic projectiles from their long tails. These projectiles are not thrown with great force making single projectiles easily avoidable."
+ },
+ {
+  "name": "baxmoth",
+  "category": "fauna",
+  "specimen": "specimen_baxmoth",
+  "description": "monster_description/baxmoth",
+  "specimen_chance": 0.45,
+  "scannable_chance": 0.8,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Baxmoths have evolved their tall legs in order to reach the flowers high in the tree crowns. It's common for them to release a swarm of small, flying creatures, which behave like drones, gathering nectar for the Baxmoth and fending off attackers. It is unclear whether they are the same species, or if they live in a symbiotic relationship with each other."
+ },
+ {
+  "name": "bomogan",
+  "category": "fauna",
+  "specimen": "specimen_bomogan",
+  "description": "monster_description/bomogan",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "A special set of organs on their backs allows these creatures to create sacks filled with easily combustible fluid. The sack is launched like an artillery shell and explodes upon impact. The explosive sacks can easily bypass defenses and hit critical targets inside the base. Thick bone plates on the front part of its body also protect the creature from all kinds of environmental hazards. Luckily, the creature is really massive and its small legs are not well-suited for chasing prey, so it is not difficult to outrun this behemoth."
+ },
+ {
+  "name": "canoptrix",
+  "category": "fauna",
+  "specimen": "specimen_canoptrix",
+  "description": "monster_description/canoptrix",
+  "specimen_chance": 0.005,
+  "scannable_chance": 0.05,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Canoptrix are small, omnivorous creatures. They live in packs and it is very uncommon to see a singular specimen in the wild. They aggresively protect their territory, using their sharp claws and strong jaws to attack the intruder. These creatures can be found in moderate climate zones."
+ },
+ {
+  "name": "carnicinth",
+  "category": "fauna",
+  "specimen": "specimen_carnicinth",
+  "description": "monster_description/carnicinth",
+  "specimen_chance": 0.15,
+  "scannable_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Carnicinths have evolved to disguise themselves as plants as far as even replicating their reproduction methods. Carnicinths are born from seeds and remain immobile for their entire lives due to their expansive roots. The roots do not serve any purpose when it comes to nutrition, as Carnicinths are carnivorous, but play a vital role in catching prey. Carnicinths have long tongues that they use to catch their victims. Being rooted deep in the ground ensures that the prey won't have enough strength to escape."
+ },
+ {
+  "name": "drexolian",
+  "category": "fauna",
+  "specimen": "specimen_drexolian",
+  "description": "monster_description/drexolian",
+  "specimen_chance": 0.15,
+  "scannable_chance": 0.3,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Drexolians have a distinct ability to blend into their surroundings, disguising themselves as a regular tree. They are able to remain immobile for hours, only to strike an unsuspecting victim at an instant. They often try to immobilize their target with the use of their vine-like appendages."
+ },
+ {
+  "name": "gnerot",
+  "category": "fauna",
+  "specimen": "specimen_gnerot",
+  "description": "monster_description/gnerot",
+  "specimen_chance": 0.25,
+  "scannable_chance": 0.3,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Gnerots feed on mineral deposits located all around Galatea 37 making them a common sight in every biome. It is unclear whether their bodies are covered in actual rock or if it is a product of their skin. This species seems to be able to manipulate the structure of Galatea's bedrock, causing large stony spikes to emerge from beneath the ground. Gnerots use this ability to attack targets out of their range."
+ },
+ {
+  "name": "granan",
+  "category": "fauna",
+  "specimen": "specimen_granan",
+  "description": "monster_description/granan",
+  "specimen_chance": 0.007,
+  "scannable_chance": 0.07,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "One of their most prominent features is the bioluminescent appendix on the top of Granans’ heads. It is used to lure small animals into the Granan’s giant maw. As if hundreds of teeth were not scary enough, these creatures can also spit acid, albeit at a short range. In case of shortage of fresh food, Granans will resort to scavenging."
+ },
+ {
+  "name": "hedroner",
+  "category": "fauna",
+  "specimen": "specimen_hedroner",
+  "description": "monster_description/hedroner",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.3,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Hedroners can inhabit any liquid pool they find. They can even adapt to the extreme conditions of lava lakes. These creatures are rather reclusive and avoid close contact with other species. If Hedroners have to defend themselves, they rip out larcge chunks of the ground beneath them, which they throw at the enemy."
+ },
+ {
+  "name": "kafferroceros",
+  "category": "fauna",
+  "specimen": "specimen_hammeroceros",
+  "description": "monster_description/hammeroceros",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "These creatures are largely peaceful and do not attack unprovoked. They will try to scare off potential assailants by roaring and stomping their feet. If that has no effect, they will charge at the enemy head-first, using the entire mass of their bodies to their advantage. Large herds of these creatures roam the surface of Galatea 37, looking for optimal living conditions."
+ },
+ {
+  "name": "kermon",
+  "category": "fauna",
+  "specimen": "specimen_kermon",
+  "description": "monster_description/kermon",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Kermons live and hunt in small groups, targeting animals of all species as their prey. There is no direct evidence as of yet to confirm their ability to communicate with each other, but their cooperation and teamwork strongly suggest that. Kermons ambush creatures of all sizes and take them down with ease using their razor-sharp forearm blades. Kermons have the ability to cloak themselves in such a way that they become almost invisible to the naked eye."
+ },
+ {
+  "name": "krocoon",
+  "category": "fauna",
+  "specimen": "specimen_krocoon",
+  "description": "monster_description/krocoon",
+  "specimen_chance": 0.2,
+  "scannable_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "The Krocoon’s body looks as if it was made of metal or crystals. Such a strong body armor guarantees protection from most natural hazards, such as predators or weather events. The downside is that the creature is very heavy and is not the most agile. Krocoon is able to sustain itself by consuming raw minerals from various deposits on the surface of Galatea 37. In case of danger, it will use its hind leg or its head to crush the enemy."
+ },
+ {
+  "name": "lesigian",
+  "category": "fauna",
+  "specimen": "specimen_lesigian",
+  "description": "monster_description/lesigian",
+  "specimen_chance": 0.2,
+  "scannable_chance": 0.3,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "These creatures have the unique ability to manipulate the electromagnetic field in their vicinity, giving them the ability to levitate, as well as cause lightning strikes.  These creatures are able to teleport from one place to another in order to throw the attacker off balance and gain the upper hand in combat. The mechanisms behind their teleportation technique are still unknown. Some Lesigians explode if their body is damaged, likely due to the electric charge stored within."
+ },
+ {
+  "name": "magmoth",
+  "category": "fauna",
+  "specimen": "specimen_magmoth",
+  "description": "monster_description/magmoth",
+  "specimen_chance": 0.07,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Magmoths can be found within liquid pools of Galatea 37. All readings suggest that these creatures spend most of their lives submerged in the pool they're occupying. If they have to emerge above the surface, they shape the liquid around them to form an exoskeleton. It allows them to leave their home pool and relocate. Magmoths primarily rely on ranged attacks, shooting projectiles at their assailants."
+ },
+ {
+  "name": "morirot",
+  "category": "fauna",
+  "specimen": "specimen_morirot",
+  "description": "monster_description/morirot",
+  "specimen_chance": 0.005,
+  "scannable_chance": 0.05,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Morirots can only be found in the rocky Magma Biome. Their unusual habitat grants them invulnerability to heat and fire. They are protected by a thick outer shell, making them very dangerous foes. Morirots consume mushrooms both to get their nutrients, as well as water, which would be otherwise hard to come by. They usually live in large groups."
+ },
+ {
+  "name": "mushbit",
+  "category": "fauna",
+  "specimen": "specimen_mushbit",
+  "description": "monster_description/mushbit",
+  "specimen_chance": 0.005,
+  "scannable_chance": 0.05,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Mushbits are often seen wandering between their hives. If left undisturbed, they will most likely ignore other species' presence, but if anything crosses their path they will attack ruthlessly. Mushbits are lightning-quick and their blade-shaped arms are sharp enough to cut through most metals. They live in large colonies. If you encounter one specimen, be on the lookout for more."
+ },
+ {
+  "name": "necrodon",
+  "category": "fauna",
+  "specimen": "specimen_necrodon",
+  "description": "monster_description/necrodon",
+  "specimen_chance": 0.35,
+  "scannable_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Extreme caution and further analysis advised. Necrodons might be just regular animals operating on instinct, but their behaviors suggest that they might be a higher level of species - more organized and intelligent than we thought.  It is unclear how, but they are able to bring fallen creatures back to life. In order to do that, the body of the creature must remain largely intact. Necrodons are not a big threat on their own, but become very dangerous in cooperation with other species."
+ },
+ {
+  "name": "nerilian",
+  "category": "fauna",
+  "specimen": "specimen_nerilian",
+  "description": "monster_description/nerilian",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Nerillians are able to burrow deep into the ground and remain there for days, waiting for prey to come by. Once they feel the vibrations of the ground caused by footsteps, they immediately rush to the surface to capture and kill their prey. They are very quick to attack and just as quick to burrow undergound if their target runs away or if it is too threatening for them."
+ },
+ {
+  "name": "nurglax",
+  "category": "fauna",
+  "specimen": "specimen_nurglax",
+  "description": "monster_description/nurglax",
+  "specimen_chance": 0.25,
+  "scannable_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 7
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Despite the horrifying appearance, Nurglaxes are not very dangerous on their own. They are slow and sluggish, which gives the Riftbreaker in a Mecha-Suit an advantage in direct combat. However, the sack growing out of the creature's back requires extreme caution. They are filled with Nurglax larvas and acidic fluid. These sacks are launched at the enemies. The acid corrodes all organic matter in the blast radius and the larvae gnaw at whatever is left behind."
+ },
+ {
+  "name": "phirian",
+  "category": "fauna",
+  "specimen": "specimen_phirian",
+  "description": "monster_description/phirian",
+  "specimen_chance": 0.25,
+  "scannable_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "The creature uses its five muscular tails to push its tall, slender body along the ground. Phirians keep an upright position, giving them a great overview of their immediate surroundings. Despite being almost 10 meters tall, Phirian’s signature attack is a blisteringly quick dash towards the target, accompanied by a powerful thrust of the sword arm right through the victim. This is preceded by a short preparation period when the Phirian coils its body up in order to get the most strength out of its horrendously long and muscular body."
+ },
+ {
+  "name": "shegret",
+  "category": "fauna",
+  "specimen": "specimen_shegret",
+  "description": "monster_description/shegret",
+  "specimen_chance": 0.15,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Shegrets are usually not seen above the surface of Galatea 37. They spend most of their lives buried in the ground. These creatures are afraid of light and as such will only attack their target in complete darkness. Their long, sticky tongues allow them to extract any substance they need to survive, including pure energy. Shegrets display a preference towards inanimate objects, including Riftbreaker buildings. The lights of the Mecha-Suit are usually enough to scare them off."
+ },
+ {
+  "name": "stregaros",
+  "category": "fauna",
+  "specimen": "specimen_stregaros",
+  "description": "monster_description/stregaros",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Stregaroses are covered by a thick carapace, making them very resilient to any forms of physical attacks. The characteristic structures growing out of their arms are made of the same tissue as the carapace. Stregaroses use these either as a shield or as a very capable weapon. Despite the size, the elements of their exoskeleton are quite light, allowing Stregaroses to move around freely."
+ },
+ {
+  "name": "zorant",
+  "category": "fauna",
+  "specimen": "specimen_zorant",
+  "description": "monster_description/zorant",
+  "specimen_chance": 0.07,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Zorants inhabit the desert areas of Galatea 37. Their four eyes give them excellent vision both during the day and in the darkness of the night. These creatures try to capture smaller prey by shooting electrically charged spikes out of the large gland situated on Zorant's back."
+ },
+ {
+  "name": "bitrid",
+  "category": "fauna_neutral",
+  "specimen": "specimen_bitrid",
+  "description": "monster_description/bitrid",
+  "specimen_chance": 0.5,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 5
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Bitrid is a large insect that spends most of its adult life gathering nectar in its large sack, where it also keeps its eggs. Bitrids are hermaphroditic - any other member of the species can help with fertilizing the eggs. Once the larvae hatch from the eggs inside the sack, they feed on nectar until they're ready to emerge and burst the sack, killing the parent in the process."
+ },
+ {
+  "name": "crader",
+  "category": "fauna_neutral",
+  "specimen": "specimen_crader",
+  "description": "monster_description/crader",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "A small scavenger. It uses its sharp claws to rip whatever food it finds into smaller chunks that can fit in its mouth. Otherwise – this creature is harmless."
+ },
+ {
+  "name": "geotrupex",
+  "category": "fauna_neutral",
+  "specimen": "specimen_geotrupex",
+  "description": "monster_description/geotrupex",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "These creatures are neutral scavengers and avoid direct contact with any other species. They spend most of their lives buried in the sands of Galatean desert. Thick carapace offers them some protection from physical attacks, often just enough to burrow underground and evade the attacker."
+ },
+ {
+  "name": "jurvine",
+  "category": "fauna_neutral",
+  "specimen": "specimen_jurvine",
+  "description": "monster_description/jurvine",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Jurvines do not create nests. They live a nomadic lifestyle, migrating from one feeding ground to another, not to overstay their welcome and become a target of a hungry Canoptrix pack. They move around on their very muscular legs, that they use to jump. This way they can cover long distances at a low energy expenditure. They move at very high speeds and are even able to outrun the Riftbreaker Mecha-Suit."
+ },
+ {
+  "name": "moltug",
+  "category": "fauna_neutral",
+  "specimen": "specimen_moltug",
+  "description": "monster_description/moltug",
+  "specimen_chance": 0.33,
+  "scannable_chance": 0.66,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Moltugs are large, slug-like creatures with a calcified shell on their backs. They feed on sulphuric residue found on rocks in the Magma Biome. For an unknown reason, Moltugs sometimes hide pieces of minerals underneath their shells."
+ },
+ {
+  "name": "mothray",
+  "category": "fauna_neutral",
+  "specimen": "specimen_mothray",
+  "description": "monster_description/mothray",
+  "specimen_chance": 0.5,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 5
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Analysis of the Mothray's body composition suggests that it should be impossible for this creature to fly. Despite that, the creature is often seen calmly gliding across the Galatean sky, as if it was swimming. One possible explanation is that these creatures increase the density of the air around them, allowing them to 'swim' mid-air."
+ },
+ {
+  "name": "quelver",
+  "category": "fauna_neutral",
+  "specimen": "specimen_quelver",
+  "description": "monster_description/quelver",
+  "specimen_chance": 0.025,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Their ovoid body is protected with an exoskeleton. The exoskeletal armor is enough to deter smaller predators, but larger ones will break it with no issue. Quelvers are scavengers. The creatures’ entire lives are centered around the search for organic remains they get their nutrients from. Despite the small size, these little bugs are quite fast thanks to hundreds of pairs of legs hidden beneath the body. If threatened, the Quelver will try to run from the danger as quickly as possible."
+ },
+ {
+  "name": "rugwig",
+  "category": "fauna_neutral",
+  "specimen": "specimen_rugwig",
+  "description": "monster_description/rugwig",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Rugwigs are scavengers, cleaning up all the organic remains they can find. They are harmless to the Riftbreaker and the base structures."
+ },
+ {
+  "name": "sulphorit",
+  "category": "fauna_neutral",
+  "specimen": "specimen_sulphorit",
+  "description": "monster_description/sulphorit",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "These creatures are peaceful, neutral herbivores, native to the Acid Biome. Their gastrointestinal tract is quite unique, as it doesn’t produce any acids on its own. Instead, they drink acidic sludge, which helps them digest their food."
+ },
+ {
+  "name": "vathamite",
+  "category": "fauna_neutral",
+  "specimen": "specimen_vathamite",
+  "description": "monster_description/vathamite",
+  "specimen_chance": 0.5,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 5
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Bodies of Vathamites produce gases that are lighter than air as a byproduct of digestion cycle. Thanks to this, Vathamites can float in the air without wings. Their long, tentacle-like appendages catch small insects and pollen that these creatures feed on."
+ },
+ {
+  "name": "venomine",
+  "category": "fauna_neutral",
+  "specimen": "specimen_venomine",
+  "description": "monster_description/venomine",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "They bear some resemblance to snakes, commonly found on Earth. However, they are not dangerous at all. They spend most of their lives looking for scraps of organic matter they could eat, as they are omnivorous."
+ },
+ {
+  "name": "vesaurus",
+  "category": "fauna_neutral",
+  "specimen": "specimen_vesaurus",
+  "description": "monster_description/vesaurus",
+  "specimen_chance": 0.5,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 5
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Like many creatures found on Galatea 37, the Vesaurus shows an affinity for mineral formations. They will often hover around the crystal formations, so often seen around the surface of the planet, and gather nutrients. In that regard, they are similar to hummingbirds but somehow the Vesauruses are able to remain airborne and stationary with only a couple of flaps of their massive wings, revealing massive differences in their body composition compared to their Earthly counterparts."
+ },
+ {
+  "name": "bush_ray_flower",
+  "description": "prop_description/bush_ray_flower",
+  "category": "flora",
+  "specimen_chance": 0.015,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "As a defense mechanism the Florium Viridis is poisonous for most creatures. They rely on wind pollination to reproduce. Their flowers are large and spherical, with numerous seeds that break off the flower easily."
+ },
+ {
+  "name": "cactus_fuzzball",
+  "description": "prop_description/cactus_fuzzball",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Bulbus Spina is a succulent plant with thick, fleshy leaves. Young specimens are usually quite small and compacted into a sphere. Once the plant matures, its leaves spread and form a structure similar to a flower cup, aiding the plant in gathering water."
+ },
+ {
+  "name": "cactus_pear",
+  "description": "prop_description/cactus_pear",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Mature specimens of Bulbus Pirum bloom with large, colorful flowers that grow atop the stems of the plant. The plant secretes thick and sticky substance with a pleasant smell, which attracts insects. However, most of them get stuck on the surface of the plant because of the sticky nature of its resin."
+ },
+ {
+  "name": "cactus_yellowtooth",
+  "description": "prop_description/cactus_yellowtooth",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Bulbus Dente is a tall, slender plant that is characterized by its large, pointy spikes. Due to the shape of the plant and the top-heavy structure of the plant, large creatures that try to feed on it are likely to throw it off balance and meet their demise on one of the spikes when the plant bounces back."
+ },
+ {
+  "name": "tree_blossomed",
+  "description": "prop_description/tree_blossomed",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "The wood of this tree is extremely dense and hard, most likely due to the unusual presence of crystalline formations of various minerals within it. The tree seems to incorporate the most ubiquitous mineral of the soil it grows in. Mature specimens produce large flowers that form at tips of the branches."
+ },
+ {
+  "name": "mushroom_bulb_acid",
+  "description": "prop_description/mushroom_bulb_acid",
+  "category": "flora",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 8
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "This species of fungus forms enormous, usually spherical fruit bodies filled with thick, mucous gleba. The contents of the fruit body are under such pressure that their walls burst at the slightest touch, exploding the contents tens of meters away from the origin and spreading spores as a result."
+ },
+ {
+  "name": "mushroom_lumio",
+  "description": "prop_description/mushroom_lumio",
+  "category": "flora",
+  "specimen_chance": 0.08,
+  "scannable_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Young specimens of this fungus burst out to form several slender arms. As the fungus matures, some of these arms fall off. The ones that remain attached to the mushroom produce more spores, which resemble eggs or fruit. They are often mistakenly picked and transported away by animals, allowing the species to spread."
+ },
+ {
+  "name": "mushroom_pearls",
+  "description": "prop_description/mushroom_pearls",
+  "category": "flora",
+  "specimen_chance": 0.08,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Fungus Globulus produces firm, fleshy structures that seem to be pulsating. That is due to the near-constant movement of the inner structure of the fungus. Its spores try to hatch as soon as they become still. Once the external, fleshy shell is broken, millions of microscopic spores spread out through the air."
+ },
+ {
+  "name": "mushroom_standard",
+  "description": "prop_description/mushroom_standard",
+  "category": "flora",
+  "specimen_chance": 0.02,
+  "scannable_chance": 0.06,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "This Fungus can be found all around Galatea 37. Its mycelium spread across all continents, making it the planet’s largest known living organism. The fruit bodies of this Fungus vary in size, color and pattern, based on the climate and the soil in the place where a specimen bursts from beneath the ground."
+ },
+ {
+  "name": "mushroom_vulgaris",
+  "description": "prop_description/mushroom_vulgaris",
+  "category": "flora",
+  "specimen_chance": 0.08,
+  "scannable_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "The uncommon characteristic of this species of fungus is that it grows in large clusters, with multiple smaller specimens growing on top of larger ones. In fact, the largest specimens of this species are usually seen with younger ones growing on top of their massive caps. This suggests that separate specimens can merge into one stronger organism."
+ },
+ {
+  "name": "mushroom_winding",
+  "description": "prop_description/mushroom_winding",
+  "category": "flora",
+  "specimen_chance": 0.08,
+  "scannable_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Fungus Spiralis has a large, winding cap that grows around the stem of the fungus. The mushroom seems not to thrive in conditions that are too wet. After absorbing water from the soil, the unneeded excess is evaporated through the cap, where the large surface area becomes beneficial."
+ },
+ {
+  "name": "tree_burdock",
+  "description": "prop_description/tree_burdock",
+  "category": "flora",
+  "specimen_chance": 0.08,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Although mature Bratus Zizania looks as if it were several trees twisted around each other, it is in fact one trunk with several branches. The cup-like round leaves help the tree collect water, but also attract animals looking for something to drink. The ones who land on the leaf are likely to collect some pollen on their bodies that can potentially spread later."
+ },
+ {
+  "name": "tree_catkins",
+  "description": "prop_description/tree_catkins",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "In order to protect itself from herbivorous animals, Bratus Amentis mimics the look of a dried, dead tree by not growing any leaves. Due to that, this tree has no ability to photosynthesize fructose. The tree manages to stay alive by trapping and eating insects attracted to its large flowers."
+ },
+ {
+  "name": "tree_drexolian",
+  "description": "prop_description/tree_drexolian",
+  "category": "flora",
+  "specimen_chance": 0.02,
+  "scannable_chance": 0.06,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "The Bratus Movens is a common plant on Galatea 37. It can grow in most climate zones. Its leaves are small and grow all over the numerous branches of the tree. This species adapts to the climate zone it finds itself in by changing the coloration of the leaves, allowing it to use photosynthesis in any conditions."
+ },
+ {
+  "name": "tree_floss",
+  "description": "prop_description/tree_floss",
+  "category": "flora",
+  "specimen_chance": 0.015,
+  "scannable_chance": 0.06,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "The Bratus Florus relies on animal pollination as a means to survive. Once its large flowers are pollinated, they produce large, delicious fruit that serve as a great attractant to various species of Galatean creatures."
+ },
+ {
+  "name": "tree_joshua",
+  "description": "prop_description/tree_joshua",
+  "category": "flora",
+  "specimen_chance": 0.02,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Bratus Agnus is a very resilient species that can survive for prolonged periods without water. This enables the tree to survive even in the most dry climate zones. They bloom very rarely and produce tiny, inedible fruit."
+ },
+ {
+  "name": "tree_leaky",
+  "description": "prop_description/tree_leaky",
+  "category": "flora",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Bratus Futilis does not look like a regular tree, nor does it behave like one. It lives in a symbiotic relationship with a very specific species of fungus. The tree produces small, bioluminescent appendices, attracting animals, which the fungus catches thanks to its sticky surface. Then, the fungus provides nutrients to both itself and the tree."
+ },
+ {
+  "name": "mushroom_spiky_bulb",
+  "description": "prop_description/mushroom_spiky_bulb",
+  "category": "flora",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "This Fungus grows a thick stem that is covered by wood-like skin, protecting the soft internal structure of the organism. The spore-bearing fruit bodies are bioluminescent and heavily resemble crystalline formations."
+ },
+ {
+  "name": "crystal_pure",
+  "description": "prop_description/crystal_pure",
+  "category": "other",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "This kind of crystalline formation can be found in various places on Galatea 37. Its deep, dark color, combined with the highly reflective surface makes it a wonder to behold. Vitreus Pura often houses veins of other crystals and resources that are only uncovered after breaking the outer shell."
+ },
+ {
+  "name": "crystal_entwined",
+  "description": "prop_description/crystal_entwined",
+  "category": "other",
+  "specimen_chance": 0.07,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "The warmth emanating from this crystal formation encourages vegetation to grow around it. Various plants end up using this crystal as its support structure, making it seem as if the crystal itself was growing out of the plant."
+ },
+ {
+  "name": "cryo_plant",
+  "description": "prop_description/cryo_plant",
+  "category": "other",
+  "scannable_chance": 0.4,
+  "specimen_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Peculiaris Fungus Glacio is a species native to the Magma Biome of Galatea 37. To survive in the extreme heat, it has evolved to significantly lower the temperature in its vicinity. It does so by converting gases naturally occurring in volcanic areas into cold, liquid form. The details of the process are yet unknown."
+ },
+ {
+  "name": "magnetic_boulder",
+  "description": "prop_description/magnetic_boulder",
+  "category": "other",
+  "specimen_chance": 0.3,
+  "scannable_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "Petra Magneticus is a piece of volcanic debris that distorts the electromagnetic field in its immediate vicinity. The strength of the field disables most of the Riftbreaker equipment. It is not clear whether these are the natural properties of this rock or if it is the result of being expelled in an eruption."
+ },
+ {
+  "name": "creeper",
+  "description": "monster_description/creeper",
+  "category": "other",
+  "specimen_chance": 0.25,
+  "scannable_chance": 1.0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": "This interesting species of fungus is aggressively expansive. It multiplies heavily and resembles yeast on a much larger scale. The fungus takes control of as much space as it possibly can, spreading more eagerly towards sources of heat. The acidic by-products of its metabolism are released into the ground, significantly lowering the pH factor of the soil."
+ },
+ {
+  "name": "spawner_canoptrix",
+  "description": [
+   "monster_description/spawner_canoptrix",
+   "monster_description/spawner_canoptrix"
+  ],
+  "category": "other",
+  "scannable_chance": 1.0,
+  "specimen_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": null
+ },
+ {
+  "name": "spawner_mushbit",
+  "description": [
+   "monster_description/spawner_mushbit",
+   "monster_description/spawner_mushbit"
+  ],
+  "category": "other",
+  "scannable_chance": 1.0,
+  "specimen_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": null
+ },
+ {
+  "name": "spawner_granan",
+  "description": [
+   "monster_description/spawner_granan",
+   "monster_description/spawner_granan"
+  ],
+  "category": "other",
+  "scannable_chance": 1.0,
+  "specimen_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": null
+ },
+ {
+  "name": "spawner_morirot",
+  "description": [
+   "monster_description/spawner_morirot",
+   "monster_description/spawner_morirot"
+  ],
+  "category": "other",
+  "scannable_chance": 1.0,
+  "specimen_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group.dat",
+  "description_text": null
+ },
+ {
+  "name": "stregaros_crystal",
+  "category": "fauna",
+  "specimen": "specimen_stregaros_crystal",
+  "description": "monster_description/stregaros_crystal",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Crystaros is an impressive creature, adorned with an array of sharp, shimmering crystals protruding from its body. Its most noticeable feature is the two giant arms with towering, shield-like growth made of crystals on them. This species also feeds on crystals, and its diet seems to have influenced the structure of its body."
+ },
+ {
+  "name": "arachnoid_crystal",
+  "category": "fauna",
+  "specimen": "specimen_arachnoid_crystal",
+  "description": "monster_description/arachnoid_crystal",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Arachnomortus is a formidable opponent, sporting a powerful and unique method of attack. By utilizing the innate properties of synthesized crystals, the Arachnomortus is able to launch razor-sharp crystal shards at its targets with incredible accuracy and speed."
+ },
+ {
+  "name": "canoptrix_crystal",
+  "category": "fauna",
+  "specimen": "specimen_canoptrix_crystal",
+  "description": "monster_description/canoptrix_crystal",
+  "specimen_chance": 0.01,
+  "scannable_chance": 0.07,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Canomortus are small, crystal-infused creatures resembling Canoptrix. They can be summoned by Necrodons through unknown means, and their bodies are fused with crystalline growths. They exhibit similar territorial behavior, attacking any intruders with sharp claws and strong jaws. Despite their small size, their bodies are incredibly resilient due to the crystal infusion, making them difficult to defeat."
+ },
+ {
+  "name": "crawlog",
+  "category": "fauna",
+  "specimen": "specimen_crawlog",
+  "description": "monster_description/crawlog",
+  "specimen_chance": 0.005,
+  "scannable_chance": 0.05,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Crawlogs are a pack-dwelling species found in the caves and caverns of Galatea 37. Their pale, bony appearance and sharp claws make them formidable predators. Covered in glowing crystalline formations, they have adapted to the darkness of their environment, using their agility and speed to attack unsuspecting prey. Even more terrifying, they have the ability to return from the dead if not completely destroyed. Beware of their presence and be prepared for their relentless attacks."
+ },
+ {
+  "name": "gulgor",
+  "category": "fauna",
+  "specimen": "specimen_gulgor",
+  "description": "monster_description/gulgor",
+  "specimen_chance": 0.07,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Gulgors are dangerous reptiles found in the Crystal Caves biome of Galatea 37. Their bulky bodies and impressive claws make them formidable predators, but their real strength lies in their ranged attack, which involves releasing razor-sharp crystal shards from their puffed-up cheeks. Gulgors can also quickly burrow underground and ambush prey, making them difficult to track and avoid. Upon death, their bodies seem to be consumed by the earth, leaving behind crystal pillars as a haunting reminder of their presence."
+ },
+ {
+  "name": "drillgor",
+  "category": "fauna",
+  "specimen": "specimen_drillgor",
+  "description": "monster_description/drillgor",
+  "specimen_chance": 0.45,
+  "scannable_chance": 0.8,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 7
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Drillgor is a hulking behemoth that dominates the underground tunnels of Galatea 37. Its massive, razor-sharp claws are capable of tearing through solid rock, carving out tunnels that stretch for miles. Its appearance is nothing short of intimidating - with a carapace that resembles a crustacean and two curved horns that adorn its head. It moves with a terrifying speed and grace for a creature of its size, capable of covering huge distances in a matter of seconds. Drillgor is a force to be reckoned with in the dark and treacherous depths of the planet's caverns."
+ },
+ {
+  "name": "viremoth",
+  "category": "fauna",
+  "specimen": "specimen_viremoth",
+  "description": "monster_description/viremoth",
+  "specimen_chance": 0.3,
+  "scannable_chance": 0.8,
+  "bestiary_hidden": 1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Viremoth is a truly enigmatic creature that can only be described as a sentient fog. It's hard to say whether it's organic or unnatural, as it seems out of this world. Viremoth can manipulate its shape and density, allowing it to move like a fog or condense into a more solid form. It can also generate electrical discharges making it a formidable opponent if provoked. However, Viremoth mostly keeps to itself, floating around aimlessly and observing its surroundings"
+ },
+ {
+  "name": "crysder",
+  "category": "fauna_neutral",
+  "specimen": "specimen_crysder",
+  "description": "monster_description/crysder",
+  "specimen_chance": 0.5,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Crysders are small, peaceful creatures that inhabit the caves and crevices of Galatea 37. Resembling a hermit crab, they carry a glowing crystal on their backs. Crysders are known to scavenge for food and can often be seen feeding on mushrooms and other fungi growing within the caves. Despite their small size, they are quite quick and agile, making them difficult to catch or harm. As a result, they are often left alone by predators and other creatures that may pose a threat to them."
+ },
+ {
+  "name": "moltug_crystal",
+  "category": "fauna_neutral",
+  "specimen": "specimen_moltug_crystal",
+  "description": "monster_description/moltug_crystal",
+  "specimen_chance": 0.33,
+  "scannable_chance": 0.66,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Crystug is a slow-moving, snail-like creature that roams the caverns of Galatea 37. Its most striking feature is the giant, glowing crystal that protrudes from its back, providing both protection and a way to collect and store resources. Crystugs are known to collect and hide various resource shards that fall out of the shell upon their death, making them a valuable target for resource scavengers."
+ },
+ {
+  "name": "mushroom_flat_top",
+  "description": "prop_description/mushroom_flat_top",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 8
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Fungus Plana is a peculiar mushroom species that grows to an impressive height, often reaching several meters tall. Its unique structure consists of two thick stems that rise from the ground and support a large, flat cap with several layers. The cap is usually circular or oval-shaped and can vary in color from dark brown to light beige."
+ },
+ {
+  "name": "tree_wyginus",
+  "description": "prop_description/tree_wyginus",
+  "category": "flora",
+  "specimen_chance": 0.08,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Bratus Flectus is a unique tree that stands out with its several thin and flexible stems. As the stems ascend towards the top, they start to converge, joining together into a single trunk. At the very top of the trunk lies a large calyx, which serves as the canopy for the tree. The calyx is comprised of several layers of wide, thin leaves that are bioluminescent."
+ },
+ {
+  "name": "cactus_vibro",
+  "description": "prop_description/cactus_vibro",
+  "category": "flora",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Bulbus Tremor is an unusual type of cactus that grows underground, hidden from plain sight. Its most notable feature is the large, round stem that can reach several meters in diameter. The stem is covered with a thick layer of crystal needles, which give it a stunning appearance and provide it with a unique defense mechanism."
+ },
+ {
+  "name": "mushroom_exploding",
+  "description": "prop_description/mushroom_exploding",
+  "category": "flora",
+  "specimen_chance": 0.07,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 8
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Fungus Displodo is most commonly found in dark and damp environments, such as caves or underground tunnels. It is covered with antennas, incredibly sensitive to touch and vibration. When the antennas come into contact with someting, the entire mushroom explodes in a burst of bioluminescent substance. The explosion is powerful enough to send spores flying in all directions, spreading the fungus across a wide area."
+ },
+ {
+  "name": "mushroom_mycetoza",
+  "description": "prop_description/mushroom_mycetoza",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Fungus Mycetoza is a fascinating yet eerie sight to behold. Standing tall with its relatively thin stem, covered in strands of flesh-like tissue, it appears to grow out of nowhere. Its large and thick top, covered in intricate patterns of ridges and grooves, is a sight to behold. However, the most striking feature of this mushroom is its bioluminescent appendages hanging off the top, which shimmer in the dark and emit an eerie glow that illuminates the surrounding area."
+ },
+ {
+  "name": "bush_cibarium",
+  "description": "prop_description/bush_cibarium",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Perhaps the most striking aspect of the Florium Cibarium is the bioluminescence at the ends of both the stem and the branches. The glowing tips emit a soft, pulsing light, casting an otherworldly glow that is both mesmerizing and eerie. It is believed that the bioluminescence serves as a lure to attract insects and other small creatures to the plant for pollination and dispersal."
+ },
+ {
+  "name": "crystal_edgy",
+  "description": "prop_description/crystal_edgy",
+  "category": "other",
+  "specimen_chance": 0.15,
+  "scannable_chance": 0.35,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_caverns.dat",
+  "description_text": "Vitreus Silex is a spectacular crystal formation that can grow to impressive sizes. It is known for its distinct characteristics of large, flat surfaces and elongated crystals that protrude outwards with flat tips. The crystal formations can vary in color, based on the primary element found in the crystal structure. These crystals are formed in high-pressure environments, often deep within the Galatea's crust, where the heat and pressure combine to create stunning formations."
+ },
+ {
+  "name": "bomogan_ice",
+  "category": "fauna",
+  "specimen": "specimen_bomogan_ice",
+  "description": "monster_description/bomogan_ice",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "Glaciogan's body is protected by thick plates of keratinous skin, resembling armor plates. Fat tissue accumulates beneath these plates and acting like an additional layer of insulation against physical threats and extreme cold."
+ },
+ {
+  "name": "carnicinth_ice",
+  "category": "fauna",
+  "specimen": "specimen_carnicinth_ice",
+  "description": "monster_description/carnicinth_ice",
+  "specimen_chance": 0.15,
+  "scannable_chance": 0.25,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "This extremely resilient plant species can burrow even into the permafrost layer, thanks to the exothermal enzymes produced by its flower structure. The acid-like substance is also used for incapacitating prey."
+ },
+ {
+  "name": "granan_ice",
+  "category": "fauna",
+  "specimen": "specimen_granan_ice",
+  "description": "monster_description/granan_ice",
+  "specimen_chance": 0.007,
+  "scannable_chance": 0.07,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "This creature lures unsuspecting prey with the vibrant colours of its back appendages. Once a suitable creature is close, Colgans quickly incapacitate it using their cryogenic saliva and razor-sharp spikes."
+ },
+ {
+  "name": "kafferroceros_ice",
+  "category": "fauna",
+  "specimen": "specimen_hammeroceros_ice",
+  "description": "monster_description/hammeroceros_ice",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "The Iceros is, on average, one of the largest creatures encountered on Galatea. Long tusks adorn its head and give the creature an additional tool in the fight for survival in its cold natural habitat."
+ },
+ {
+  "name": "kermon_ice",
+  "category": "fauna",
+  "specimen": "specimen_kermon_ice",
+  "description": "monster_description/kermon_ice",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 25
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "The primordial ancestor to the Kermon species. Unlike Kermons, Frigmons do not possess a natural cloaking ability. However, they show more territorial behavior and are more likely to form large groups."
+ },
+ {
+  "name": "krocoon_ice",
+  "category": "fauna",
+  "specimen": "specimen_krocoon_ice",
+  "description": "monster_description/krocoon_ice",
+  "specimen_chance": 0.2,
+  "scannable_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "Instead of protecting itself from freezing, the Hibernus species deliberately allows thick ice layers to form over its body. Thick sheets of ice act like a natural insulator against the extreme weather, keeping the creature's core temperature stable."
+ },
+ {
+  "name": "magmoth_ice",
+  "category": "fauna",
+  "specimen": "specimen_magmoth_ice",
+  "description": "monster_description/magmoth_ice",
+  "specimen_chance": 0.07,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "Temperoth looks like an ice sculpture come to life. However, despite its appearance, it is not made of. Its body is covered with quartz crystals of various colours, which the creature can liquefy via an unknown mechanism. This allows the Temperoth to change shapes and quickly travel short distances as if it was swimming."
+ },
+ {
+  "name": "plutrodon_ice",
+  "category": "fauna",
+  "specimen": "specimen_plutrodon_ice",
+  "description": "monster_description/plutrodon_ice",
+  "specimen_chance": 0.07,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "Using its sharp claws, the Spikodon species digs deep into the permafrost layer, building networks of underground tunnels that they use as their hives. It grants them protection from the extreme conditions of the Cryo Fields biome."
+ },
+ {
+  "name": "spawner_ice",
+  "description": "monster_description/spawner_ice",
+  "category": "other",
+  "scannable_chance": 1.0,
+  "specimen_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "samples": 5
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "The Spawicer is a crystalline nesting structure formed from dense cryo-organic material, used by various species of the Cryo Fields to lay and incubate their eggs. These structures serve as communal nurseries and are fiercely defended by nearby creatures. Some Spawicers exhibit unusual energy signatures, suggesting adaptive defensive properties similar to Omega-class organisms."
+ },
+ {
+  "name": "iceder",
+  "category": "fauna_neutral",
+  "specimen": "specimen_iceder",
+  "description": "monster_description/iceder",
+  "specimen_chance": 0.5,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "The Iceder is a small scavenger that feeds on organic remains left behind by other creatures. It shelters itself beneath a carefully sculpted ice crystal, using it as protective cover much like a hermit crab uses a shell. Iceders are cautious and rarely stray far from their frozen shelters."
+ },
+ {
+  "name": "mantnice",
+  "category": "fauna_neutral",
+  "specimen": "specimen_mantnice",
+  "description": "monster_description/mantnice",
+  "specimen_chance": 0.35,
+  "scannable_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "The Mantnice is a peaceful flying creature native to the Cryo Fields, resembling a levitating stingray with a tail split into two trailing fins. It moves slowly through the air or hovers in place, carried by cold atmospheric currents. Mantnices are passive and spend most of their time drifting silently above the frozen terrain."
+ },
+ {
+  "name": "brabit_ice",
+  "category": "fauna_neutral",
+  "specimen": "specimen_brabit_ice",
+  "description": "monster_description/brabit_ice",
+  "specimen_chance": 0.35,
+  "scannable_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "The Brabice is a floating creature that slowly levitates above the Cryo Fields. It observes its surroundings using a single large eye, tracking movement with quiet curiosity. Brabices are passive and appear more interested in observation than interaction."
+ },
+ {
+  "name": "mushroom_frospore",
+  "description": "prop_description/mushroom_frospore",
+  "category": "flora",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_ice.dat",
+  "description_text": "This fungus species grows in tall, segmented formations anchored deep within the frozen soil of the Cryo Fields. Its layered cap structure expands outward in overlapping plates, protecting delicate spore-producing organs beneath. These fungi often grow in clusters and appear to regulate their growth in response to ambient temperature and nearby biological activity."
+ },
+ {
+  "name": "wingmite",
+  "category": "fauna",
+  "specimen": "specimen_wingmite",
+  "description": "monster_description/wingmite",
+  "specimen_chance": 0.005,
+  "scannable_chance": 0.05,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "A highly aggressive species, capable of traveling over long distances in a very short time, aided by the ability to fly over canyons and smaller rock formations. Once the swarm reaches the target they will try to shred it to pieces using their sharp claws. Appears to be a cybernetically modified version of another species, although no organic counterpart has been found."
+ },
+ {
+  "name": "bradron",
+  "category": "fauna",
+  "specimen": "specimen_bradron",
+  "description": "monster_description/bradron",
+  "specimen_chance": 0.07,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "This creature seems to be a result of a biomechanical experiment. Its natural organs have been cybernetically enhanced, allowing it to project a powerful laser beam from its prominent eye. However, their ability to hover above the ground seems to be of a natural origin, though it is currently unexplained. Could be related to the Brabit species."
+ },
+ {
+  "name": "octabit",
+  "category": "fauna",
+  "specimen": "specimen_octabit",
+  "description": "monster_description/octabit",
+  "specimen_chance": 0.5,
+  "scannable_chance": 0.35,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "Very little organic matter can be found in this creature. It also does not seem to have any physiological needs – it does not eat or sleep. Reacts only to outside threats, as it chases the assailant and attempts to destroy it by exploding on impact. If attacked physically it will divide into smaller specimens."
+ },
+ {
+  "name": "flurian",
+  "category": "fauna",
+  "specimen": "specimen_flurian",
+  "description": "monster_description/flurian",
+  "specimen_chance": 0.15,
+  "scannable_chance": 0.225,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 15
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "Flurians seem to be biomechanically modified, however, no related organisms have been found on Galatea 37 so far. That might indicate that this species is entirely engineered. Highly territorial and aggressive, they attack intruders with their sharp claws and plasma projectile launchers fused with their arms."
+ },
+ {
+  "name": "alien_tower_artillery",
+  "description": "monster_description/alien_tower_artillery",
+  "category": "other",
+  "scannable_chance": 1.0,
+  "specimen_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "samples": 5
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "An advanced alien defensive structure. It is specialized in long-range target neutralization and shoots highly explosive projectiles over a long distance. However, it is rooted in place, allowing the Mecha-Suit to outmaneuver the projectiles."
+ },
+ {
+  "name": "alien_tower_plasma",
+  "description": "monster_description/alien_tower_plasma",
+  "category": "other",
+  "scannable_chance": 1.0,
+  "specimen_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "samples": 5
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "This structure is an artificial construct of an alien species first encountered on Galatea 37. Alien technology utilizes dark matter and dark energy, which allows these structures to remain undetected in a hibernated state for a long time. Attacks its enemies by shooting powerful plasma projectiles."
+ },
+ {
+  "name": "spawner_alien",
+  "description": "monster_description/spawner_alien",
+  "category": "other",
+  "scannable_chance": 1.0,
+  "specimen_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "samples": 5
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "This alien structure replicates hybrid native-alien species of creatures found in the Metallic Valley biome, suggesting that those species do not reproduce on their own. If left undisturbed this structure will create an endless stream of hostile creatures."
+ },
+ {
+  "name": "brabit",
+  "category": "fauna_neutral",
+  "specimen": "specimen_brabit",
+  "description": "monster_description/brabit",
+  "specimen_chance": 0.35,
+  "scannable_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "The Brabit species seems to be peaceful and neutral to other creatures. The mechanisms behind its ability to fly are not entirely clear, but readings suggest that it can manipulate the electromagnetic field around itself."
+ },
+ {
+  "name": "idapian",
+  "category": "fauna_neutral",
+  "specimen": "specimen_idapian",
+  "description": "monster_description/idapian",
+  "specimen_chance": 0.5,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 5
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "Idapians bear resemblance to another Galatean species – Vathamite. They seem to float in the air as though they were swimming in water. That suggests that their body density might be very low or that they affect the gravity field around them in a way that enables them to fly."
+ },
+ {
+  "name": "idapian_metallic",
+  "category": "fauna_neutral",
+  "specimen": "specimen_idapian_metallic",
+  "description": "monster_description/idapian_metallic",
+  "specimen_chance": 0.5,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 3
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 5
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "This variant of the Idapian creature has been implanted with several synthetic elements, although presents no changes to behavior or bodily functions. Perhaps it was a failed experiment that was ground to a halt when it became clear that this species could not be weaponized."
+ },
+ {
+  "name": "stonger",
+  "category": "fauna_neutral",
+  "specimen": "specimen_stonger",
+  "description": "monster_description/stonger",
+  "specimen_chance": 0.3,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "A very small creature that disguises itself as a rock. It seems to be a completely harmless scavenger that feeds off of leftover organic matter and mineral residue that naturally occurs in the Metallic Valley biome."
+ },
+ {
+  "name": "bush_metallic_flowers",
+  "description": "prop_description/bush_metallic_flowers",
+  "category": "flora",
+  "specimen_chance": 0.02,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "This species seems very common in the Metallic Valley biome. However, it does not seem to be a result of a planned cybernetic modification. This plant appears to have been influenced by a metallic entity simply by the means of existing in proximity to it."
+ },
+ {
+  "name": "cactus_thorn",
+  "description": "prop_description/cactus_thorn",
+  "category": "flora",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.07,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "The combination of metallic nutrients consumed by this cactus species gives its body a warm, pulsating glow. The spikes look like they are made of metal, but in reality, it’s just a mixture of fibers. It is likely a defense mechanism against herbivores."
+ },
+ {
+  "name": "grass_metallic_spiky",
+  "description": "prop_description/grass_metallic_spiky",
+  "category": "flora",
+  "specimen_chance": 0.015,
+  "scannable_chance": 0.03,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "Apart from the usual blades of grass, this species also forms bright flowers that resemble crystals. Such a disguise makes this species unlikely to be eaten by animals."
+ },
+ {
+  "name": "mushroom_metallic",
+  "description": "prop_description/mushroom_metallic",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "The towering, tree-like shapes that this species seems to produce do not have anything to do with genetic makeup. The soil that this mushroom grows on is usually very rich in metallic dust. The mushroom absorbs it, but can’t remove it later. The strong magnetic fields stretch the mushroom’s body as it grows."
+ },
+ {
+  "name": "mushroom_stump",
+  "description": "prop_description/mushroom_stump",
+  "category": "flora",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "It would be quite easy to mistake some of these mushrooms for animals. However, their shapes are largely dictated by what they grow on. They will encase everything on their path, but leave it unharmed. That is why it is often possible to see remnants of other plants and crystals within its structures."
+ },
+ {
+  "name": "crystal_metallic",
+  "description": "prop_description/crystal_metallic",
+  "category": "other",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_metallic.dat",
+  "description_text": "These highly fragile crystal formations appear in various places throughout the Metallic Valley biome. They owe their unique colors to the main ingredients in their mineral composition – Carbonium and Ironium."
+ },
+ {
+  "name": "mudroner",
+  "category": "fauna",
+  "specimen": "specimen_mudroner",
+  "description": "monster_description/mudroner",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Mudroner, a native species of the Galatean Swamp, often roams shallow waters in small packs. Taller and more slender than Hedroners, Mudroners feature elongated maws lined with sharp teeth and distinctive eyes emitting a purple glow to attract prey and warn threats. When threatened, they can sink into the ground and reappear elsewhere, continuing their assault from a safe distance."
+ },
+ {
+  "name": "plutrodon",
+  "category": "fauna",
+  "specimen": "specimen_plutrodon",
+  "description": "monster_description/plutrodon",
+  "specimen_chance": 0.07,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Plutrodon is a medium-sized, three-legged predator native to the Fungal Swamp, known for its speed and agility, using sharp claws to dig into the ground and climb surfaces like trees and rocks. Preferring to attack from a distance, it roots itself and summons pillars of spikes that damage everything in their path, making it particularly dangerous against fortified structures."
+ },
+ {
+  "name": "stickrid",
+  "category": "fauna",
+  "specimen": "specimen_stickrid",
+  "description": "monster_description/stickrid",
+  "specimen_chance": 0.007,
+  "scannable_chance": 0.07,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Stickrid is a diminutive insectoid creature with an elongated body, utilizing six legs to hover above the surface of the water. Often observed in sizable swarms, Stickrids employ a hit-and-run strategy, launching acidic projectiles at their targets from a distance. Despite their numerous numbers, Stickrids are vulnerable to being crushed underfoot, making them a manageable threat when confronted directly."
+ },
+ {
+  "name": "fungor",
+  "category": "fauna",
+  "specimen": "specimen_fungor",
+  "description": "monster_description/fungor",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Fungor is a colossal, towering creature that merges the characteristics of an animal with those of a fungus. It stands upright on six massive, gnarled tentacles, which propel its lumbering yet deliberate movements. Its body is enveloped in thick, spongy fungal growth, adorned with fungal spores. An additional, more agile tentacle extends from its back, swinging with deadly precision to attack its prey or defend against threats."
+ },
+ {
+  "name": "canceroth",
+  "category": "fauna",
+  "specimen": "specimen_canceroth",
+  "description": "monster_description/canceroth",
+  "specimen_chance": 0.35,
+  "scannable_chance": 0.8,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 15
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Canceroth, an enigmatic and formidable entity endemic to the Swamp biome, presents a multifaceted challenge to explorers. It features a central node surrounded by smaller cells, collectively wreaking havoc as they traverse the terrain without heed for obstacles. While targeting smaller cells can temporarily diminish their threat, the central node must ultimately be destroyed, a task complicated by the surrounding cells' protective function."
+ },
+ {
+  "name": "invigor",
+  "category": "fauna",
+  "specimen": "specimen_invigor",
+  "description": "monster_description/invigor",
+  "specimen_chance": 0.35,
+  "scannable_chance": 1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Invigor is a predatory plant with a long, slender stem devoid of leaves or branches. Topping this stem is a large, heavy head bulb, crowned by a single antenna. Typically, the antenna is the only visible part of the Invigor, and it's the only part it wants you to see. When this antenna detects movement from suitable prey, the entire plant erupts from beneath the ground. The Invigor then uses its head bulb as a bludgeon, smashing its prey to pieces."
+ },
+ {
+  "name": "artigian",
+  "category": "fauna",
+  "specimen": "specimen_artigian",
+  "description": "monster_description/artigian",
+  "specimen_chance": 0.35,
+  "scannable_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "Artigian, a species of colossal pitcher plants, distinguishes itself by the imposing sack hanging beneath its 'mouth holes'. They form explosive balls of acids, which they then hurl at their intended targets. Upon impact, these volatile projectiles detonate, releasing corrosive substances that dissolve surrounding matter. Subsequently, Artigians utilize their extensive root networks, absorbing any liberated nutrients from the dissolved matter."
+ },
+ {
+  "name": "spawner_swamp",
+  "description": "monster_description/spawner_swamp",
+  "category": "other",
+  "scannable_chance": 1.0,
+  "specimen_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "samples": 5
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "At the top of the Spawrot, the acid-spitting maw serves both a defensive and functional role. The maw periodically expels acidic substances to deter predators and potential threats, ensuring the safety of the nesting creatures within. This acidic secretion also contributes to the mound’s decomposition processes, breaking down organic matter to enrich the surrounding soil."
+ },
+ {
+  "name": "spawner_swamp_canceroth",
+  "description": "monster_description/spawner_swamp_canceroth",
+  "category": "other",
+  "scannable_chance": 1.0,
+  "specimen_chance": 0.5,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "samples": 3
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "samples": 5
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "Constructed from densely packed organic material intertwined with fungal filaments, the Canceroth Nest provides a secure and nurturing environment for the development of Canceroth offspring. The surface of the nest is coated with a protective, mucous-like secretion. The nest's primary function is to support the growth and maturation of Canceroths."
+ },
+ {
+  "name": "poogret",
+  "category": "fauna_neutral",
+  "specimen": "specimen_poogret",
+  "description": "monster_description/poogret",
+  "specimen_chance": 0.33,
+  "scannable_chance": 1,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Poogret, with its endearing clumsiness and four spindly legs, presents a comical sight, further accentuated by its eyes protruding beyond its head, giving it a perpetually goofy expression. This creature sustains itself by consuming Garlimonium plants, processing them within its digestive system to produce nutrient-rich fecal lumps abundant in valuable resources."
+ },
+ {
+  "name": "darnot",
+  "category": "fauna_neutral",
+  "specimen": "specimen_darnot",
+  "description": "monster_description/darnot",
+  "specimen_chance": 0.5,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 0
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 20
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 30
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Darnot is a neutral flying creature, resembling an oversized and distinctly alien moth. Its iridescent wings span several meters, shimmering with an otherworldly glow that changes color in response to its environment. Unlike terrestrial moths, the Darnot's exoskeleton is adorned with bioluminescent patterns and intricate, spiny protrusions, giving it an eerie yet captivating appearance. With multifaceted eyes and elongated antennae, it navigates through the air with grace and precision."
+ },
+ {
+  "name": "lurkid",
+  "category": "fauna_neutral",
+  "specimen": "specimen_lurkid",
+  "description": "monster_description/lurkid",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "damage_increase": 0,
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP",
+     "damage_increase": 0,
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES",
+     "damage_increase": 0,
+     "samples": 10
+    },
+    {
+     "level": 4,
+     "display": "IMAGE|NAME|DESCRIPTION|HEALTH|RARE_DROP|RESISTANCES|VULNERABILITIES|DAMAGE|DROP_INCREASE",
+     "damage_increase": 2,
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Lurkid is a small, neutral organism endemic to the Fungal Swamp biome. Adaptable to both terrestrial and aquatic environments, the Lurkid thrives in the dense, moisture-laden habitat of the swamps. This creature's diet consists of microscopic flora and fauna, which it locates using its sensitive, antenna-like feelers."
+ },
+ {
+  "name": "cactus_anemone",
+  "description": "prop_description/cactus_anemone",
+  "category": "flora",
+  "specimen_chance": 0.1,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Bulbus Anemone is a unique species of cactus bearing a resemblance to an urchin, featuring bulbs adorned with bioluminescent tentacles. However, when threatened, the Bulbus Anemone quickly retracts its bulbs into its body and blending seamlessly with its surroundings. This adaptive behavior serves as a defense mechanism against potential predators, allowing the Bulbus Anemone to evade danger and thrive in its habitat."
+ },
+ {
+  "name": "mushroom_arachneum",
+  "description": "prop_description/mushroom_arachneum",
+  "category": "flora",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Fungus Arachneum is a remarkable species of fungus characterized by its elongated stem, which is ensconced in a delicate, spiderweb-like structure. Atop this stem sits a flat-capped mushroom, reminiscent of a lampshade, gradually widening toward the base. This distinctive morphology not only sets it apart visually but also serves functional purposes, aiding in dispersing spores and capturing nutrients from its environment."
+ },
+ {
+  "name": "mushroom_bocoletus",
+  "description": "prop_description/mushroom_bocoletus",
+  "category": "flora",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Fungus Bocoletus is a unique species of mushroom known for its striking appearance. Emerging from a simple stem at the base, it features a concave cap that gradually expands outward. However, the most distinctive feature of the Fungus Bocoletus is the growth from the middle of its cap, resembling the spiral shape of a snail's shell. This peculiar morphology sets it apart from other mushrooms, making it easily recognizable."
+ },
+ {
+  "name": "mushroom_corallium",
+  "description": "prop_description/mushroom_corallium",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Fungus Corallium is an extraordinary species of fungus, reminiscent of delicate coral formations found in the depths of the ocean. Its structure consists of intricate, branching structures resembling coral branches, adorned with tiny, translucent tips. These tips are likely responsible for dispersing spores, ensuring the fungus's reproductive success. The overall appearance is ethereal and captivating, making the Fungus Corallium a fascinating subject for study and observation in its natural habitat."
+ },
+ {
+  "name": "mushroom_virsum",
+  "description": "prop_description/mushroom_virsum",
+  "category": "flora",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 8
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 15
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Fungus Virsum is quite a traditional sight by Galatean standards. Over its lifecycle, the fungus produces a large stem, that grows into several branches. Each branch grows into its own spore-producing cap. This allows Virsum to multiply its reproductive capabilities, giving it the best chance to spread further."
+ },
+ {
+  "name": "tree_mallow",
+  "description": "prop_description/tree_mallow",
+  "category": "flora",
+  "specimen_chance": 0.03,
+  "scannable_chance": 0.15,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 10
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 20
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Bratus Vegetus is a species of a tree that does not grow to massive proportions. Instead of having an elongated trunk with a crown at the top, this tree only produces leaves at its very base. The trunk grows branches in all directions on its entire length. The branches are adorned with beautiful, expansive flowers, meant to attract pollinators."
+ },
+ {
+  "name": "tree_tongue",
+  "description": "prop_description/tree_tongue",
+  "category": "flora",
+  "specimen_chance": 0.05,
+  "scannable_chance": 0.2,
+  "familiarity_levels": {
+   "FamiliarityLevel": [
+    {
+     "level": 1,
+     "display": "IMAGE|NAME",
+     "samples": 1
+    },
+    {
+     "level": 2,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP",
+     "samples": 5
+    },
+    {
+     "level": 3,
+     "display": "IMAGE|NAME|DESCRIPTION|RARE_DROP|CULTIVATOR|DROP_INCREASE",
+     "drop_increase": 2,
+     "samples": 10
+    }
+   ]
+  },
+  "file": "discoverable_group_swamp.dat",
+  "description_text": "The Bratus Ligurio is an extremely unique type of a tree. It is capable of growing both on dry land, as well as in water pools. Its morphology is completely different from other trees, as it grows a large, flower-like crown with a very long leaf in the middle. When a creature passes near this tree, it will move its crown and \"wave\" its leaf, mimicking a predator turning its head towards prey. It's an incredible defensive mechanism, not seen in any other species."
+ }
+]

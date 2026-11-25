@@ -1,0 +1,1183 @@
+[
+ {
+  "id": "acid",
+  "name": "Acid Biome",
+  "resources": [
+   "carbon_vein",
+   "iron_vein",
+   "geothermal_vent",
+   "flammable_gas_vent",
+   "uranium_ore_vein",
+   "titanium_vein",
+   "palladium_vein",
+   "cobalt_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "resource_names": [
+   "Carbonium ore",
+   "Ironium ore",
+   "Geothermal vent",
+   "Flammable Gas Vent",
+   "uranium_ore_vein",
+   "Titanium ore",
+   "Palladium ore",
+   "Cobalt ore",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "default_liquid_resource": "sludge_vein",
+  "survival_mission": {
+   "map_size": 6,
+   "creature_volumes_density": 0.75,
+   "creature_volumes_min_distance": 128.0,
+   "mission_award": "items/awards/survival_acid_award_giver_item",
+   "player_spawn_logic": "logic/loadout/player_loadout_survival_acid.logic"
+  },
+  "survival_campaign": {
+   "campaign_type": "survival",
+   "startup_mission_def": "survival/acid",
+   "startup_mission_name": "Headquarters",
+   "research_tree": "research_tree_survival",
+   "building_cost_info": "survival",
+   "rich_presence": "rich_presence_singleplayer_survival",
+   "achievements_group": "survival",
+   "order": 1,
+   "disabled_pause_screens": "planetary_scanner",
+   "difficulty_modes": "easy,normal,hard,brutal,sandbox,custom",
+   "preview_material": "gui/menu/buttons/main_menu/survival_selected",
+   "requirement": "items/awards/survival_jungle_award_item",
+   "award_events_file": "award_events_survival",
+   "award_packages_file": "award_packages_survival"
+  },
+  "creature_species": [
+   "arachnoid_sentinel",
+   "baxmoth_acid",
+   "bomogan_acid",
+   "crader",
+   "granan",
+   "hedroner_acid",
+   "krocoon_acid",
+   "nerilian",
+   "nurglax",
+   "phirian_acid",
+   "sulphorit",
+   "vathamite"
+  ],
+  "creature_blueprints": [
+   "units/air/vathamite",
+   "units/air/vathamite_alpha",
+   "units/air/vathamite_ultra",
+   "units/ground/arachnoid_sentinel",
+   "units/ground/arachnoid_sentinel_alpha",
+   "units/ground/arachnoid_sentinel_ultra",
+   "units/ground/baxmoth_alpha",
+   "units/ground/baxmoth_ultra",
+   "units/ground/bomogan_alpha",
+   "units/ground/crader",
+   "units/ground/granan",
+   "units/ground/granan_alpha",
+   "units/ground/granan_ultra",
+   "units/ground/hedroner_alpha",
+   "units/ground/krocoon_alpha",
+   "units/ground/nerilian",
+   "units/ground/nerilian_alpha",
+   "units/ground/nerilian_ultra",
+   "units/ground/nurglax",
+   "units/ground/nurglax_alpha",
+   "units/ground/nurglax_ultra",
+   "units/ground/phirian_alpha",
+   "units/ground/sulphorit",
+   "units/ground/sulphorit_alpha",
+   "units/ground/sulphorit_ultra"
+  ],
+  "creature_names": [
+   "Arachnoid",
+   "Arachnoid Alpha",
+   "Arachnoid Ultra",
+   "Baxmoth Alpha",
+   "Baxmoth Ultra",
+   "Bomogan Alpha",
+   "Crader",
+   "Granan",
+   "Granan Alpha",
+   "Granan Ultra",
+   "Hedroner Alpha",
+   "Krocoon Alpha",
+   "Nerilian",
+   "Nerilian Alpha",
+   "Nerilian Ultra",
+   "Nurglax",
+   "Nurglax Alpha",
+   "Nurglax Ultra",
+   "Phirian Alpha",
+   "Sulphorit",
+   "Vathamite"
+  ],
+  "ambient_species": {
+   "ground": {
+    "max_count": 150,
+    "spawn_rate": 5,
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "crader"
+     }
+    }
+   },
+   "air": {
+    "max_count": 10,
+    "spawn_rate": 2,
+    "search_to_spawn_radius": 1,
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "vathamite"
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "caverns",
+  "name": "Crystal Caverns",
+  "resources": [
+   "carbon_vein",
+   "iron_vein",
+   "geothermal_vent",
+   "uranium_ore_vein",
+   "titanium_vein",
+   "palladium_vein",
+   "cobalt_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein",
+   "morphium_vein"
+  ],
+  "resource_names": [
+   "Carbonium ore",
+   "Ironium ore",
+   "Geothermal vent",
+   "uranium_ore_vein",
+   "Titanium ore",
+   "Palladium ore",
+   "Cobalt ore",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein",
+   "morphium_vein"
+  ],
+  "default_liquid_resource": "mud_vein",
+  "survival_mission": {
+   "map_size": 6,
+   "creature_volumes_density": 0.75,
+   "creature_volumes_min_distance": 128.0,
+   "mission_award": "items/awards/survival_caverns_award_giver_item",
+   "player_spawn_logic": "logic/loadout/player_loadout_survival_caverns.logic"
+  },
+  "survival_campaign": {
+   "campaign_type": "survival",
+   "startup_mission_def": "survival/caverns",
+   "startup_mission_name": "Headquarters",
+   "research_tree": "research_tree_survival",
+   "building_cost_info": "survival",
+   "rich_presence": "rich_presence_singleplayer_survival",
+   "achievements_group": "survival",
+   "order": 5,
+   "disabled_pause_screens": "planetary_scanner",
+   "difficulty_modes": "easy,normal,hard,brutal,sandbox,custom",
+   "preview_material": "gui/menu/buttons/main_menu/survival_selected",
+   "requirement": "items/awards/survival_jungle_award_item",
+   "award_events_file": "award_events_survival",
+   "award_packages_file": "award_packages_survival"
+  },
+  "creature_species": [
+   "crawlog",
+   "crysder",
+   "gnerot_caverns",
+   "gulgor",
+   "moltug_crystal",
+   "necrodon",
+   "stregaros_crystal"
+  ],
+  "creature_blueprints": [
+   "units/ground/crawlog",
+   "units/ground/crawlog_alpha",
+   "units/ground/crawlog_ultra",
+   "units/ground/crysder",
+   "units/ground/gnerot_caverns",
+   "units/ground/gulgor",
+   "units/ground/gulgor_alpha",
+   "units/ground/gulgor_ultra",
+   "units/ground/moltug_crystal",
+   "units/ground/moltug_crystal_alpha",
+   "units/ground/moltug_crystal_ultra",
+   "units/ground/necrodon",
+   "units/ground/necrodon_alpha",
+   "units/ground/necrodon_ultra",
+   "units/ground/stregaros_crystal",
+   "units/ground/stregaros_crystal_alpha",
+   "units/ground/stregaros_crystal_ultra"
+  ],
+  "creature_names": [
+   "Cavernot",
+   "Crawlog",
+   "Crawlog Alpha",
+   "Crawlog Ultra",
+   "Crysder",
+   "Crystaros",
+   "Crystaros Alpha",
+   "Crystaros Ultra",
+   "Crystug",
+   "Gulgor",
+   "Gulgor Alpha",
+   "Gulgor Ultra",
+   "Necrodon",
+   "Necrodon Alpha",
+   "Necrodon Ultra"
+  ],
+  "ambient_species": {
+   "ground": {
+    "max_count": 50,
+    "spawn_rate": 6,
+    "search_to_spawn_radius": 2,
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "crysder"
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "cultivator_saplings",
+  "name": null,
+  "resources": [],
+  "resource_names": [],
+  "default_liquid_resource": null,
+  "survival_mission": null,
+  "survival_campaign": null,
+  "creature_species": [],
+  "creature_blueprints": [],
+  "creature_names": [],
+  "ambient_species": null
+ },
+ {
+  "id": "desert",
+  "name": "Desert Biome",
+  "resources": [
+   "carbon_vein",
+   "iron_vein",
+   "geothermal_vent",
+   "uranium_ore_vein",
+   "titanium_vein",
+   "palladium_vein",
+   "cobalt_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "resource_names": [
+   "Carbonium ore",
+   "Ironium ore",
+   "Geothermal vent",
+   "uranium_ore_vein",
+   "Titanium ore",
+   "Palladium ore",
+   "Cobalt ore",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "default_liquid_resource": "mud_vein",
+  "survival_mission": {
+   "map_size": 6,
+   "threat": 1,
+   "creature_volumes_density": 0.7,
+   "creature_volumes_min_distance": 128.0,
+   "mission_award": "items/awards/survival_desert_award_giver_item",
+   "player_spawn_logic": "logic/loadout/player_loadout_survival_desert.logic"
+  },
+  "survival_campaign": {
+   "campaign_type": "survival",
+   "startup_mission_def": "survival/desert",
+   "startup_mission_name": "Headquarters",
+   "research_tree": "research_tree_survival",
+   "building_cost_info": "survival",
+   "rich_presence": "rich_presence_singleplayer_survival",
+   "achievements_group": "survival",
+   "order": 2,
+   "disabled_pause_screens": "planetary_scanner",
+   "difficulty_modes": "easy,normal,hard,brutal,sandbox,custom",
+   "preview_material": "gui/menu/buttons/main_menu/survival_selected",
+   "requirement": "items/awards/survival_acid_award_item",
+   "award_events_file": "award_events_survival",
+   "award_packages_file": "award_packages_survival"
+  },
+  "creature_species": [
+   "geotrupex",
+   "gnerot_desert",
+   "kermon",
+   "lesigian",
+   "mothray",
+   "mushbit",
+   "rugwig",
+   "stregaros",
+   "zorant"
+  ],
+  "creature_blueprints": [
+   "units/air/mothray",
+   "units/air/mothray_alpha",
+   "units/air/mothray_ultra",
+   "units/ground/geotrupex",
+   "units/ground/geotrupex_alpha",
+   "units/ground/geotrupex_ultra",
+   "units/ground/gnerot_alpha",
+   "units/ground/kermon",
+   "units/ground/kermon_alpha",
+   "units/ground/kermon_ultra",
+   "units/ground/lesigian",
+   "units/ground/lesigian_alpha",
+   "units/ground/lesigian_ultra",
+   "units/ground/mushbit",
+   "units/ground/mushbit_alpha",
+   "units/ground/mushbit_ultra",
+   "units/ground/rugwig",
+   "units/ground/stregaros",
+   "units/ground/stregaros_alpha",
+   "units/ground/stregaros_ultra",
+   "units/ground/zorant",
+   "units/ground/zorant_alpha",
+   "units/ground/zorant_ultra"
+  ],
+  "creature_names": [
+   "Geotrupex",
+   "Gnerot Alpha",
+   "Kermon",
+   "Kermon Alpha",
+   "Kermon Ultra",
+   "Lesigian",
+   "Lesigian Alpha",
+   "Lesigian Ultra",
+   "Mothray",
+   "Mushbit",
+   "Mushbit Alpha",
+   "Mushbit Ultra",
+   "Rugwig",
+   "Stregaros",
+   "Stregaros Alpha",
+   "Stregaros Ultra",
+   "Zorant",
+   "Zorant Alpha",
+   "Zorant Ultra"
+  ],
+  "ambient_species": {
+   "ground": {
+    "max_count": 15,
+    "spawn_rate": 5,
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "rugwig"
+     }
+    }
+   },
+   "air": {
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "mothray"
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "event_demo",
+  "name": null,
+  "resources": [
+   "carbon_vein",
+   "iron_vein",
+   "geothermal_vent",
+   "uranium_ore_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "resource_names": [
+   "Carbonium ore",
+   "Ironium ore",
+   "Geothermal vent",
+   "uranium_ore_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "default_liquid_resource": "mud_vein",
+  "survival_mission": null,
+  "survival_campaign": null,
+  "creature_species": [],
+  "creature_blueprints": [],
+  "creature_names": [],
+  "ambient_species": null
+ },
+ {
+  "id": "ice",
+  "name": "Cryo Fields",
+  "resources": [
+   "carbon_vein",
+   "iron_vein",
+   "geothermal_vent",
+   "uranium_ore_vein",
+   "titanium_vein",
+   "palladium_vein",
+   "cobalt_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein",
+   "morphium_vein"
+  ],
+  "resource_names": [
+   "Carbonium ore",
+   "Ironium ore",
+   "Geothermal vent",
+   "uranium_ore_vein",
+   "Titanium ore",
+   "Palladium ore",
+   "Cobalt ore",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein",
+   "morphium_vein"
+  ],
+  "default_liquid_resource": "morphium_vein",
+  "survival_mission": {
+   "map_size": 6,
+   "creature_volumes_density": 0.6,
+   "creature_volumes_min_distance": 128.0,
+   "mission_award": "items/awards/survival_ice_award_giver_item",
+   "player_spawn_logic": "logic/loadout/player_loadout_survival_ice.logic"
+  },
+  "survival_campaign": {
+   "campaign_type": "survival",
+   "startup_mission_def": "survival/ice",
+   "startup_mission_name": "Headquarters",
+   "research_tree": "research_tree_survival",
+   "building_cost_info": "survival",
+   "rich_presence": "rich_presence_singleplayer_survival",
+   "achievements_group": "survival",
+   "order": 8,
+   "disabled_pause_screens": "planetary_scanner",
+   "requirement": "items/awards/survival_jungle_award_item",
+   "preview_material": "gui/menu/buttons/main_menu/survival_selected",
+   "difficulty_modes": "easy,normal,hard,brutal,sandbox,custom",
+   "award_events_file": "award_events_survival",
+   "award_packages_file": "award_packages_survival"
+  },
+  "creature_species": [
+   "bomogan_ice",
+   "brabit_ice",
+   "crysder",
+   "granan_ice",
+   "iceder",
+   "kafferroceros_ice",
+   "kermon_ice",
+   "krocoon_ice",
+   "magmoth_ice",
+   "mantnice",
+   "plutrodon_ice"
+  ],
+  "creature_blueprints": [
+   "units/air/mantnice",
+   "units/air/mantnice_alpha",
+   "units/air/mantnice_ultra",
+   "units/ground/bomogan_ice",
+   "units/ground/bomogan_ice_alpha",
+   "units/ground/bomogan_ice_ultra",
+   "units/ground/brabit_ice",
+   "units/ground/brabit_ice_alpha",
+   "units/ground/brabit_ice_ultra",
+   "units/ground/crysder",
+   "units/ground/granan_ice",
+   "units/ground/granan_ice_alpha",
+   "units/ground/granan_ice_ultra",
+   "units/ground/iceder",
+   "units/ground/kafferroceros_ice",
+   "units/ground/kafferroceros_ice_alpha",
+   "units/ground/kafferroceros_ice_ultra",
+   "units/ground/kermon_ice",
+   "units/ground/kermon_ice_alpha",
+   "units/ground/kermon_ice_ultra",
+   "units/ground/krocoon_ice",
+   "units/ground/krocoon_ice_alpha",
+   "units/ground/krocoon_ice_ultra",
+   "units/ground/magmoth_ice",
+   "units/ground/magmoth_ice_alpha",
+   "units/ground/magmoth_ice_ultra",
+   "units/ground/plutrodon_ice",
+   "units/ground/plutrodon_ice_alpha",
+   "units/ground/plutrodon_ice_ultra"
+  ],
+  "creature_names": [
+   "Brabice",
+   "Colgan",
+   "Colgan Alpha",
+   "Colgan Ultra",
+   "Crysder",
+   "Frigmon",
+   "Frigmon Alpha",
+   "Frigmon Ultra",
+   "Glaciogan",
+   "Glaciogan Alpha",
+   "Glaciogan Ultra",
+   "Hibernus",
+   "Hibernus Alpha",
+   "Hibernus Ultra",
+   "Iceder",
+   "Iceros",
+   "Iceros Alpha",
+   "Iceros Ultra",
+   "Mantnice",
+   "Spikodon",
+   "Spikodon Alpha",
+   "Spikodon Ultra",
+   "Temperoth",
+   "Temperoth Alpha",
+   "Temperoth Ultra"
+  ],
+  "ambient_species": {
+   "ground": {
+    "species": {
+     "CreatureVolume": [
+      {
+       "creature_species": "crysder"
+      },
+      {
+       "creature_species": "iceder"
+      }
+     ]
+    }
+   },
+   "air": {
+    "max_count": 5,
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "mantnice"
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "inventory",
+  "name": null,
+  "resources": [],
+  "resource_names": [],
+  "default_liquid_resource": null,
+  "survival_mission": null,
+  "survival_campaign": null,
+  "creature_species": [],
+  "creature_blueprints": [],
+  "creature_names": [],
+  "ambient_species": null
+ },
+ {
+  "id": "jungle",
+  "name": "Jungle Biome",
+  "resources": [
+   "carbon_vein",
+   "iron_vein",
+   "geothermal_vent",
+   "flammable_gas_vent",
+   "uranium_ore_vein",
+   "titanium_vein",
+   "palladium_vein",
+   "cobalt_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "resource_names": [
+   "Carbonium ore",
+   "Ironium ore",
+   "Geothermal vent",
+   "Flammable Gas Vent",
+   "uranium_ore_vein",
+   "Titanium ore",
+   "Palladium ore",
+   "Cobalt ore",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "default_liquid_resource": "mud_vein",
+  "survival_mission": {
+   "map_size": 6,
+   "creature_volumes_density": 0.75,
+   "creature_volumes_min_distance": 128.0,
+   "mission_award": "items/awards/survival_jungle_award_giver_item",
+   "player_spawn_logic": "logic/loadout/player_loadout_survival.logic"
+  },
+  "survival_campaign": {
+   "campaign_type": "survival",
+   "startup_mission_def": "survival/jungle",
+   "startup_mission_name": "Headquarters",
+   "research_tree": "research_tree_survival",
+   "building_cost_info": "survival",
+   "rich_presence": "rich_presence_singleplayer_survival",
+   "achievements_group": "survival",
+   "disabled_pause_screens": "planetary_scanner",
+   "order": 0,
+   "preview_material": "gui/menu/buttons/main_menu/survival_selected",
+   "difficulty_modes": "easy,normal,hard,brutal,sandbox,custom",
+   "award_events_file": "award_events_survival",
+   "award_packages_file": "award_packages_survival"
+  },
+  "creature_species": [
+   "arachnoid_sentinel",
+   "baxmoth_jungle",
+   "bomogan_jungle",
+   "canoptrix",
+   "gnerot_jungle",
+   "hedroner_jungle",
+   "jurvine",
+   "kafferroceros",
+   "kermon",
+   "krocoon_jungle",
+   "phirian_jungle",
+   "quelver",
+   "vesaurus"
+  ],
+  "creature_blueprints": [
+   "units/air/vesaurus",
+   "units/air/vesaurus_alpha",
+   "units/air/vesaurus_ultra",
+   "units/ground/arachnoid_sentinel",
+   "units/ground/arachnoid_sentinel_alpha",
+   "units/ground/arachnoid_sentinel_ultra",
+   "units/ground/baxmoth",
+   "units/ground/baxmoth_ultra",
+   "units/ground/bomogan",
+   "units/ground/canoptrix",
+   "units/ground/canoptrix_alpha",
+   "units/ground/canoptrix_ultra",
+   "units/ground/gnerot",
+   "units/ground/hedroner",
+   "units/ground/jurvine",
+   "units/ground/jurvine_alpha",
+   "units/ground/jurvine_ultra",
+   "units/ground/kafferroceros",
+   "units/ground/kafferroceros_alpha",
+   "units/ground/kafferroceros_ultra",
+   "units/ground/kermon",
+   "units/ground/kermon_alpha",
+   "units/ground/kermon_ultra",
+   "units/ground/krocoon",
+   "units/ground/phirian",
+   "units/ground/quelver"
+  ],
+  "creature_names": [
+   "Arachnoid",
+   "Arachnoid Alpha",
+   "Arachnoid Ultra",
+   "Baxmoth",
+   "Baxmoth Ultra",
+   "Bomogan",
+   "Canoptrix",
+   "Canoptrix Alpha",
+   "Canoptrix Ultra",
+   "Gnerot",
+   "Hammeroceros",
+   "Hammeroceros Alpha",
+   "Hammeroceros Ultra",
+   "Hedroner",
+   "Jurvine",
+   "Kermon",
+   "Kermon Alpha",
+   "Kermon Ultra",
+   "Krocoon",
+   "Phirian",
+   "Quelver",
+   "Vesaurus"
+  ],
+  "ambient_species": {
+   "ground": {
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "quelver"
+     }
+    }
+   },
+   "air": {
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "vesaurus"
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "legacy_maps",
+  "name": null,
+  "resources": [
+   "mud_vein"
+  ],
+  "resource_names": [
+   "mud_vein"
+  ],
+  "default_liquid_resource": "mud_vein",
+  "survival_mission": null,
+  "survival_campaign": null,
+  "creature_species": [],
+  "creature_blueprints": [],
+  "creature_names": [],
+  "ambient_species": null
+ },
+ {
+  "id": "magma",
+  "name": "Magma Biome",
+  "resources": [
+   "carbon_vein",
+   "iron_vein",
+   "geothermal_vent",
+   "flammable_gas_vent",
+   "uranium_ore_vein",
+   "titanium_vein",
+   "palladium_vein",
+   "cobalt_vein"
+  ],
+  "resource_names": [
+   "Carbonium ore",
+   "Ironium ore",
+   "Geothermal vent",
+   "Flammable Gas Vent",
+   "uranium_ore_vein",
+   "Titanium ore",
+   "Palladium ore",
+   "Cobalt ore"
+  ],
+  "default_liquid_resource": "magma_vein",
+  "survival_mission": {
+   "map_size": 6,
+   "threat": 1,
+   "creature_volumes_density": 0.75,
+   "creature_volumes_min_distance": 96.0,
+   "mission_award": "items/awards/survival_magma_award_giver_item",
+   "player_spawn_logic": "logic/loadout/player_loadout_survival_magma.logic"
+  },
+  "survival_campaign": {
+   "campaign_type": "survival",
+   "startup_mission_def": "survival/magma",
+   "startup_mission_name": "Headquarters",
+   "research_tree": "research_tree_survival",
+   "building_cost_info": "survival",
+   "rich_presence": "rich_presence_singleplayer_survival",
+   "achievements_group": "survival",
+   "order": 3,
+   "disabled_pause_screens": "planetary_scanner",
+   "requirement": "items/awards/survival_desert_award_item",
+   "preview_material": "gui/menu/buttons/main_menu/survival_selected",
+   "difficulty_modes": "easy,normal,hard,brutal,sandbox,custom",
+   "award_events_file": "award_events_survival",
+   "award_packages_file": "award_packages_survival"
+  },
+  "creature_species": [
+   "bitrid",
+   "bomogan_magma",
+   "drexolian_magma",
+   "gnerot_magma",
+   "hedroner_magma",
+   "krocoon_magma",
+   "magmoth",
+   "moltug",
+   "morirot",
+   "nerilian",
+   "phirian_magma",
+   "venomine"
+  ],
+  "creature_blueprints": [
+   "units/air/bitrid",
+   "units/air/bitrid_alpha",
+   "units/air/bitrid_ultra",
+   "units/ground/bomogan_ultra",
+   "units/ground/drexolian_ultra",
+   "units/ground/gnerot_ultra",
+   "units/ground/hedroner_ultra",
+   "units/ground/krocoon_ultra",
+   "units/ground/magmoth",
+   "units/ground/magmoth_alpha",
+   "units/ground/magmoth_ultra",
+   "units/ground/moltug",
+   "units/ground/moltug_alpha",
+   "units/ground/moltug_ultra",
+   "units/ground/morirot",
+   "units/ground/morirot_alpha",
+   "units/ground/morirot_ultra",
+   "units/ground/nerilian",
+   "units/ground/nerilian_alpha",
+   "units/ground/nerilian_ultra",
+   "units/ground/phirian_ultra",
+   "units/ground/venomine"
+  ],
+  "creature_names": [
+   "Bitrid",
+   "Bomogan Ultra",
+   "Drexolian Ultra",
+   "Gnerot Ultra",
+   "Hedroner Ultra",
+   "Krocoon Ultra",
+   "Magmoth",
+   "Magmoth Alpha",
+   "Magmoth Ultra",
+   "Moltug",
+   "Morirot",
+   "Morirot Alpha",
+   "Morirot Ultra",
+   "Nerilian",
+   "Nerilian Alpha",
+   "Nerilian Ultra",
+   "Phirian Ultra",
+   "Venomine"
+  ],
+  "ambient_species": {
+   "ground": {
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "venomine"
+     }
+    }
+   },
+   "air": {
+    "max_count": 15,
+    "spawn_rate": 2,
+    "search_to_spawn_radius": 1,
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "bitrid"
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "metallic",
+  "name": "Metallic Valley",
+  "resources": [
+   "carbon_vein",
+   "iron_vein",
+   "geothermal_vent",
+   "uranium_ore_vein",
+   "titanium_vein",
+   "palladium_vein",
+   "cobalt_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein",
+   "morphium_vein"
+  ],
+  "resource_names": [
+   "Carbonium ore",
+   "Ironium ore",
+   "Geothermal vent",
+   "uranium_ore_vein",
+   "Titanium ore",
+   "Palladium ore",
+   "Cobalt ore",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein",
+   "morphium_vein"
+  ],
+  "default_liquid_resource": "morphium_vein",
+  "survival_mission": {
+   "map_size": 6,
+   "creature_volumes_density": 0.75,
+   "creature_volumes_min_distance": 128.0,
+   "mission_award": "items/awards/survival_metallic_award_giver_item",
+   "player_spawn_logic": "logic/loadout/player_loadout_survival_metallic.logic"
+  },
+  "survival_campaign": {
+   "campaign_type": "survival",
+   "startup_mission_def": "survival/metallic",
+   "startup_mission_name": "Headquarters",
+   "research_tree": "research_tree_survival",
+   "building_cost_info": "survival",
+   "rich_presence": "rich_presence_singleplayer_survival",
+   "achievements_group": "survival",
+   "order": 4,
+   "disabled_pause_screens": "planetary_scanner",
+   "requirement": "items/awards/survival_jungle_award_item",
+   "preview_material": "gui/menu/buttons/main_menu/survival_selected",
+   "difficulty_modes": "easy,normal,hard,brutal,sandbox,custom",
+   "award_events_file": "award_events_survival",
+   "award_packages_file": "award_packages_survival"
+  },
+  "creature_species": [
+   "brabit",
+   "bradron",
+   "flurian",
+   "hedroner_morphium",
+   "idapian",
+   "idapian_metallic",
+   "kermon_metallic",
+   "krocoon_jungle",
+   "lesigian",
+   "octabit",
+   "stonger",
+   "wingmite"
+  ],
+  "creature_blueprints": [
+   "units/air/idapian",
+   "units/air/idapian_metallic",
+   "units/ground/brabit",
+   "units/ground/brabit_alpha",
+   "units/ground/brabit_ultra",
+   "units/ground/bradron",
+   "units/ground/bradron_alpha",
+   "units/ground/bradron_ultra",
+   "units/ground/flurian",
+   "units/ground/flurian_alpha",
+   "units/ground/flurian_ultra",
+   "units/ground/hedroner_morphium",
+   "units/ground/kermon_metallic",
+   "units/ground/krocoon",
+   "units/ground/lesigian",
+   "units/ground/lesigian_alpha",
+   "units/ground/lesigian_ultra",
+   "units/ground/octabit",
+   "units/ground/octabit_alpha",
+   "units/ground/octabit_ultra",
+   "units/ground/stonger",
+   "units/ground/wingmite",
+   "units/ground/wingmite_alpha",
+   "units/ground/wingmite_ultra"
+  ],
+  "creature_names": [
+   "Brabit",
+   "Bradron",
+   "Bradron Alpha",
+   "Bradron Ultra",
+   "Flurian",
+   "Flurian Alpha",
+   "Flurian Ultra",
+   "Hedroner Morphium",
+   "Idapian",
+   "Idapian Metallic",
+   "Kermon Metallic",
+   "Krocoon",
+   "Lesigian",
+   "Lesigian Alpha",
+   "Lesigian Ultra",
+   "Octabit",
+   "Octabit Alpha",
+   "Octabit Ultra",
+   "Stonger",
+   "Wingmite",
+   "Wingmite Alpha",
+   "Wingmite Ultra"
+  ],
+  "ambient_species": {
+   "ground": {
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "stonger"
+     }
+    }
+   },
+   "air": {
+    "max_count": 5,
+    "species": {
+     "CreatureVolume": [
+      {
+       "creature_species": "idapian_metallic"
+      },
+      {
+       "creature_species": "idapian"
+      }
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "objective_prefabs",
+  "name": null,
+  "resources": [],
+  "resource_names": [],
+  "default_liquid_resource": null,
+  "survival_mission": null,
+  "survival_campaign": null,
+  "creature_species": [],
+  "creature_blueprints": [],
+  "creature_names": [],
+  "ambient_species": null
+ },
+ {
+  "id": "prologue",
+  "name": null,
+  "resources": [
+   "carbon_vein",
+   "iron_vein",
+   "geothermal_vent",
+   "uranium_ore_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "resource_names": [
+   "Carbonium ore",
+   "Ironium ore",
+   "Geothermal vent",
+   "uranium_ore_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "default_liquid_resource": "mud_vein",
+  "survival_mission": null,
+  "survival_campaign": null,
+  "creature_species": [],
+  "creature_blueprints": [],
+  "creature_names": [],
+  "ambient_species": null
+ },
+ {
+  "id": "swamp",
+  "name": "Fungal Forest",
+  "resources": [
+   "carbon_vein",
+   "iron_vein",
+   "geothermal_vent",
+   "flammable_gas_vent",
+   "uranium_ore_vein",
+   "titanium_vein",
+   "palladium_vein",
+   "cobalt_vein",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "resource_names": [
+   "Carbonium ore",
+   "Ironium ore",
+   "Geothermal vent",
+   "Flammable Gas Vent",
+   "uranium_ore_vein",
+   "Titanium ore",
+   "Palladium ore",
+   "Cobalt ore",
+   "water_vein",
+   "mud_vein",
+   "sludge_vein"
+  ],
+  "default_liquid_resource": "mud_vein",
+  "survival_mission": {
+   "map_size": 6,
+   "creature_volumes_density": 0.3,
+   "creature_volumes_min_distance": 128.0,
+   "mission_award": "items/awards/survival_swamp_award_giver_item",
+   "player_spawn_logic": "logic/loadout/player_loadout_survival_swamp.logic"
+  },
+  "survival_campaign": {
+   "campaign_type": "survival",
+   "startup_mission_def": "survival/swamp",
+   "startup_mission_name": "Headquarters",
+   "research_tree": "research_tree_survival",
+   "building_cost_info": "survival",
+   "rich_presence": "rich_presence_singleplayer_survival",
+   "achievements_group": "survival",
+   "order": 6,
+   "disabled_pause_screens": "planetary_scanner",
+   "requirement": "items/awards/survival_jungle_award_item",
+   "preview_material": "gui/menu/buttons/main_menu/survival_selected",
+   "difficulty_modes": "easy,normal,hard,brutal,sandbox,custom",
+   "award_events_file": "award_events_survival",
+   "award_packages_file": "award_packages_survival"
+  },
+  "creature_species": [
+   "baxmoth",
+   "canceroth",
+   "darnot",
+   "fungor",
+   "lurkid",
+   "mudroner",
+   "nurglax",
+   "phirian_jungle",
+   "plutrodon",
+   "poogret",
+   "stickrid"
+  ],
+  "creature_blueprints": [
+   "units/air/darnot",
+   "units/air/darnot_alpha",
+   "units/air/darnot_ultra",
+   "units/ground/baxmoth",
+   "units/ground/baxmoth_alpha",
+   "units/ground/baxmoth_ultra",
+   "units/ground/canceroth",
+   "units/ground/canceroth_alpha",
+   "units/ground/canceroth_ultra",
+   "units/ground/fungor",
+   "units/ground/fungor_alpha",
+   "units/ground/fungor_ultra",
+   "units/ground/lurkid",
+   "units/ground/mudroner",
+   "units/ground/nurglax",
+   "units/ground/nurglax_alpha",
+   "units/ground/nurglax_ultra",
+   "units/ground/phirian",
+   "units/ground/plutrodon",
+   "units/ground/plutrodon_alpha",
+   "units/ground/plutrodon_ultra",
+   "units/ground/poogret",
+   "units/ground/poogret_alpha",
+   "units/ground/poogret_ultra",
+   "units/ground/stickrid",
+   "units/ground/stickrid_alpha",
+   "units/ground/stickrid_ultra"
+  ],
+  "creature_names": [
+   "Baxmoth",
+   "Baxmoth Alpha",
+   "Baxmoth Ultra",
+   "Canceroth",
+   "Canceroth Alpha",
+   "Canceroth Ultra",
+   "Darnot",
+   "Fungor",
+   "Fungor Alpha",
+   "Fungor Ultra",
+   "Lurkid",
+   "Mudroner",
+   "Nurglax",
+   "Nurglax Alpha",
+   "Nurglax Ultra",
+   "Phirian",
+   "Plutrodon",
+   "Plutrodon Alpha",
+   "Plutrodon Ultra",
+   "Poogret",
+   "Stickrid",
+   "Stickrid Alpha",
+   "Stickrid Ultra"
+  ],
+  "ambient_species": {
+   "ground": {
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "lurkid"
+     }
+    }
+   },
+   "air": {
+    "max_count": 10,
+    "spawn_rate": 2,
+    "search_to_spawn_radius": 1,
+    "species": {
+     "CreatureVolume": {
+      "creature_species": "darnot"
+     }
+    }
+   }
+  }
+ }
+]

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riftbreaker Data</title>
+<style>
+:root {
+  --bg: #f4f5f7; --panel: #ffffff; --panel-2: #f0f2f5; --border: #dde1e6; --text: #1d2228; --muted: #66707b;
+  --accent: #0f8a7e; --accent-soft: #d9f1ee; --row-hover: #eef6f5; --sel: #d2ece8;
+  --t-standard: #6b7280; --t-advanced: #2f8f3a; --t-superior: #2563c9; --t-extreme: #b8590c;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12161b; --panel: #1a1f26; --panel-2: #222832; --border: #2e3541; --text: #e4e8ee; --muted: #8c96a3;
+  --accent: #3cc9b8; --accent-soft: #173a37; --row-hover: #1f2a2e; --sel: #1c3a37;
+  --t-standard: #a0a8b3; --t-advanced: #5fcf6b; --t-superior: #6ba3ff; --t-extreme: #ff9b45;
+} }
+:root[data-theme="dark"] {
+  --bg: #12161b; --panel: #1a1f26; --panel-2: #222832; --border: #2e3541; --text: #e4e8ee; --muted: #8c96a3;
+  --accent: #3cc9b8; --accent-soft: #173a37; --row-hover: #1f2a2e; --sel: #1c3a37;
+  --t-standard: #a0a8b3; --t-advanced: #5fcf6b; --t-superior: #6ba3ff; --t-extreme: #ff9b45;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+  display: grid; grid-template-rows: auto 1fr; overflow: hidden; }
+header { display: flex; align-items: center; gap: 12px; padding: 10px 16px; background: var(--panel); border-bottom: 1px solid var(--border); }
+header h1 { font-size: 16px; margin: 0; white-space: nowrap; }
+header h1 span { color: var(--accent); }
+#theme { margin-left: auto; }
+button, select, input[type=search] { font: inherit; color: var(--text); background: var(--panel-2); border: 1px solid var(--border);
+  border-radius: 6px; padding: 6px 10px; }
+button { cursor: pointer; }
+input[type=search] { min-width: 0; width: 280px; }
+main { display: grid; grid-template-columns: 190px 1fr; min-height: 0; }
+nav { background: var(--panel); border-right: 1px solid var(--border); overflow: auto; padding: 8px; }
+nav a { display: flex; justify-content: space-between; padding: 7px 10px; border-radius: 6px; color: var(--text); text-decoration: none; }
+nav a:hover { background: var(--panel-2); }
+nav a.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+nav a small { color: var(--muted); font-variant-numeric: tabular-nums; }
+#content { display: grid; grid-template-rows: auto 1fr; min-height: 0; min-width: 0; }
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 10px 16px; border-bottom: 1px solid var(--border); }
+.toolbar label { display: flex; align-items: center; gap: 6px; color: var(--muted); }
+#count { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+.split { display: grid; grid-template-columns: 1fr; min-height: 0; }
+.split.open { grid-template-columns: 1fr minmax(320px, 36%); }
+.tablewrap { overflow: auto; min-height: 0; }
+table { border-collapse: separate; border-spacing: 0; width: max-content; min-width: 100%; }
+th, td { padding: 6px 10px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; max-width: 320px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+th { position: sticky; top: 0; background: var(--panel-2); z-index: 1; cursor: pointer; user-select: none; font-weight: 600; font-size: 13px; }
+th:hover { color: var(--accent); }
+th .arrow { color: var(--accent); }
+td.num { font-variant-numeric: tabular-nums; }
+tbody tr { cursor: pointer; }
+tbody tr:hover td { background: var(--row-hover); }
+tbody tr.sel td { background: var(--sel); }
+td.name { font-weight: 600; }
+.tier { font-weight: 600; text-transform: capitalize; }
+.tier-standard { color: var(--t-standard); } .tier-advanced { color: var(--t-advanced); }
+.tier-superior { color: var(--t-superior); } .tier-extreme { color: var(--t-extreme); }
+.more { padding: 12px 16px; color: var(--muted); }
+aside { border-left: 1px solid var(--border); background: var(--panel); overflow: auto; min-height: 0; padding: 14px 16px; }
+aside[hidden] { display: none; }
+aside h2 { margin: 0 0 2px; font-size: 18px; }
+aside .id { color: var(--muted); font-family: ui-monospace, Consolas, monospace; font-size: 12px; word-break: break-all; }
+aside .desc { margin: 10px 0; }
+aside .close { float: right; }
+td.ic, th.ic { width: 44px; padding: 3px 6px; cursor: default; }
+td.ic img { width: 34px; height: 34px; object-fit: contain; display: block; }
+.dhead { display: flex; align-items: center; gap: 12px; }
+.dhead img { width: 72px; height: 72px; object-fit: contain; flex: none; background: var(--panel-2); border-radius: 8px; padding: 4px; }
+table.kv { width: 100%; min-width: 0; table-layout: fixed; border-collapse: collapse; margin-top: 8px; }
+.kv td, .kv th { white-space: normal; max-width: none; overflow-wrap: anywhere; border-bottom: 1px solid var(--border); padding: 5px 6px; font-size: 13px; }
+.kv th { position: static; background: none; cursor: default; color: var(--muted); font-weight: 500; width: 38%; }
+.kv tr:last-child > td, .kv tr:last-child > th { border-bottom: 0; }
+.kv .kv { margin: 0; }
+details > summary { cursor: pointer; color: var(--accent); }
+.empty { color: var(--muted); padding: 24px 16px; }
+@media (max-width: 760px) {
+  header { flex-wrap: wrap; }
+  input[type=search] { width: 100%; }
+  main { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+  nav { display: flex; overflow-x: auto; border-right: 0; border-bottom: 1px solid var(--border); padding: 6px; }
+  nav a { white-space: nowrap; gap: 6px; }
+  .split.open { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+  aside { border-left: 0; border-top: 1px solid var(--border); }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Riftbreaker <span>Data</span></h1>
+  <input id="q" type="search" placeholder="Search this table…" autocomplete="off">
+  <button id="theme" title="Toggle light/dark">◐</button>
+</header>
+<main>
+  <nav id="nav"></nav>
+  <section id="content">
+    <div class="toolbar">
+      <select id="f1" hidden></select>
+      <select id="f2" hidden></select>
+      <label><input id="hide" type="checkbox" checked> Hide internal/debug</label>
+      <button id="csv">Export view (CSV)</button>
+      <span id="count"></span>
+    </div>
+    <div class="split" id="split">
+      <div class="tablewrap" id="wrap"></div>
+      <aside id="detail" hidden></aside>
+    </div>
+  </section>
+</main>
+<script>
+const DATA = /*__DATA__*/null;
+const INTERNAL = /(^|\/|_)(debug|deprecated|editor|demo|test|dummy|tutorial)(_|\/|$)/i;
+const FILTER_COLS = ['skill', 'level', 'tier','category', 'type', 'kind', 'tree', 'damage_type', 'family', 'rarity'];
+const LIMIT_STEP = 400;
+const $ = id => document.getElementById(id);
+let cat = null, sortCol = null, sortDir = 1, selected = -1, limit = LIMIT_STEP;
+
+function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+const savedTheme = store('rb-theme'); if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+$('theme').onclick = () => {
+  const cur = document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  const t = cur === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.theme = t; store('rb-theme', t);
+};
+
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+function numOf(s) { const m = /^-?\d+(\.\d+)?/.exec(s); return m ? parseFloat(m[0]) : null; }
+function isInternal(c, row) {
+  const id = row[c.columns.indexOf('id')] || '';
+  const ty = row[c.columns.indexOf('type')] || '';
+  const nameIdx = c.columns.indexOf('name');
+  return INTERNAL.test(id) || ty === 'deprecated' || (nameIdx >= 0 && !row[nameIdx] && c.key !== 'resources');
+}
+
+function buildNav() {
+  $('nav').innerHTML = DATA.map(c => `<a href="#${c.key}" data-k="${c.key}">${c.label}<small>${c.rows.length}</small></a>`).join('');
+}
+
+function setupFilters(c) {
+  const cols = FILTER_COLS.filter(f => c.columns.includes(f)).slice(0, 2);
+  ['f1', 'f2'].forEach((id, i) => {
+    const el = $(id), col = cols[i];
+    if (!col) { el.hidden = true; el.dataset.col = ''; return; }
+    const idx = c.columns.indexOf(col);
+    const vals = [...new Set(c.rows.map(r => r[idx]).filter(Boolean))].sort();
+    if (vals.length < 2 || vals.length > 60) { el.hidden = true; el.dataset.col = ''; return; }
+    el.hidden = false; el.dataset.col = col;
+    el.innerHTML = `<option value="">All ${col.replace('_', ' ')}</option>` + vals.map(v => `<option>${esc(v)}</option>`).join('');
+  });
+}
+
+function visibleRows() {
+  const c = cat, q = $('q').value.trim().toLowerCase(), hide = $('hide').checked;
+  const iconIdx = c.columns.indexOf('icon');
+  const fs = ['f1', 'f2'].map(id => $(id)).filter(e => !e.hidden && e.value).map(e => [c.columns.indexOf(e.dataset.col), e.value]);
+  let idx = c.rows.map((_, i) => i).filter(i => {
+    const r = c.rows[i];
+    if (hide && isInternal(c, r)) return false;
+    for (const [ci, v] of fs) if (r[ci] !== v) return false;
+    return !q || r.filter((_, j) => j !== iconIdx).join(' ').toLowerCase().includes(q);
+  });
+  if (sortCol !== null) {
+    const allNum = idx.every(i => !c.rows[i][sortCol] || numOf(c.rows[i][sortCol]) !== null);
+    idx.sort((a, b) => {
+      const x = c.rows[a][sortCol], y = c.rows[b][sortCol];
+      if (!x) return 1; if (!y) return -1;
+      return (allNum ? numOf(x) - numOf(y) : x.localeCompare(y)) * sortDir;
+    });
+  }
+  return idx;
+}
+
+function cell(col, v) {
+  if (col === 'icon') return `<td class="ic">${v ? `<img src="${esc(v)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</td>`;
+  if (!v) return '<td></td>';
+  if (col === 'tier') return `<td class="tier tier-${esc(v)}">${esc(v)}</td>`;
+  const cls = col === 'name' ? 'name' : (numOf(v) !== null ? 'num' : '');
+  return `<td class="${cls}" title="${esc(v)}">${esc(v)}</td>`;
+}
+
+function render() {
+  const c = cat, idx = visibleRows();
+  $('count').textContent = `${idx.length} of ${c.rows.length} rows`;
+  if (!idx.length) { $('wrap').innerHTML = '<div class="empty">No rows match.</div>'; return; }
+  const head = c.columns.map((h, i) => h === 'icon' ? '<th class="ic"></th>' : `<th data-i="${i}">${esc(h.replace(/_/g, ' '))}${sortCol === i ? `<span class="arrow"> ${sortDir > 0 ? '▲' : '▼'}</span>` : ''}</th>`).join('');
+  const body = idx.slice(0, limit).map(i => `<tr data-i="${i}" class="${i === selected ? 'sel' : ''}">${c.rows[i].map((v, j) => cell(c.columns[j], v)).join('')}</tr>`).join('');
+  const more = idx.length > limit ? `<div class="more"><button id="morebtn">Show more (${idx.length - limit} hidden)</button></div>` : '';
+  $('wrap').innerHTML = `<table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>${more}`;
+  if (more) $('morebtn').onclick = () => { limit += LIMIT_STEP; render(); };
+}
+
+function tree(v, depth = 0) {
+  if (v === null || v === undefined || v === '') return '<span style="color:var(--muted)">—</span>';
+  if (Array.isArray(v)) {
+    if (!v.length) return '<span style="color:var(--muted)">—</span>';
+    if (v.every(x => typeof x !== 'object' || x === null)) return esc(v.join(', '));
+    const inner = v.map((x, i) => `<tr><th>${i + 1}</th><td>${tree(x, depth + 1)}</td></tr>`).join('');
+    return depth > 0 ? `<details><summary>${v.length} items</summary><table class="kv">${inner}</table></details>` : `<table class="kv">${inner}</table>`;
+  }
+  if (typeof v === 'object') {
+    const keys = Object.keys(v).filter(k => !k.startsWith('__'));
+    if (!keys.length) return '<span style="color:var(--muted)">—</span>';
+    const inner = keys.map(k => `<tr><th>${esc(k.replace(/_/g, ' '))}</th><td>${tree(v[k], depth + 1)}</td></tr>`).join('');
+    return depth > 1 ? `<details><summary>${keys.length} fields</summary><table class="kv">${inner}</table></details>` : `<table class="kv">${inner}</table>`;
+  }
+  return esc(v);
+}
+
+function showDetail(i) {
+  selected = i;
+  const c = cat, d = c.details[i], row = c.rows[i];
+  const get = k => row[c.columns.indexOf(k)];
+  const name = get('name') || get('id');
+  const body = d ? Object.fromEntries(Object.entries(d).filter(([k]) => !['id', 'name', 'description'].includes(k))) : null;
+  $('detail').innerHTML = `<button class="close" id="closebtn" title="Close">✕</button>
+    <div class="dhead">${get('icon') ? `<img src="${esc(get('icon'))}" alt="" onerror="this.remove()">` : ''}
+    <div><h2>${esc(name)}</h2><div class="id">${esc(get('id') || '')}</div></div></div>
+    ${get('description') ? `<p class="desc">${esc(get('description'))}</p>` : ''}
+    ${body ? tree(body) : '<p class="empty">No extra details.</p>'}`;
+  $('detail').hidden = false; $('split').classList.add('open');
+  $('closebtn').onclick = () => { selected = -1; $('detail').hidden = true; $('split').classList.remove('open'); render(); };
+  document.querySelectorAll('tbody tr').forEach(tr => tr.classList.toggle('sel', +tr.dataset.i === i));
+}
+
+function exportCsv() {
+  const c = cat, rows = [c.columns, ...visibleRows().map(i => c.rows[i])];
+  const text = rows.map(r => r.map(v => /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v).join(',')).join('\r\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob(['﻿' + text], { type: 'text/csv' }));
+  a.download = `${c.key}_filtered.csv`; a.click(); URL.revokeObjectURL(a.href);
+}
+
+function open(key) {
+  cat = DATA.find(c => c.key === key) || DATA[0];
+  sortCol = null; sortDir = 1; selected = -1; limit = LIMIT_STEP; $('q').value = '';
+  $('detail').hidden = true; $('split').classList.remove('open');
+  document.querySelectorAll('nav a').forEach(a => a.classList.toggle('active', a.dataset.k === cat.key));
+  setupFilters(cat); render(); $('wrap').scrollTop = 0;
+}
+
+$('wrap').addEventListener('click', e => {
+  const th = e.target.closest('th[data-i]');
+  if (th) { const i = +th.dataset.i; sortDir = sortCol === i ? -sortDir : 1; sortCol = i; render(); return; }
+  const tr = e.target.closest('tbody tr'); if (tr) showDetail(+tr.dataset.i);
+});
+let t; $('q').addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { limit = LIMIT_STEP; render(); }, 120); });
+['f1', 'f2', 'hide'].forEach(id => $(id).addEventListener('change', () => { limit = LIMIT_STEP; render(); }));
+$('csv').onclick = exportCsv;
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('detail').hidden) $('closebtn').click(); if (e.key === '/' && document.activeElement !== $('q')) { e.preventDefault(); $('q').focus(); } });
+window.addEventListener('hashchange', () => open(location.hash.slice(1)));
+
+buildNav();
+open(location.hash.slice(1) || 'weapons');
+</script>
+</body>
+</html>

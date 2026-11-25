@@ -1,0 +1,3714 @@
+[
+ {
+  "id": "items/skills/antimatter_ball_advanced_item",
+  "name": "Antimatter Ball",
+  "description": "Thanks to improvements to Mecha'Suit's fusion core, the antimatter payload is much larger, resulting in even more destructive potential of the projectile.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/antimatter_ball",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "uranium": 250
+  },
+  "unlocked_by_research": [
+   "research_tree: Antimatter Ball - Advanced",
+   "research_tree_open_campaign: Antimatter Ball - Advanced",
+   "research_tree_survival: Antimatter Ball - Advanced"
+  ],
+  "stats": {
+   "damage_type": "energy",
+   "rarity": "ADVANCED",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 520,
+     "max_value": 520,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 11,
+     "max_value": 11,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 7,
+     "max_value": 7,
+     "features": "BASE_MINMAX|STATISTIC"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/antimatter_ball_advanced",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/antimatter_ball_advanced",
+   "initial_speed": 2,
+   "max_speed": 20,
+   "acceleration": 5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/antimatter_ball.ent"
+ },
+ {
+  "id": "items/skills/antimatter_ball_extreme_item",
+  "name": "Antimatter Ball",
+  "description": "Thanks to improvements to Mecha'Suit's fusion core, the antimatter payload is much larger, resulting in even more destructive potential of the projectile.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/antimatter_ball",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "uranium": 2500,
+   "tanzanite": 1250
+  },
+  "unlocked_by_research": [
+   "research_tree: Antimatter Ball - Extreme",
+   "research_tree_open_campaign: Antimatter Ball - Extreme",
+   "research_tree_survival: Antimatter Ball - Extreme"
+  ],
+  "stats": {
+   "damage_type": "energy",
+   "rarity": "EXTREME",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 800,
+     "max_value": 800,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 13,
+     "max_value": 13,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 9,
+     "max_value": 9,
+     "features": "BASE_MINMAX|STATISTIC"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/antimatter_ball_extreme",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/antimatter_ball_extreme",
+   "initial_speed": 2,
+   "max_speed": 20,
+   "acceleration": 5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/antimatter_ball.ent"
+ },
+ {
+  "id": "items/skills/antimatter_ball_standard_item",
+  "name": "Antimatter Ball",
+  "description": "Generates an antimatter ball travelling forward and damaging enemies on its path. It explodes after a short time or upon a collision with a sturdy solid object like a rock.",
+  "tier": "standard",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/antimatter_ball",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "uranium": 100
+  },
+  "unlocked_by_research": [
+   "research_tree: Antimatter Ball - Standard",
+   "research_tree_open_campaign: Antimatter Ball - Standard",
+   "research_tree_survival: Antimatter Ball - Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/antimatter_ball",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/antimatter_ball",
+   "initial_speed": 2,
+   "max_speed": 20,
+   "acceleration": 5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/antimatter_ball.ent"
+ },
+ {
+  "id": "items/skills/antimatter_ball_superior_item",
+  "name": "Antimatter Ball",
+  "description": "Thanks to improvements to Mecha'Suit's fusion core, the antimatter payload is much larger, resulting in even more destructive potential of the projectile.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/antimatter_ball",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "uranium": 1000,
+   "tanzanite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Antimatter Ball - Superior",
+   "research_tree_open_campaign: Antimatter Ball - Superior",
+   "research_tree_survival: Antimatter Ball - Superior"
+  ],
+  "stats": {
+   "damage_type": "energy",
+   "rarity": "SUPERIOR",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 660,
+     "max_value": 660,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 12,
+     "max_value": 12,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 8,
+     "max_value": 8,
+     "features": "BASE_MINMAX|STATISTIC"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/antimatter_ball_superior",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/antimatter_ball_superior",
+   "initial_speed": 2,
+   "max_speed": 20,
+   "acceleration": 5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/antimatter_ball.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_acid_advanced_item",
+  "name": "Damage Trail Acid",
+  "description": "Improved Acid Trail module controls the release of the acidic substance much better, resulting in a longer release time and more damage dealt thanks to covering the target area more evenly.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_acid_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_acid",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "palladium": 200
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_acid_advanced",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_acid_advanced",
+   "trail_extend_time": 11
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_acid.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_acid_extreme_item",
+  "name": "Damage Trail Acid",
+  "description": "Improved Acid Trail module controls the release of the acidic substance much better, resulting in a longer release time and more damage dealt thanks to covering the target area more evenly.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_acid_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_acid",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "palladium": 4000,
+   "rhodonite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_acid_extreme",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_acid_extreme",
+   "trail_extend_time": 13
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_acid.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_acid_item",
+  "name": "Damage Trail Acid",
+  "description": "This skill module allows the Riftbreaker to trigger a controlled release of acid while the Mecha-Suit is in motion.",
+  "tier": null,
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/damage_trail_acid",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "palladium": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_acid",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_acid",
+   "trail_extend_time": 10
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_acid.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_acid_superior_item",
+  "name": "Damage Trail Acid",
+  "description": "Improved Acid Trail module controls the release of the acidic substance much better, resulting in a longer release time and more damage dealt thanks to covering the target area more evenly.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_acid_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_acid",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "palladium": 1000,
+   "rhodonite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_acid_superior",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_acid_superior",
+   "trail_extend_time": 12
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_acid.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_cryo_advanced_item",
+  "name": "Damage Trail Cryo",
+  "description": "Improved Cryo Trail module controls the release of the liquid nitrogen much better, resulting in a longer release time and more damage dealt thanks to covering the target area more evenly.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_cryo",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "titanium": 200
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_cryo_advanced",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_cryo_advanced",
+   "trail_extend_time": 11
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_cryo.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_cryo_extreme_item",
+  "name": "Damage Trail Cryo",
+  "description": "Improved Cryo Trail module controls the release of the liquid nitrogen much better, resulting in a longer release time and more damage dealt thanks to covering the target area more evenly.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_cryo",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "titanium": 4000,
+   "ferdonite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_cryo_extreme",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_cryo_extreme",
+   "trail_extend_time": 13
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_cryo.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_cryo_item",
+  "name": "Damage Trail Cryo",
+  "description": "This skill module allows the Riftbreaker to trigger a controlled release of liquid nitrogen while the Mecha-Suit is in motion.",
+  "tier": null,
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/damage_trail_cryo",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "titanium": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_cryo",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_cryo",
+   "trail_extend_time": 10
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_cryo.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_cryo_superior_item",
+  "name": "Damage Trail Cryo",
+  "description": "Improved Cryo Trail module controls the release of the liquid nitrogen much better, resulting in a longer release time and more damage dealt thanks to covering the target area more evenly.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_cryo",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "titanium": 1000,
+   "ferdonite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_cryo_superior",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_cryo_superior",
+   "trail_extend_time": 12
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_cryo.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_energy_advanced_item",
+  "name": "Damage Trail Energy",
+  "description": "Improved Energy Trail module controls the release of energy much better, allowing the Riftbreaker to make use of this effect for longer.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_energy_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_energy",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "cobalt": 200
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_energy_advanced",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_energy_advanced",
+   "trail_extend_time": 11
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_energy.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_energy_extreme_item",
+  "name": "Damage Trail Energy",
+  "description": "Improved Energy Trail module controls the release of energy much better, allowing the Riftbreaker to make use of this effect for longer.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_energy_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_energy",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "cobalt": 4000,
+   "tanzanite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_energy_extreme",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_energy_extreme",
+   "trail_extend_time": 13
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_energy.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_energy_item",
+  "name": "Damage Trail Energy",
+  "description": "This skill module allows the Riftbreaker to trigger a series of electromagnetic discharges while the Mecha-Suit is in motion.",
+  "tier": null,
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/damage_trail_energy",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "cobalt": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_energy",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_energy",
+   "trail_extend_time": 10
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_energy.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_energy_superior_item",
+  "name": "Damage Trail Energy",
+  "description": "Improved Energy Trail module controls the release of energy much better, allowing the Riftbreaker to make use of this effect for longer.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_energy_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_energy",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "cobalt": 1000,
+   "tanzanite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_energy_superior",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_energy_superior",
+   "trail_extend_time": 12
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_energy.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_fire_advanced_item",
+  "name": "Damage Trail Fire",
+  "description": "Improved Fire Trail module controls the release of the napalm much better, resulting in a longer release time and more damage dealt thanks to covering the target area more evenly.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_fire_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_fire",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "uranium": 200
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_fire_advanced",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_fire_advanced",
+   "trail_extend_time": 11
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_fire.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_fire_extreme_item",
+  "name": "Damage Trail Fire",
+  "description": "Improved Fire Trail module controls the release of the napalm much better, resulting in a longer release time and more damage dealt thanks to covering the target area more evenly.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_fire_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_fire",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "uranium": 4000,
+   "rhodonite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_fire_extreme",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_fire_extreme",
+   "trail_extend_time": 13
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_fire.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_fire_item",
+  "name": "Damage Trail Fire",
+  "description": "This skill module allows the Riftbreaker to trigger a controlled release of napalm while the Mecha-Suit is in motion.",
+  "tier": null,
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/damage_trail_fire",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "uranium": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_fire",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_fire",
+   "trail_extend_time": 10
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_fire.ent"
+ },
+ {
+  "id": "items/skills/damage_trail_fire_superior_item",
+  "name": "Damage Trail Fire",
+  "description": "Improved Fire Trail module controls the release of the napalm much better, resulting in a longer release time and more damage dealt thanks to covering the target area more evenly.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": "items/skills/damage_trail_fire_effects",
+  "icon": "gui/hud/items_icons/skills/damage_trail_fire",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "uranium": 1000,
+   "rhodonite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 15,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/damage_trail_fire_superior",
+   "stat_bp": "effects/projectiles_and_trails/damage_trail_fire_superior",
+   "trail_extend_time": 12
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/damage_trail_fire.ent"
+ },
+ {
+  "id": "items/skills/dash_acid_advanced_item",
+  "name": "Dash - Acid",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves an acid trail that damages enemies. Can be combined with a melee attack.",
+  "tier": "advanced",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_acid_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "palladium": 250
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.2,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_acid_advanced",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_acid_advanced",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/acidtrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_acid_extreme_item",
+  "name": "Dash - Acid",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves an acid trail that damages enemies. Can be combined with a melee attack.",
+  "tier": "extreme",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_acid_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "palladium": 4000,
+   "rhodonite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.6,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_acid_extreme",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_acid_extreme",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/acidtrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_acid_item",
+  "name": "Dash - Acid",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves an acid trail that damages enemies. Can be combined with a melee attack.",
+  "tier": null,
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_acid_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "palladium": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_acid",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_acid",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/acidtrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_acid_superior_item",
+  "name": "Dash - Acid",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves an acid trail that damages enemies. Can be combined with a melee attack.",
+  "tier": "superior",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_acid_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "palladium": 1000,
+   "rhodonite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.4,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_acid_superior",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_acid_superior",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/acidtrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_cryo_advanced_item",
+  "name": "Dash - Cryo",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves a cryo trail that slows down enemies. Can be combined with a melee attack.",
+  "tier": "advanced",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "titanium": 250
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.2,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_ice_advanced",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_ice_advanced",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/icetrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_cryo_extreme_item",
+  "name": "Dash - Cryo",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves a cryo trail that slows down enemies. Can be combined with a melee attack.",
+  "tier": "extreme",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "titanium": 4000,
+   "ferdonite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.6,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_ice_extreme",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_ice_extreme",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/icetrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_cryo_item",
+  "name": "Dash - Cryo",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves a cryo trail that slows down enemies. Can be combined with a melee attack.",
+  "tier": null,
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "titanium": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_ice",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_ice",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/icetrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_cryo_superior_item",
+  "name": "Dash - Cryo",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves a cryo trail that slows down enemies. Can be combined with a melee attack.",
+  "tier": "superior",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "titanium": 1000,
+   "ferdonite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.4,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_ice_superior",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_ice_superior",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/icetrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_energy_advanced_item",
+  "name": "Dash - Energy",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves an energy trail that stuns enemies. Can be combined with a melee attack.",
+  "tier": "advanced",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_energy_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "uranium": 250
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.2,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_energy_advanced",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_energy_advanced",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/energytrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_energy_extreme_item",
+  "name": "Dash - Energy",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves an energy trail that stuns enemies. Can be combined with a melee attack.",
+  "tier": "extreme",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_energy_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "uranium": 4000,
+   "tanzanite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.6,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_energy_extreme",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_energy_extreme",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/energytrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_energy_item",
+  "name": "Dash - Energy",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves an energy trail that stuns enemies. Can be combined with a melee attack.",
+  "tier": null,
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_energy_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "uranium": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_energy",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_energy",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/energytrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_energy_superior_item",
+  "name": "Dash - Energy",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves an energy trail that stuns enemies. Can be combined with a melee attack.",
+  "tier": "superior",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_energy_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "uranium": 1000,
+   "carbonium": 3000,
+   "steel": 3000,
+   "tanzanite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.4,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_energy_superior",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_energy_superior",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/energytrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_fire_advanced_item",
+  "name": "Dash - Fire",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves a fire trail that burns enemies. Can be combined with a melee attack.",
+  "tier": "advanced",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_fire_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "cobalt": 250,
+   "carbonium": 1000,
+   "steel": 1000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.2,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_fire_advanced",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_fire_advanced",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/firetrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_fire_extreme_item",
+  "name": "Dash - Fire",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves a fire trail that burns enemies. Can be combined with a melee attack.",
+  "tier": "extreme",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_fire_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "cobalt": 4000,
+   "carbonium": 10000,
+   "steel": 10000,
+   "hazenite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.6,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_fire_extreme",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_fire_extreme",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/firetrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_fire_item",
+  "name": "Dash - Fire",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves a fire trail that burns enemies. Can be combined with a melee attack.",
+  "tier": null,
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_fire_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "cobalt": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_fire",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_fire",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/firetrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dash_fire_superior_item",
+  "name": "Dash - Fire",
+  "description": "Movement skill that briefly speeds up the mecha suit and leaves a fire trail that burns enemies. Can be combined with a melee attack.",
+  "tier": "superior",
+  "type": "dash_skill",
+  "subtype": "dash",
+  "item_blueprint": "items/skills/dash_fire_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "cobalt": 1000,
+   "carbonium": 3000,
+   "steel": 3000,
+   "hazenite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "trail_time": 5.4,
+   "trail_spacing": 1,
+   "trail_effect": "effects/projectiles_and_trails/mech_trail_fire_superior",
+   "stat_bp": "effects/projectiles_and_trails/mech_trail_fire_superior",
+   "trail_extend_time": 0.5
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/firetrail_dash.ent"
+ },
+ {
+  "id": "items/skills/dodge_roll_advanced_item",
+  "name": "Dodge Roll",
+  "description": "Movement skill that enbles rolling to dodge enemy attacks and quickly escape dangerous situations. When the rolling is finished it spawns an explosion.",
+  "tier": "advanced",
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": "items/skills/dodge_roll_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000
+  },
+  "unlocked_by_research": [
+   "research_tree: Dodge Roll - Advanced",
+   "research_tree_open_campaign: Dodge Roll - Advanced",
+   "research_tree_survival: Dodge Roll - Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "roll_animation_start_speed": 4.0,
+   "roll_animation_end_speed": 4.0,
+   "roll_animation_acceleration_time": 0.5,
+   "roll_duration": 1.85,
+   "roll_cooldown": 3.5,
+   "stat_bp": "effects/items/dodge_roll_explosion_advanced",
+   "damage_bp": "items/skills/dodge_roll_weapon",
+   "splash_bp": "effects/items/dodge_roll_explosion_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/dodge_roll.ent"
+ },
+ {
+  "id": "items/skills/dodge_roll_extreme_item",
+  "name": "Dodge Roll",
+  "description": "Movement skill that enbles rolling to dodge enemy attacks and quickly escape dangerous situations. When the rolling is finished it spawns an explosion.",
+  "tier": "extreme",
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": "items/skills/dodge_roll_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "hazenite": 2000,
+   "palladium": 4000
+  },
+  "unlocked_by_research": [
+   "research_tree: Dodge Roll - Extreme",
+   "research_tree_open_campaign: Dodge Roll - Extreme",
+   "research_tree_survival: Dodge Roll - Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "roll_animation_start_speed": 4.0,
+   "roll_animation_end_speed": 4.0,
+   "roll_animation_acceleration_time": 0.5,
+   "roll_duration": 1.85,
+   "roll_cooldown": 3.5,
+   "stat_bp": "effects/items/dodge_roll_explosion_extreme",
+   "damage_bp": "items/skills/dodge_roll_weapon",
+   "splash_bp": "effects/items/dodge_roll_explosion_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/dodge_roll.ent"
+ },
+ {
+  "id": "items/skills/dodge_roll_item",
+  "name": "Dodge Roll",
+  "description": "Movement skill that enbles rolling to dodge enemy attacks and quickly escape dangerous situations. When the rolling is finished it spawns an explosion.",
+  "tier": null,
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": "items/skills/dodge_roll_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "unlocked_by_research": [
+   "research_tree: Dodge Roll",
+   "research_tree_open_campaign: Dodge Roll",
+   "research_tree_survival: Dodge Roll"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "roll_animation_start_speed": 4.0,
+   "roll_animation_end_speed": 4.0,
+   "roll_animation_acceleration_time": 0.5,
+   "roll_duration": 1.85,
+   "roll_cooldown": 3.5,
+   "stat_bp": "effects/items/dodge_roll_explosion_standard",
+   "damage_bp": "items/skills/dodge_roll_weapon",
+   "splash_bp": "effects/items/dodge_roll_explosion_standard"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/dodge_roll.ent"
+ },
+ {
+  "id": "items/skills/dodge_roll_superior_item",
+  "name": "Dodge Roll",
+  "description": "Movement skill that enbles rolling to dodge enemy attacks and quickly escape dangerous situations. When the rolling is finished it spawns an explosion.",
+  "tier": "superior",
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": "items/skills/dodge_roll_effects",
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "hazenite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Dodge Roll - Superior",
+   "research_tree_open_campaign: Dodge Roll - Superior",
+   "research_tree_survival: Dodge Roll - Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "roll_animation_start_speed": 4.0,
+   "roll_animation_end_speed": 4.0,
+   "roll_animation_acceleration_time": 0.5,
+   "roll_duration": 1.85,
+   "roll_cooldown": 3.5,
+   "stat_bp": "effects/items/dodge_roll_explosion_superior",
+   "damage_bp": "items/skills/dodge_roll_weapon",
+   "splash_bp": "effects/items/dodge_roll_explosion_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/dodge_roll.ent"
+ },
+ {
+  "id": "items/skills/emergency_explosion_advanced_item",
+  "name": "Emergency Explosion",
+  "description": "A more powerful version of an Emergency Explosion. Deals more damage and has an  increased damage radius.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/emergency_explosion_advanced",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "cobalt": 250
+  },
+  "unlocked_by_research": [
+   "research_tree: Shockwave Blast – Advanced",
+   "research_tree_open_campaign: Shockwave Blast – Advanced",
+   "research_tree_prologue: Shockwave Blast – Advanced",
+   "research_tree_survival: Shockwave Blast – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/emergency_explosion_advanced",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/skills/emergency_explosion_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/emergency_explosion.ent"
+ },
+ {
+  "id": "items/skills/emergency_explosion_extreme_item",
+  "name": "Emergency Explosion",
+  "description": "A more powerful version of an Emergency Explosion. Deals more damage and has an  increased damage radius.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/emergency_explosion_extreme",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "cobalt": 4000,
+   "hazenite": 2000
+  },
+  "unlocked_by_research": [
+   "research_tree: Shockwave Blast – Extreme",
+   "research_tree_open_campaign: Shockwave Blast – Extreme",
+   "research_tree_prologue: Shockwave Blast – Extreme",
+   "research_tree_survival: Shockwave Blast – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/emergency_explosion_extreme",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/skills/emergency_explosion_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/emergency_explosion.ent"
+ },
+ {
+  "id": "items/skills/emergency_explosion_standard_item",
+  "name": "Emergency Explosion",
+  "description": "Skill that emanates a large destructive shockwave around the Mecha-Suit, dealing Area damage to enemies caught in the blast. Has a relatively short cooldown period.",
+  "tier": "standard",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/emergency_explosion",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "unlocked_by_research": [
+   "research_tree: Shockwave Blast – Standard",
+   "research_tree_open_campaign: Shockwave Blast – Standard",
+   "research_tree_prologue: Shockwave Blast – Standard",
+   "research_tree_survival: Shockwave Blast – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/emergency_explosion",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/skills/emergency_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/emergency_explosion.ent"
+ },
+ {
+  "id": "items/skills/emergency_explosion_superior_item",
+  "name": "Emergency Explosion",
+  "description": "A more powerful version of an Emergency Explosion. Deals more damage and has an  increased damage radius.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/emergency_explosion_superior",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "cobalt": 1000,
+   "hazenite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Shockwave Blast – Superior",
+   "research_tree_open_campaign: Shockwave Blast – Superior",
+   "research_tree_prologue: Shockwave Blast – Superior",
+   "research_tree_survival: Shockwave Blast – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/emergency_explosion_superior",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/skills/emergency_explosion_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/emergency_explosion.ent"
+ },
+ {
+  "id": "items/skills/flamewave_advanced_item",
+  "name": "Flamewave",
+  "description": "This module uses a more sophisticated mixture of gases to cause the Flame Wave effect, resulting in a bigger blast that deals more damage.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/flamewave",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "titanium": 250
+  },
+  "unlocked_by_research": [
+   "research_tree: Flame Wave - Advanced",
+   "research_tree_open_campaign: Flame Wave - Advanced",
+   "research_tree_survival: Flame Wave - Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/flamewave_advanced",
+   "att": "att_skill",
+   "check_empty_spot": 0,
+   "owner_aim_dir": 1,
+   "stat_bp": "items/skills/flamewave_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/flamewave.ent"
+ },
+ {
+  "id": "items/skills/flamewave_extreme_item",
+  "name": "Flamewave",
+  "description": "This module uses a more sophisticated mixture of gases to cause the Flame Wave effect, resulting in a bigger blast that deals more damage.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/flamewave",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "titanium": 4000,
+   "ferdonite": 2000
+  },
+  "unlocked_by_research": [
+   "research_tree: Flame Wave - Extreme",
+   "research_tree_open_campaign: Flame Wave - Extreme",
+   "research_tree_survival: Flame Wave - Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/flamewave_extreme",
+   "att": "att_skill",
+   "check_empty_spot": 0,
+   "owner_aim_dir": 1,
+   "stat_bp": "items/skills/flamewave_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/flamewave.ent"
+ },
+ {
+  "id": "items/skills/flamewave_standard_item",
+  "name": "Flamewave",
+  "description": "This skill module allows the Mecha-Suit to spray a special mix of flamable chemicals in front of it. They cause a flaming wave of fire in the shape of a cone that deals damage to all structures in its path.",
+  "tier": "standard",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/flamewave",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "titanium": 100
+  },
+  "unlocked_by_research": [
+   "research_tree: Flame Wave - Standard",
+   "research_tree_open_campaign: Flame Wave - Standard",
+   "research_tree_survival: Flame Wave - Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/flamewave",
+   "att": "att_skill",
+   "check_empty_spot": 0,
+   "owner_aim_dir": 1,
+   "stat_bp": "items/skills/flamewave"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/flamewave.ent"
+ },
+ {
+  "id": "items/skills/flamewave_superior_item",
+  "name": "Flamewave",
+  "description": "This module uses a more sophisticated mixture of gases to cause the Flame Wave effect, resulting in a bigger blast that deals more damage.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/flamewave",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "titanium": 1000,
+   "ferdonite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Flame Wave - Superior",
+   "research_tree_open_campaign: Flame Wave - Superior",
+   "research_tree_survival: Flame Wave - Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/flamewave_superior",
+   "att": "att_skill",
+   "check_empty_spot": 0,
+   "owner_aim_dir": 1,
+   "stat_bp": "items/skills/flamewave_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/flamewave.ent"
+ },
+ {
+  "id": "items/skills/freeze_ray_advanced_item",
+  "name": null,
+  "description": null,
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/freeze_ray",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "cryo",
+   "rarity": "ADVANCED",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 1000,
+     "max_value": 1000,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_PENETRATION": {
+     "min_value": 32,
+     "max_value": 32,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 40,
+     "max_value": 40,
+     "features": "BASE_MINMAX"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 4,
+     "max_value": 4,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_OVER_TIME": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_OVER_TIME_LENGTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX"
+    },
+    "WEAPON_SCALE": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/freeze_ray_standard",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/freeze_ray_standard",
+   "initial_speed": 0,
+   "max_speed": 0,
+   "acceleration": 0
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/freeze_ray.ent"
+ },
+ {
+  "id": "items/skills/freeze_ray_extreme_item",
+  "name": null,
+  "description": null,
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/freeze_ray",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "cryo",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 1000,
+     "max_value": 1000,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_PENETRATION": {
+     "min_value": 32,
+     "max_value": 32,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 40,
+     "max_value": 40,
+     "features": "BASE_MINMAX"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 4,
+     "max_value": 4,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_OVER_TIME": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_OVER_TIME_LENGTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX"
+    },
+    "WEAPON_SCALE": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/freeze_ray_standard",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/freeze_ray_standard",
+   "initial_speed": 0,
+   "max_speed": 0,
+   "acceleration": 0
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/freeze_ray.ent"
+ },
+ {
+  "id": "items/skills/freeze_ray_item",
+  "name": null,
+  "description": null,
+  "tier": null,
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/freeze_ray",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/freeze_ray_standard",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/freeze_ray_standard",
+   "initial_speed": 0,
+   "max_speed": 0,
+   "acceleration": 0
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/freeze_ray.ent"
+ },
+ {
+  "id": "items/skills/freeze_ray_superior_item",
+  "name": null,
+  "description": null,
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/freeze_ray",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "cryo",
+   "rarity": "SUPERIOR",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 1000,
+     "max_value": 1000,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_PENETRATION": {
+     "min_value": 32,
+     "max_value": 32,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 40,
+     "max_value": 40,
+     "features": "BASE_MINMAX"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 4,
+     "max_value": 4,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_OVER_TIME": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_OVER_TIME_LENGTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX"
+    },
+    "WEAPON_SCALE": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/freeze_ray_standard",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/freeze_ray_standard",
+   "initial_speed": 0,
+   "max_speed": 0,
+   "acceleration": 0
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/freeze_ray.ent"
+ },
+ {
+  "id": "items/skills/generator_overcharge_advanced_item",
+  "name": "Generator Overcharge",
+  "description": "An improved control unit program allows the Mecha-Suit to push the generator even more, resulting in a bigger energy blast once the overdrive mode is activated.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/generator_overcharge",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "cobalt": 350
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/generator_overcharge_advanced",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/skills/generator_overcharge_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/generator_overcharge.ent"
+ },
+ {
+  "id": "items/skills/generator_overcharge_extreme_item",
+  "name": "Generator Overcharge",
+  "description": "An improved control unit program allows the Mecha-Suit to push the generator even more, resulting in a bigger energy blast once the overdrive mode is activated.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/generator_overcharge",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "cobalt": 5000,
+   "tanzanite": 2500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/generator_overcharge_extreme",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/skills/generator_overcharge_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/generator_overcharge.ent"
+ },
+ {
+  "id": "items/skills/generator_overcharge_standard_item",
+  "name": "Generator Overcharge",
+  "description": "The Mecha-Suit's generator is set to overdrive for a couple of moments to damage or stun nearby hostiles. The Mecha-Suit's shields recharge quickly in this mode.",
+  "tier": "standard",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/generator_overcharge",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "cobalt": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/generator_overcharge",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/skills/generator_overcharge"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/generator_overcharge.ent"
+ },
+ {
+  "id": "items/skills/generator_overcharge_superior_item",
+  "name": "Generator Overcharge",
+  "description": "An improved control unit program allows the Mecha-Suit to push the generator even more, resulting in a bigger energy blast once the overdrive mode is activated.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/generator_overcharge",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "cobalt": 1500,
+   "tanzanite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/generator_overcharge_superior",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/skills/generator_overcharge_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/generator_overcharge.ent"
+ },
+ {
+  "id": "items/skills/invisibility_item",
+  "name": "Alien Camouflage",
+  "description": "Makes mecha suit invisible until turned off or until performing any kind of attack.",
+  "tier": null,
+  "type": "invisible_skill",
+  "subtype": "movement",
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/invisibility",
+  "craft_cost": {
+   "carbonium": 500,
+   "steel": 500,
+   "cobalt": 1000,
+   "hazenite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Alien Camouflage",
+   "research_tree_open_campaign: Alien Camouflage",
+   "research_tree_survival: Alien Camouflage"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": null,
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/invisible.ent"
+ },
+ {
+  "id": "items/skills/invisibility_short_item",
+  "name": null,
+  "description": null,
+  "tier": null,
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "time": 10
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/timed_invisible.ent"
+ },
+ {
+  "id": "items/skills/jump_acid_advanced_item",
+  "name": "Power Jump - Acid",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with an Acid shockwave that damages enemies.",
+  "tier": "advanced",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_acid_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "palladium": 250
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_acid_explosion_advanced",
+   "stat_bp": "items/skills/jump_acid_explosion_advanced",
+   "trigger": "items/skills/jump_acid_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_acid_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_acid",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_green"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/acid_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_acid_extreme_item",
+  "name": "Power Jump - Acid",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with an Acid shockwave that damages enemies.",
+  "tier": "extreme",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_acid_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "palladium": 4000,
+   "rhodonite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_acid_explosion_extreme",
+   "stat_bp": "items/skills/jump_acid_explosion_extreme",
+   "trigger": "items/skills/jump_acid_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_acid_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_acid",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_green"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/acid_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_acid_item",
+  "name": "Power Jump - Acid",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with an Acid shockwave that damages enemies.",
+  "tier": null,
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_acid_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "palladium": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_acid_explosion",
+   "stat_bp": "items/skills/jump_acid_explosion",
+   "trigger": "items/skills/jump_acid_trigger",
+   "radius_bp": "items/skills/jump_acid_trail",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_acid",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_green"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/acid_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_acid_superior_item",
+  "name": "Power Jump - Acid",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with an Acid shockwave that damages enemies.",
+  "tier": "superior",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_acid_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "palladium": 1000,
+   "rhodonite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_acid_explosion_superior",
+   "stat_bp": "items/skills/jump_acid_explosion_superior",
+   "trigger": "items/skills/jump_acid_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_acid_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_acid",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_green"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/acid_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_cryo_advanced_item",
+  "name": "Power Jump - Cryo",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with a Cryo shockwave that slows down enemies.",
+  "tier": "advanced",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "titanium": 250
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_cryo_explosion_advanced",
+   "stat_bp": "items/skills/jump_cryo_explosion_advanced",
+   "trigger": "items/skills/jump_cryo_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_cryo_trail",
+   "radius_size": 5,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_cryo",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_blue"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/ice_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_cryo_extreme_item",
+  "name": "Power Jump - Cryo",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with a Cryo shockwave that slows down enemies.",
+  "tier": "extreme",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "titanium": 4000,
+   "ferdonite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_cryo_explosion_extreme",
+   "stat_bp": "items/skills/jump_cryo_explosion_extreme",
+   "trigger": "items/skills/jump_cryo_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_cryo_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_cryo",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_blue"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/ice_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_cryo_item",
+  "name": "Power Jump - Cryo",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with a Cryo shockwave that slows down enemies.",
+  "tier": null,
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "titanium": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_cryo_explosion",
+   "stat_bp": "items/skills/jump_cryo_explosion",
+   "trigger": "items/skills/jump_cryo_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_cryo_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_cryo",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_blue"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/ice_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_cryo_superior_item",
+  "name": "Power Jump - Cryo",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with a Cryo shockwave that slows down enemies.",
+  "tier": "superior",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_cryo_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "titanium": 1000,
+   "ferdonite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_cryo_explosion_superior",
+   "stat_bp": "items/skills/jump_cryo_explosion_superior",
+   "trigger": "items/skills/jump_cryo_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_cryo_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_cryo",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_blue"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/ice_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_energy_advanced_item",
+  "name": "Power Jump - Energy",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with an Energy shockwave that stuns enemies.",
+  "tier": "advanced",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_energy_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "uranium": 250
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_energy_explosion_advanced",
+   "stat_bp": "items/skills/jump_energy_explosion_advanced",
+   "trigger": "items/skills/jump_energy_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_energy_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_energy",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_blue"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/energy_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_energy_extreme_item",
+  "name": "Power Jump - Energy",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with an Energy shockwave that stuns enemies.",
+  "tier": "extreme",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_energy_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "uranium": 4000,
+   "tanzanite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_energy_explosion_extreme",
+   "stat_bp": "items/skills/jump_energy_explosion_extreme",
+   "trigger": "items/skills/jump_energy_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_energy_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_energy",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_blue"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/energy_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_energy_item",
+  "name": "Power Jump - Energy",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with an Energy shockwave that stuns enemies.",
+  "tier": null,
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_energy_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "uranium": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_energy_explosion",
+   "stat_bp": "items/skills/jump_energy_explosion",
+   "trigger": "items/skills/jump_energy_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_energy_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_energy",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_blue"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/energy_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_energy_superior_item",
+  "name": "Power Jump - Energy",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with an Energy shockwave that stuns enemies.",
+  "tier": "superior",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_energy_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "uranium": 1000,
+   "tanzanite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_energy_explosion_superior",
+   "stat_bp": "items/skills/jump_energy_explosion_superior",
+   "trigger": "items/skills/jump_energy_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_energy_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start_energy",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_blue"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/energy_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_fire_advanced_item",
+  "name": "Power Jump - Fire",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with a Fire shockwave that burns enemies.",
+  "tier": "advanced",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_fire_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "cobalt": 250
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_fire_explosion_advanced",
+   "stat_bp": "items/skills/jump_fire_explosion_advanced",
+   "trigger": "items/skills/jump_fire_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_fire_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_orange"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/fire_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_fire_extreme_item",
+  "name": "Power Jump - Fire",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with a Fire shockwave that burns enemies.",
+  "tier": "extreme",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_fire_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "cobalt": 4000,
+   "hazenite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_fire_explosion_extreme",
+   "stat_bp": "items/skills/jump_fire_explosion_extreme",
+   "trigger": "items/skills/jump_fire_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_fire_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_orange"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/fire_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_fire_item",
+  "name": "Power Jump - Fire",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with a Fire shockwave that burns enemies.",
+  "tier": null,
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_fire_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "cobalt": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_fire_explosion",
+   "stat_bp": "items/skills/jump_fire_explosion",
+   "trigger": "items/skills/jump_fire_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_fire_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_orange"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/fire_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_fire_superior_item",
+  "name": "Power Jump - Fire",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with a Fire shockwave that burns enemies.",
+  "tier": "superior",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_fire_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "cobalt": 1000,
+   "hazenite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/jump_fire_explosion_superior",
+   "stat_bp": "items/skills/jump_fire_explosion_superior",
+   "trigger": "items/skills/jump_fire_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "radius_bp": "items/skills/jump_fire_trail",
+   "radius_size": 6,
+   "radius_lifetime": 2,
+   "att": "be_body_lower",
+   "jump_speed": 2,
+   "jump_distance": 45,
+   "min_distance": 5,
+   "dash_start": "effects/items/power_jump_start",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon_orange"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/fire_barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_splash_advanced_item",
+  "name": "Power Jump",
+  "description": "Enhanced version of a Power Jump with significantly improved damage.",
+  "tier": "advanced",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_splash_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000
+  },
+  "unlocked_by_research": [
+   "research_tree: Power Jump – Advanced",
+   "research_tree_open_campaign: Power Jump – Advanced",
+   "research_tree_survival: Power Jump – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/power_jump_explosion_advanced",
+   "stat_bp": "items/skills/power_jump_explosion_advanced",
+   "trigger": "items/skills/jump_splash_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "att": "be_body_lower",
+   "jump_distance": 45,
+   "min_distance": 0,
+   "dash_start": "effects/items/power_jump_start",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_splash_extreme_item",
+  "name": "Power Jump",
+  "description": "Enhanced version of a Power Jump with significantly improved damage.",
+  "tier": "extreme",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_splash_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "titanium": 4000,
+   "ferdonite": 2000
+  },
+  "unlocked_by_research": [
+   "research_tree: Power Jump – Extreme",
+   "research_tree_open_campaign: Power Jump – Extreme",
+   "research_tree_survival: Power Jump – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/power_jump_explosion_extreme",
+   "stat_bp": "items/skills/power_jump_explosion_extreme",
+   "trigger": "items/skills/jump_splash_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "att": "be_body_lower",
+   "jump_distance": 45,
+   "min_distance": 0,
+   "dash_start": "effects/items/power_jump_start",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_splash_standard_item",
+  "name": "Power Jump",
+  "description": "Movement skill that lets the Mecha-Suit jump and attack with a kinetic shockwave dealing Area damage which harms even tough enemies.",
+  "tier": "standard",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_splash_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 500,
+   "steel": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Power Jump – Standard",
+   "research_tree_open_campaign: Power Jump – Standard",
+   "research_tree_survival: Power Jump – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/power_jump_explosion",
+   "stat_bp": "items/skills/power_jump_explosion",
+   "trigger": "items/skills/jump_splash_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "att": "be_body_lower",
+   "jump_distance": 45,
+   "min_distance": 0,
+   "dash_start": "effects/items/power_jump_start",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/jump_splash_superior_item",
+  "name": "Power Jump",
+  "description": "Enhanced version of a Power Jump with significantly improved damage.",
+  "tier": "superior",
+  "type": "movement_skill",
+  "subtype": "jump",
+  "item_blueprint": "items/skills/jump_splash_effects",
+  "icon": "gui/hud/items_icons/skills/jump_splash",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "ferdonite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Power Jump – Superior",
+   "research_tree_open_campaign: Power Jump – Superior",
+   "research_tree_survival: Power Jump – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/power_jump_explosion_superior",
+   "stat_bp": "items/skills/power_jump_explosion_superior",
+   "trigger": "items/skills/jump_splash_trigger",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "att": "be_body_lower",
+   "jump_distance": 45,
+   "min_distance": 0,
+   "dash_start": "effects/items/power_jump_start",
+   "dash_trail": "effects/projectiles_and_trails/mech_dash_ribbon"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/barbarian_jump.ent"
+ },
+ {
+  "id": "items/skills/orbital_bombardment_advanced_item",
+  "name": "Orbital Bombardment",
+  "description": "Upgraded artillery shells carrying more explosive materials result in a bigger blast radius and higher damage. Very effective at clearing out nests of hostile creatures.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/orbital_bombardment",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "uranium": 250
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "area",
+   "rarity": "ADVANCED",
+   "stats": {
+    "FIRE_RATE": {
+     "min_value": 3,
+     "max_value": 3,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "FIRE_PER_BURST": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_VALUE": {
+     "min_value": 520,
+     "max_value": 520,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 7.65,
+     "max_value": 7.65,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "AMMO_SPEED": {
+     "min_value": 70,
+     "max_value": 70,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/orbital_bombardment_advanced",
+   "delay": 2,
+   "crosshair_bp": "effects/messages_and_markers/danger_marker_blue",
+   "crosshair_radius": 21.4,
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/orbital_bombardment_advanced",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/orbital_bombardment.ent"
+ },
+ {
+  "id": "items/skills/orbital_bombardment_extreme_item",
+  "name": "Orbital Bombardment",
+  "description": "Upgraded artillery shells carrying more explosive materials result in a bigger blast radius and higher damage. Very effective at clearing out nests of hostile creatures.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/orbital_bombardment",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "uranium": 4000,
+   "tanzanite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "area",
+   "rarity": "EXTREME",
+   "stats": {
+    "FIRE_RATE": {
+     "min_value": 3,
+     "max_value": 3,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "FIRE_PER_BURST": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_VALUE": {
+     "min_value": 800,
+     "max_value": 800,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 8,
+     "max_value": 8,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "AMMO_SPEED": {
+     "min_value": 70,
+     "max_value": 70,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/orbital_bombardment_extreme",
+   "delay": 2,
+   "crosshair_bp": "effects/messages_and_markers/danger_marker_blue",
+   "crosshair_radius": 22.2,
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/orbital_bombardment_extreme",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/orbital_bombardment.ent"
+ },
+ {
+  "id": "items/skills/orbital_bombardment_standard_item",
+  "name": "Orbital Bombardment",
+  "description": "This module allows Mr. Riggs to set targets for coordinated Orbital Bombardment, which utilizes multiple highly-explosive shells. Highly effective against groups of enemies.",
+  "tier": "standard",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/orbital_bombardment",
+  "craft_cost": {
+   "carbonium": 500,
+   "steel": 500,
+   "uranium": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/orbital_bombardment",
+   "delay": 2,
+   "crosshair_bp": "effects/messages_and_markers/danger_marker_blue",
+   "crosshair_radius": 21,
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/orbital_bombardment",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/orbital_bombardment.ent"
+ },
+ {
+  "id": "items/skills/orbital_bombardment_superior_item",
+  "name": "Orbital Bombardment",
+  "description": "Upgraded artillery shells carrying more explosive materials result in a bigger blast radius and higher damage. Very effective at clearing out nests of hostile creatures.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/orbital_bombardment",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "uranium": 1000,
+   "tanzanite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "area",
+   "rarity": "SUPERIOR",
+   "stats": {
+    "FIRE_RATE": {
+     "min_value": 3,
+     "max_value": 3,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "FIRE_PER_BURST": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_VALUE": {
+     "min_value": 660,
+     "max_value": 660,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 7.8,
+     "max_value": 7.8,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "AMMO_SPEED": {
+     "min_value": 70,
+     "max_value": 70,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/orbital_bombardment_superior",
+   "delay": 2,
+   "crosshair_bp": "effects/messages_and_markers/danger_marker_blue",
+   "crosshair_radius": 21.8,
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/orbital_bombardment_superior",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/orbital_bombardment.ent"
+ },
+ {
+  "id": "items/skills/orbital_laser_advanced_item",
+  "name": "Orbital Laser",
+  "description": "An upgraded laser emitter provides a more concentrated burst of energy, resulting in much higher damage. This weapon can be used to pave the way through even the toughest of enemies.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/orbital_laser",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "cobalt": 250
+  },
+  "unlocked_by_research": [
+   "research_tree: Orbital Laser – Advanced",
+   "research_tree_open_campaign: Orbital Laser – Advanced",
+   "research_tree_survival: Orbital Laser – Advanced"
+  ],
+  "stats": {
+   "damage_type": "energy",
+   "rarity": "ADVANCED",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 1500,
+     "max_value": 1500,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 8.5,
+     "max_value": 8.5,
+     "features": "BASE_MINMAX|STATISTIC"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/orbital_laser_advanced",
+   "delay": 2,
+   "crosshair_bp": "effects/messages_and_markers/danger_marker_blue",
+   "crosshair_radius": 8.4,
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/orbital_laser_advanced",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/orbital_laser.ent"
+ },
+ {
+  "id": "items/skills/orbital_laser_extreme_item",
+  "name": "Orbital Laser",
+  "description": "An upgraded laser emitter provides a more concentrated burst of energy, resulting in much higher damage. This weapon can be used to pave the way through even the toughest of enemies.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/orbital_laser",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "cobalt": 4000,
+   "ferdonite": 2000
+  },
+  "unlocked_by_research": [
+   "research_tree: Orbital Laser – Extreme",
+   "research_tree_open_campaign: Orbital Laser – Extreme",
+   "research_tree_survival: Orbital Laser – Extreme"
+  ],
+  "stats": {
+   "damage_type": "energy",
+   "rarity": "EXTREME",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 2000,
+     "max_value": 2000,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 9.5,
+     "max_value": 9.5,
+     "features": "BASE_MINMAX|STATISTIC"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/orbital_laser_extreme",
+   "delay": 2,
+   "crosshair_bp": "effects/messages_and_markers/danger_marker_blue",
+   "crosshair_radius": 9.2,
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/orbital_laser_extreme",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/orbital_laser.ent"
+ },
+ {
+  "id": "items/skills/orbital_laser_standard_item",
+  "name": "Orbital Laser",
+  "description": "This targeting module lets Mr. Riggs set an initial strike point for a powerful Orbital Laser. The laser will then slowly travel along the ground away from Mr. Riggs.",
+  "tier": "standard",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/orbital_laser",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "cobalt": 100
+  },
+  "unlocked_by_research": [
+   "research_tree: Orbital Laser – Standard",
+   "research_tree_open_campaign: Orbital Laser – Standard",
+   "research_tree_survival: Orbital Laser – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/orbital_laser",
+   "delay": 2,
+   "crosshair_bp": "effects/messages_and_markers/danger_marker_blue",
+   "crosshair_radius": 8,
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/orbital_laser",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/orbital_laser.ent"
+ },
+ {
+  "id": "items/skills/orbital_laser_superior_item",
+  "name": "Orbital Laser",
+  "description": "An upgraded laser emitter provides a more concentrated burst of energy, resulting in much higher damage. This weapon can be used to pave the way through even the toughest of enemies.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/orbital_laser",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "cobalt": 1000,
+   "ferdonite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Orbital Laser – Superior",
+   "research_tree_open_campaign: Orbital Laser – Superior",
+   "research_tree_survival: Orbital Laser – Superior"
+  ],
+  "stats": {
+   "damage_type": "energy",
+   "rarity": "SUPERIOR",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 1750,
+     "max_value": 1750,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 9,
+     "max_value": 9,
+     "features": "BASE_MINMAX|STATISTIC"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/orbital_laser_superior",
+   "delay": 2,
+   "crosshair_bp": "effects/messages_and_markers/danger_marker_blue",
+   "crosshair_radius": 8.8,
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/orbital_laser_superior",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/orbital_laser.ent"
+ },
+ {
+  "id": "items/skills/radar_pulse_advanced_item",
+  "name": "Radar Pulse",
+  "description": "Skill that reveals the minimap in a large radius around the Mecha-Suit.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/radar_pulse",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Bioscanner – Advanced",
+   "research_tree_open_campaign: Sentry Bioscanner – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "radius": 110
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/radar_pulse.ent"
+ },
+ {
+  "id": "items/skills/radar_pulse_extreme_item",
+  "name": "Radar Pulse",
+  "description": "Skill that reveals the minimap in a large radius around the Mecha-Suit.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/radar_pulse",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "cobalt": 2000,
+   "hazenite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Bioscanner – Extreme",
+   "research_tree_open_campaign: Sentry Bioscanner – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "radius": 130
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/radar_pulse.ent"
+ },
+ {
+  "id": "items/skills/radar_pulse_item",
+  "name": "Radar Pulse",
+  "description": "Skill that reveals the minimap in a large radius around the Mecha-Suit.",
+  "tier": null,
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/radar_pulse",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "unlocked_by_research": [
+   "research_tree: Radar Pulse",
+   "research_tree_open_campaign: Radar Pulse",
+   "research_tree_prologue: Radar Pulse",
+   "research_tree_survival: Radar Pulse"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "radius": 100
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/radar_pulse.ent"
+ },
+ {
+  "id": "items/skills/radar_pulse_superior_item",
+  "name": "Radar Pulse",
+  "description": "Skill that reveals the minimap in a large radius around the Mecha-Suit.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/radar_pulse",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "cobalt": 500,
+   "hazenite": 150
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Bioscanner – Superior",
+   "research_tree_open_campaign: Sentry Bioscanner – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "radius": 120
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/radar_pulse.ent"
+ },
+ {
+  "id": "items/skills/shield_advanced_item",
+  "name": null,
+  "description": null,
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/shield",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": null,
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/shield.ent"
+ },
+ {
+  "id": "items/skills/shield_extreme_item",
+  "name": null,
+  "description": null,
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/shield",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": null,
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/shield.ent"
+ },
+ {
+  "id": "items/skills/shield_item",
+  "name": null,
+  "description": null,
+  "tier": null,
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/shield",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": null,
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/shield.ent"
+ },
+ {
+  "id": "items/skills/shield_superior_item",
+  "name": null,
+  "description": null,
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/shield",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": null,
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/shield.ent"
+ },
+ {
+  "id": "items/skills/teleport_advanced_item",
+  "name": "Teleport",
+  "description": "Movement skill that allows the Mech-Suit to teleport instantly anywhere within the line of sight.",
+  "tier": "advanced",
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/teleport",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000
+  },
+  "unlocked_by_research": [
+   "research_tree: Teleport - Advanced",
+   "research_tree_open_campaign: Teleport - Advanced",
+   "research_tree_survival: Teleport - Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/teleport_explosion_advanced",
+   "stat_bp": "items/skills/teleport_explosion_advanced",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "lightning_bp": "items/skills/teleport_lightning"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/teleport.ent"
+ },
+ {
+  "id": "items/skills/teleport_extreme_item",
+  "name": "Teleport",
+  "description": "Movement skill that allows the Mech-Suit to teleport instantly anywhere within the line of sight.",
+  "tier": "extreme",
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/teleport",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "tanzanite": 2000,
+   "uranium": 4000
+  },
+  "unlocked_by_research": [
+   "research_tree: Teleport - Extreme",
+   "research_tree_open_campaign: Teleport - Extreme",
+   "research_tree_survival: Teleport - Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/teleport_explosion_extreme",
+   "stat_bp": "items/skills/teleport_explosion_extreme",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "lightning_bp": "items/skills/teleport_lightning"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/teleport.ent"
+ },
+ {
+  "id": "items/skills/teleport_item",
+  "name": "Teleport",
+  "description": "Movement skill that allows the Mech-Suit to teleport instantly anywhere within the line of sight.",
+  "tier": null,
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/teleport",
+  "craft_cost": {
+   "carbonium": 500,
+   "steel": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Teleport",
+   "research_tree_open_campaign: Teleport",
+   "research_tree_survival: Teleport"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/teleport_explosion",
+   "stat_bp": "items/skills/teleport_explosion",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "lightning_bp": "items/skills/teleport_lightning"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/teleport.ent"
+ },
+ {
+  "id": "items/skills/teleport_short_item",
+  "name": null,
+  "description": null,
+  "tier": null,
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/dash",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/teleport_explosion",
+   "stat_bp": "items/skills/teleport_explosion",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "distance": 20
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/short_distance_teleport.ent"
+ },
+ {
+  "id": "items/skills/teleport_superior_item",
+  "name": "Teleport",
+  "description": "Movement skill that allows the Mech-Suit to teleport instantly anywhere within the line of sight.",
+  "tier": "superior",
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/teleport",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "tanzanite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Teleport - Superior",
+   "research_tree_open_campaign: Teleport - Superior",
+   "research_tree_survival: Teleport - Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/teleport_explosion_superior",
+   "stat_bp": "items/skills/teleport_explosion_superior",
+   "danger_marker_bp": "effects/messages_and_markers/danger_marker_blue",
+   "lightning_bp": "items/skills/teleport_lightning"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/teleport.ent"
+ },
+ {
+  "id": "items/skills/time_warp_item",
+  "name": "Time Warp",
+  "description": "This skill creates a time warp bubble and slows down time. Mecha-Suit is less affected than the enemies giving it a tactical advantage.",
+  "tier": null,
+  "type": "movement_skill",
+  "subtype": "movement",
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/time_warp",
+  "craft_cost": {
+   "carbonium": 500,
+   "steel": 500,
+   "palladium": 1000,
+   "rhodonite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Time Manipulation",
+   "research_tree_open_campaign: Time Manipulation",
+   "research_tree_survival: Time Manipulation"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "blueprint": "items/skills/time_warp"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/time_warp.ent"
+ },
+ {
+  "id": "items/skills/tornado_acid_advanced_item",
+  "name": "Acid Tornado",
+  "description": "The improved vacuum generator creates an evemn more volatile vortex, capable of dealing higher damage and lasting for a longer amount of time.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado_acid",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "rhodonite": 250
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "stats": {}
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_acid_advanced",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_acid_advanced",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado_acid.ent"
+ },
+ {
+  "id": "items/skills/tornado_acid_extreme_item",
+  "name": "Acid Tornado",
+  "description": "The improved vacuum generator creates an evemn more volatile vortex, capable of dealing higher damage and lasting for a longer amount of time.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado_acid",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "palladium": 1000,
+   "rhodonite": 2000
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "stats": {}
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_acid_extreme",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_acid_extreme",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado_acid.ent"
+ },
+ {
+  "id": "items/skills/tornado_acid_item",
+  "name": "Acid Tornado",
+  "description": "It creates a localized, high-speed air vortex that is infused with highly corrosive substances. The vortex travels along a set path, spraying everything with acid along the way.",
+  "tier": null,
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado_acid",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "rhodonite": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_acid_standard",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_acid_standard",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado_acid.ent"
+ },
+ {
+  "id": "items/skills/tornado_acid_superior_item",
+  "name": "Acid Tornado",
+  "description": "The improved vacuum generator creates an evemn more volatile vortex, capable of dealing higher damage and lasting for a longer amount of time.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado_acid",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "palladium": 500,
+   "rhodonite": 1000
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "stats": {}
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_acid_superior",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_acid_superior",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado_acid.ent"
+ },
+ {
+  "id": "items/skills/tornado_advanced_item",
+  "name": "Tornado",
+  "description": "This version of the device generates an even greater atmospheric pressure differential, generating a much more powerful vortex.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado",
+  "craft_cost": {
+   "uranium": 250,
+   "carbonium": 1000,
+   "steel": 1000
+  },
+  "unlocked_by_research": [
+   "research_tree: Tornado – Advanced",
+   "research_tree_open_campaign: Tornado – Advanced",
+   "research_tree_survival: Tornado – Advanced"
+  ],
+  "stats": {
+   "stats": {}
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_advanced",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_advanced",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado.ent"
+ },
+ {
+  "id": "items/skills/tornado_cryo_advanced_item",
+  "name": "Cryo Tornado",
+  "description": "This version of the device generates an even greater atmospheric pressure differential, generating a much more powerful vortex.",
+  "tier": "advanced",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado_cryo",
+  "craft_cost": {
+   "carbonium": 1000,
+   "steel": 1000,
+   "ferdonite": 250
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "stats": {}
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_cryo_advanced",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_cryo_advanced",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado_cryo.ent"
+ },
+ {
+  "id": "items/skills/tornado_cryo_extreme_item",
+  "name": "Cryo Tornado",
+  "description": "This version of the device generates an even greater atmospheric pressure differential, generating a much more powerful vortex.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado_cryo",
+  "craft_cost": {
+   "carbonium": 10000,
+   "steel": 10000,
+   "titanium": 1000,
+   "ferdonite": 1000
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "stats": {}
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_cryo_extreme",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_cryo_extreme",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado_cryo.ent"
+ },
+ {
+  "id": "items/skills/tornado_cryo_item",
+  "name": "Cryo Tornado",
+  "description": "Cryo Tornado summons a fast-moving vortex of supercooled air that travels in a straight line. The tornado deals cryo damage, rapidly lowering temperatures and slowing down all enemies caught in its path through extreme thermal shock.",
+  "tier": null,
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado_cryo",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "ferdonite": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_cryo_standard",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_cryo_standard",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado_cryo.ent"
+ },
+ {
+  "id": "items/skills/tornado_cryo_superior_item",
+  "name": "Cryo Tornado",
+  "description": "This version of the device generates an even greater atmospheric pressure differential, generating a much more powerful vortex.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado_cryo",
+  "craft_cost": {
+   "carbonium": 3000,
+   "steel": 3000,
+   "titanium": 500,
+   "ferdonite": 500
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "stats": {}
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_cryo_superior",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_cryo_superior",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado_cryo.ent"
+ },
+ {
+  "id": "items/skills/tornado_extreme_item",
+  "name": "Tornado",
+  "description": "This version of the device generates an even greater atmospheric pressure differential, generating a much more powerful vortex.",
+  "tier": "extreme",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado",
+  "craft_cost": {
+   "uranium": 2000,
+   "carbonium": 10000,
+   "steel": 10000,
+   "tanzanite": 1000
+  },
+  "unlocked_by_research": [
+   "research_tree: Tornado – Extreme",
+   "research_tree_open_campaign: Tornado – Extreme",
+   "research_tree_survival: Tornado – Extreme"
+  ],
+  "stats": {
+   "stats": {}
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_extreme",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_extreme",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado.ent"
+ },
+ {
+  "id": "items/skills/tornado_item",
+  "name": "Tornado",
+  "description": "This portable device allows the user to generate a localized, high-speed air vortex that will damage everything on its path.",
+  "tier": null,
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200,
+   "uranium": 100
+  },
+  "unlocked_by_research": [
+   "research_tree: Tornado – Standard",
+   "research_tree_open_campaign: Tornado – Standard",
+   "research_tree_survival: Tornado – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_standard",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_standard",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado.ent"
+ },
+ {
+  "id": "items/skills/tornado_superior_item",
+  "name": "Tornado",
+  "description": "This version of the device generates an even greater atmospheric pressure differential, generating a much more powerful vortex.",
+  "tier": "superior",
+  "type": "skill",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/skills/tornado",
+  "craft_cost": {
+   "uranium": 1000,
+   "carbonium": 3000,
+   "steel": 3000,
+   "tanzanite": 500
+  },
+  "unlocked_by_research": [
+   "research_tree: Tornado – Superior",
+   "research_tree_open_campaign: Tornado – Superior",
+   "research_tree_survival: Tornado – Superior"
+  ],
+  "stats": {
+   "stats": {}
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/skills/tornado_superior",
+   "att": "be_body_upper",
+   "stat_bp": "items/skills/tornado_superior",
+   "initial_speed": 1,
+   "max_speed": 10,
+   "acceleration": 5,
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/skills/tornado.ent"
+ }
+]

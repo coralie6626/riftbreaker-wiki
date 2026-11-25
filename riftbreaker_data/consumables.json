@@ -1,0 +1,2526 @@
+[
+ {
+  "id": "items/consumables/barricade_advanced_item",
+  "name": "Barricade",
+  "description": "A more refined version of the regular Barrier device. The upgraded Barrier should be able to provide the Riftbreaker with cover for a longer period.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/barricade_advanced",
+  "craft_cost": {
+   "consumables_manufacturing": 125
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/barricade_advanced",
+   "ghost_bp": "items/consumables/barricade_ghost",
+   "stat_bp": "items/consumables/barricade_advanced",
+   "dissolve": 0.5,
+   "max_distance": 30.0,
+   "owner_aim_dir": 1,
+   "create_at_aim_pos": 1,
+   "dissolve_props": 1,
+   "check_empty_spot": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/barricade.ent"
+ },
+ {
+  "id": "items/consumables/barricade_extreme_item",
+  "name": "Barricade",
+  "description": "A more refined version of the regular Barrier device. The upgraded Barrier should be able to provide the Riftbreaker with cover for a longer period.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/barricade_extreme",
+  "craft_cost": {
+   "consumables_manufacturing": 175
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/barricade_extreme",
+   "ghost_bp": "items/consumables/barricade_ghost",
+   "stat_bp": "items/consumables/barricade_extreme",
+   "dissolve": 0.5,
+   "max_distance": 30.0,
+   "owner_aim_dir": 1,
+   "create_at_aim_pos": 1,
+   "dissolve_props": 1,
+   "check_empty_spot": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/barricade.ent"
+ },
+ {
+  "id": "items/consumables/barricade_standard_item",
+  "name": "Barricade",
+  "description": "This portable device allows the Riftbreaker to create a temporary barrier.  The barrier will only remain in place for a limited amount of time and can be destroyed.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/barricade_standard",
+  "craft_cost": {
+   "consumables_manufacturing": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/barricade",
+   "ghost_bp": "items/consumables/barricade_ghost",
+   "stat_bp": "items/consumables/barricade",
+   "dissolve": 0.5,
+   "max_distance": 30.0,
+   "owner_aim_dir": 1,
+   "create_at_aim_pos": 1,
+   "dissolve_props": 1,
+   "check_empty_spot": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/barricade.ent"
+ },
+ {
+  "id": "items/consumables/barricade_superior_item",
+  "name": "Barricade",
+  "description": "A more refined version of the regular Barrier device. The upgraded Barrier should be able to provide the Riftbreaker with cover for a longer period.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/barricade_superior",
+  "craft_cost": {
+   "consumables_manufacturing": 150
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/barricade_superior",
+   "ghost_bp": "items/consumables/barricade_ghost",
+   "stat_bp": "items/consumables/barricade_superior",
+   "dissolve": 0.5,
+   "max_distance": 30.0,
+   "owner_aim_dir": 1,
+   "create_at_aim_pos": 1,
+   "dissolve_props": 1,
+   "check_empty_spot": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/barricade.ent"
+ },
+ {
+  "id": "items/consumables/cluster_grenade_acid_advanced_item",
+  "name": "Acid Cluster Grenade",
+  "description": "A more deadly mix of corrosive substances allowed to create this version of the cluster grenade with significantly more firepower.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/cluster_grenade_acid",
+  "craft_cost": {
+   "consumables_manufacturing": 125
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/cluster_grenade_acid_advanced",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/cluster_grenade_acid_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/cluster_grenade_acid.ent"
+ },
+ {
+  "id": "items/consumables/cluster_grenade_acid_extreme_item",
+  "name": "Acid Cluster Grenade",
+  "description": "A more deadly mix of corrosive substances allowed to create this version of the cluster grenade with significantly more firepower.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/cluster_grenade_acid",
+  "craft_cost": {
+   "consumables_manufacturing": 175
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/cluster_grenade_acid_extreme",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/cluster_grenade_acid_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/cluster_grenade_acid.ent"
+ },
+ {
+  "id": "items/consumables/cluster_grenade_acid_standard_item",
+  "name": "Acid Cluster Grenade",
+  "description": "This special type of grenade is packed with a mixture of highly corrosive substances. The grenade divides into several, smaller explosive packages.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/cluster_grenade_acid",
+  "craft_cost": {
+   "consumables_manufacturing": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/cluster_grenade_acid",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/cluster_grenade_acid"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/cluster_grenade_acid.ent"
+ },
+ {
+  "id": "items/consumables/cluster_grenade_acid_superior_item",
+  "name": "Acid Cluster Grenade",
+  "description": "A more deadly mix of corrosive substances allowed to create this version of the cluster grenade with significantly more firepower.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/cluster_grenade_acid",
+  "craft_cost": {
+   "consumables_manufacturing": 150
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/cluster_grenade_acid_superior",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/cluster_grenade_acid_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/cluster_grenade_acid.ent"
+ },
+ {
+  "id": "items/consumables/cryo_sentry_advanced_item",
+  "name": "Cryo Sentry",
+  "description": "A more powerful version of the Cryo Sentry. Deals more damage, has a wider splash damage radius and remains operational for longer.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/cryo_sentry_advanced",
+  "craft_cost": {
+   "consumables_manufacturing": 375
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "cryo",
+   "rarity": "ADVANCED",
+   "stats": {
+    "FIRE_RATE": {
+     "min_value": 2,
+     "max_value": 2,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_BURST": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_VALUE": {
+     "min_value": 28,
+     "max_value": 28,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 3.2,
+     "max_value": 3.2,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "AMMO_SPEED": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_OVER_TIME": {
+     "min_value": 8,
+     "max_value": 8,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_OVER_TIME_LENGTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX"
+    },
+    "AMMO_SPREAD": {
+     "min_value": 3,
+     "max_value": 3,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 70,
+   "blueprint": "items/consumables/cryo_sentry_advanced",
+   "stat_bp": "items/consumables/cryo_sentry_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/cryo_sentry.ent"
+ },
+ {
+  "id": "items/consumables/cryo_sentry_extreme_item",
+  "name": "Cryo Sentry",
+  "description": "A more powerful version of the Cryo Sentry. Deals more damage, has a wider splash damage radius and remains operational for longer.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/cryo_sentry_extreme",
+  "craft_cost": {
+   "consumables_manufacturing": 525
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "cryo",
+   "rarity": "EXTREME",
+   "stats": {
+    "FIRE_RATE": {
+     "min_value": 2,
+     "max_value": 2,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_BURST": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_VALUE": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 3.6,
+     "max_value": 3.6,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "AMMO_SPEED": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_OVER_TIME": {
+     "min_value": 16,
+     "max_value": 16,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_OVER_TIME_LENGTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX"
+    },
+    "AMMO_SPREAD": {
+     "min_value": 3,
+     "max_value": 3,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 90,
+   "blueprint": "items/consumables/cryo_sentry_extreme",
+   "stat_bp": "items/consumables/cryo_sentry_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/cryo_sentry.ent"
+ },
+ {
+  "id": "items/consumables/cryo_sentry_standard_item",
+  "name": "Cryo Sentry",
+  "description": "Automated defensive turret with a medium range of operation. Deals Cryo damage and doesn't require external ammunition or energy to shoot. Works for a limited amount of time.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/cryo_sentry_standard",
+  "craft_cost": {
+   "consumables_manufacturing": 300
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 60,
+   "blueprint": "items/consumables/cryo_sentry",
+   "stat_bp": "items/consumables/cryo_sentry"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/cryo_sentry.ent"
+ },
+ {
+  "id": "items/consumables/cryo_sentry_superior_item",
+  "name": "Cryo Sentry",
+  "description": "A more powerful version of the Cryo Sentry. Deals more damage, has a wider splash damage radius and remains operational for longer.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/cryo_sentry_superior",
+  "craft_cost": {
+   "consumables_manufacturing": 450
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "cryo",
+   "rarity": "SUPERIOR",
+   "stats": {
+    "FIRE_RATE": {
+     "min_value": 2,
+     "max_value": 2,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_BURST": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_VALUE": {
+     "min_value": 38,
+     "max_value": 38,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 3.4,
+     "max_value": 3.4,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "AMMO_SPEED": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_OVER_TIME": {
+     "min_value": 12,
+     "max_value": 12,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_OVER_TIME_LENGTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX"
+    },
+    "AMMO_SPREAD": {
+     "min_value": 3,
+     "max_value": 3,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 80,
+   "blueprint": "items/consumables/cryo_sentry_superior",
+   "stat_bp": "items/consumables/cryo_sentry_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/cryo_sentry.ent"
+ },
+ {
+  "id": "items/consumables/defensive_dome_advanced_item",
+  "name": null,
+  "description": null,
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/defensive_dome",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/defensive_dome_advanced",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/consumables/defensive_dome_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/defensive_dome.ent"
+ },
+ {
+  "id": "items/consumables/defensive_dome_extreme_item",
+  "name": null,
+  "description": null,
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/defensive_dome",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/defensive_dome_extreme",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/consumables/defensive_dome_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/defensive_dome.ent"
+ },
+ {
+  "id": "items/consumables/defensive_dome_item",
+  "name": null,
+  "description": null,
+  "tier": null,
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/defensive_dome",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/defensive_dome",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/consumables/defensive_dome"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/defensive_dome.ent"
+ },
+ {
+  "id": "items/consumables/defensive_dome_superior_item",
+  "name": null,
+  "description": null,
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/defensive_dome",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/defensive_dome_superior",
+   "att": "be_body_upper",
+   "check_empty_spot": 0,
+   "stat_bp": "items/consumables/defensive_dome_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/defensive_dome.ent"
+ },
+ {
+  "id": "items/consumables/drone_swarm_advanced_item",
+  "name": "Drone Swarm",
+  "description": "Improved energy cells installed in the drones from this pack allow them to operate longer, and for their CPUs to be massively overclocked, greatly increasing their efficiency.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/drone_swarm",
+  "craft_cost": {
+   "consumables_manufacturing": 75
+  },
+  "unlocked_by_research": [
+   "research_tree: Drone Swarm – Advanced",
+   "research_tree_open_campaign: Drone Swarm – Advanced",
+   "research_tree_survival: Drone Swarm – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "drone_lifetime": 35,
+   "attack_drone": 4,
+   "defense_drone": 2,
+   "repair_drone": 1,
+   "loot_drone": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/drone_swarm.ent"
+ },
+ {
+  "id": "items/consumables/drone_swarm_extreme_item",
+  "name": "Drone Swarm",
+  "description": "Improved energy cells installed in the drones from this pack allow them to operate longer, and for their CPUs to be massively overclocked, greatly increasing their efficiency.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/drone_swarm",
+  "craft_cost": {
+   "consumables_manufacturing": 105
+  },
+  "unlocked_by_research": [
+   "research_tree: Drone Swarm – Extreme",
+   "research_tree_open_campaign: Drone Swarm – Extreme",
+   "research_tree_survival: Drone Swarm – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "drone_lifetime": 45,
+   "attack_drone": 6,
+   "defense_drone": 2,
+   "repair_drone": 1,
+   "loot_drone": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/drone_swarm.ent"
+ },
+ {
+  "id": "items/consumables/drone_swarm_item",
+  "name": "Drone Swarm",
+  "description": "Allows you to call in an assortment of various types of drones. They will follow and assist the mech for a limited amount of time. Summoned drones do not count towards the drone limit.",
+  "tier": null,
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/drone_swarm",
+  "craft_cost": {
+   "consumables_manufacturing": 60
+  },
+  "unlocked_by_research": [
+   "research_tree: Drone Swarm – Standard",
+   "research_tree_open_campaign: Drone Swarm – Standard",
+   "research_tree_survival: Drone Swarm – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "drone_lifetime": 30,
+   "attack_drone": 3,
+   "defense_drone": 2,
+   "repair_drone": 1,
+   "loot_drone": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/drone_swarm.ent"
+ },
+ {
+  "id": "items/consumables/drone_swarm_superior_item",
+  "name": "Drone Swarm",
+  "description": "Improved energy cells installed in the drones from this pack allow them to operate longer, and for their CPUs to be massively overclocked, greatly increasing their efficiency.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/drone_swarm",
+  "craft_cost": {
+   "consumables_manufacturing": 90
+  },
+  "unlocked_by_research": [
+   "research_tree: Drone Swarm – Superior",
+   "research_tree_open_campaign: Drone Swarm – Superior",
+   "research_tree_survival: Drone Swarm – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "drone_lifetime": 40,
+   "attack_drone": 5,
+   "defense_drone": 2,
+   "repair_drone": 1,
+   "loot_drone": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/drone_swarm.ent"
+ },
+ {
+  "id": "items/consumables/fertilizer_advanced_item",
+  "name": null,
+  "description": null,
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/fertilizer",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/fertilizer_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/fertilizer.ent"
+ },
+ {
+  "id": "items/consumables/fertilizer_extreme_item",
+  "name": null,
+  "description": null,
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/fertilizer",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/fertilizer_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/fertilizer.ent"
+ },
+ {
+  "id": "items/consumables/fertilizer_item",
+  "name": null,
+  "description": null,
+  "tier": null,
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/fertilizer",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/fertilizer"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/fertilizer.ent"
+ },
+ {
+  "id": "items/consumables/fertilizer_superior_item",
+  "name": null,
+  "description": null,
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/fertilizer",
+  "craft_cost": {},
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/fertilizer_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/fertilizer.ent"
+ },
+ {
+  "id": "items/consumables/flare_standard_item",
+  "name": "Flare",
+  "description": "A part of the basic Mecha-Suit equipment. Provides light in dark areas for a limited amount of time.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/flare",
+  "craft_cost": {
+   "consumables_manufacturing": 20
+  },
+  "unlocked_by_research": [
+   "research_tree: Grenade – Standard",
+   "research_tree_open_campaign: Grenade – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/flare",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/flare"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/flare.ent"
+ },
+ {
+  "id": "items/consumables/gas_grenade_advanced_item",
+  "name": "Gas Grenade",
+  "description": "The gas in this version of the grenade is kept at a much higher pressure than the original. It disperses at a much higher rate and increased concentration, making it even more effective.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/gas_grenade",
+  "craft_cost": {
+   "consumables_manufacturing": 75
+  },
+  "unlocked_by_research": [
+   "research_tree: Gas Grenades – Advanced",
+   "research_tree_open_campaign: Gas Grenades – Advanced",
+   "research_tree_survival: Gas Grenades – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/gas_grenade_advanced",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/gas_grenade_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/gas_grenade.ent"
+ },
+ {
+  "id": "items/consumables/gas_grenade_extreme_item",
+  "name": "Gas Grenade",
+  "description": "The gas in this version of the grenade is kept at a much higher pressure than the original. It disperses at a much higher rate and increased concentration, making it even more effective.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/gas_grenade",
+  "craft_cost": {
+   "consumables_manufacturing": 105
+  },
+  "unlocked_by_research": [
+   "research_tree: Gas Grenades – Extreme",
+   "research_tree_open_campaign: Gas Grenades – Extreme",
+   "research_tree_survival: Gas Grenades – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/gas_grenade_extreme",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/gas_grenade_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/gas_grenade.ent"
+ },
+ {
+  "id": "items/consumables/gas_grenade_item",
+  "name": "Gas Grenade",
+  "description": "The grenade releases a cloud of acidic gas in a relatively large area, dealing damage to all creatures in its vicinity.",
+  "tier": null,
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/gas_grenade",
+  "craft_cost": {
+   "consumables_manufacturing": 60
+  },
+  "unlocked_by_research": [
+   "research_tree: Gas Grenades – Standard",
+   "research_tree_open_campaign: Gas Grenades – Standard",
+   "research_tree_survival: Gas Grenades – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/gas_grenade",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/gas_grenade"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/gas_grenade.ent"
+ },
+ {
+  "id": "items/consumables/gas_grenade_superior_item",
+  "name": "Gas Grenade",
+  "description": "The gas in this version of the grenade is kept at a much higher pressure than the original. It disperses at a much higher rate and increased concentration, making it even more effective.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/gas_grenade",
+  "craft_cost": {
+   "consumables_manufacturing": 90
+  },
+  "unlocked_by_research": [
+   "research_tree: Gas Grenades – Superior",
+   "research_tree_open_campaign: Gas Grenades – Superior",
+   "research_tree_survival: Gas Grenades – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/gas_grenade_superior",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/gas_grenade_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/gas_grenade.ent"
+ },
+ {
+  "id": "items/consumables/grenade_advanced_item",
+  "name": "Grenade",
+  "description": "Enhanced version of the standard Grenade, with improved damage and increased blast radius.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_advanced",
+  "craft_cost": {
+   "consumables_manufacturing": 25
+  },
+  "unlocked_by_research": [
+   "research_tree: Grenade – Advanced",
+   "research_tree_open_campaign: Grenade – Advanced",
+   "research_tree_survival: Grenade – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_advanced",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/grenade_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade.ent"
+ },
+ {
+  "id": "items/consumables/grenade_extreme_item",
+  "name": "Grenade",
+  "description": "Enhanced version of the standard Grenade, with improved damage and increased blast radius.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_extreme",
+  "craft_cost": {
+   "consumables_manufacturing": 35
+  },
+  "unlocked_by_research": [
+   "research_tree: Grenade – Extreme",
+   "research_tree_open_campaign: Grenade – Extreme",
+   "research_tree_survival: Grenade – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_extreme",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/grenade_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade.ent"
+ },
+ {
+  "id": "items/consumables/grenade_gravity_advanced_item",
+  "name": "Gravity Grenade",
+  "description": "More powerful explosive withing this grenade results in a much bigger explosion, while maintaining the gravity-bending effect of the original.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_gravity",
+  "craft_cost": {
+   "consumables_manufacturing": 75
+  },
+  "unlocked_by_research": [
+   "research_tree: Gravity Grenade – Advanced",
+   "research_tree_open_campaign: Gravity Grenade – Advanced",
+   "research_tree_survival: Gravity Grenade – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_gravity_advanced",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/gravity_hole_initial_blast_advanced,items/consumables/gravity_hole_damage_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade_gravity.ent"
+ },
+ {
+  "id": "items/consumables/grenade_gravity_extreme_item",
+  "name": "Gravity Grenade",
+  "description": "More powerful explosive withing this grenade results in a much bigger explosion, while maintaining the gravity-bending effect of the original.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_gravity",
+  "craft_cost": {
+   "consumables_manufacturing": 105
+  },
+  "unlocked_by_research": [
+   "research_tree: Gravity Grenade – Extreme",
+   "research_tree_open_campaign: Gravity Grenade – Extreme",
+   "research_tree_survival: Gravity Grenade – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_gravity_extreme",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/gravity_hole_initial_blast_extreme,items/consumables/gravity_hole_damage_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade_gravity.ent"
+ },
+ {
+  "id": "items/consumables/grenade_gravity_standard_item",
+  "name": "Gravity Grenade",
+  "description": "This grenade explodes when the fuse runs out and creates a miniature black hole. The gravity ripps small enemies and objects to shreds while sucking them in. It dissapears after a short while but is very useful for crowd control.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_gravity",
+  "craft_cost": {
+   "consumables_manufacturing": 60
+  },
+  "unlocked_by_research": [
+   "research_tree: Gravity Grenade – Standard",
+   "research_tree_open_campaign: Gravity Grenade – Standard",
+   "research_tree_survival: Gravity Grenade – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_gravity_standard",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/gravity_hole_initial_blast,items/consumables/gravity_hole_damage"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade_gravity.ent"
+ },
+ {
+  "id": "items/consumables/grenade_gravity_superior_item",
+  "name": "Gravity Grenade",
+  "description": "More powerful explosive withing this grenade results in a much bigger explosion, while maintaining the gravity-bending effect of the original.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_gravity",
+  "craft_cost": {
+   "consumables_manufacturing": 90
+  },
+  "unlocked_by_research": [
+   "research_tree: Gravity Grenade – Superior",
+   "research_tree_open_campaign: Gravity Grenade – Superior",
+   "research_tree_survival: Gravity Grenade – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_gravity_superior",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/gravity_hole_initial_blast_superior,items/consumables/gravity_hole_damage_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade_gravity.ent"
+ },
+ {
+  "id": "items/consumables/grenade_sonic_advanced_item",
+  "name": "Sonic Grenade",
+  "description": "Redesigned housing of this version of the Sonic Grenade greatly enhances the effectiveness of the device.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_sonic",
+  "craft_cost": {
+   "consumables_manufacturing": 75
+  },
+  "unlocked_by_research": [
+   "research_tree: Sonic Grenades - Advanced",
+   "research_tree_open_campaign: Sonic Grenades - Advanced",
+   "research_tree_survival: Sonic Grenades - Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_sonic_advanced",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/grenade_sonic_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade_sonic.ent"
+ },
+ {
+  "id": "items/consumables/grenade_sonic_extreme_item",
+  "name": "Sonic Grenade",
+  "description": "Redesigned housing of this version of the Sonic Grenade greatly enhances the effectiveness of the device.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_sonic",
+  "craft_cost": {
+   "consumables_manufacturing": 105
+  },
+  "unlocked_by_research": [
+   "research_tree: Sonic Grenades - Extreme",
+   "research_tree_open_campaign: Sonic Grenades - Extreme",
+   "research_tree_survival: Sonic Grenades - Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_sonic_extreme",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/grenade_sonic_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade_sonic.ent"
+ },
+ {
+  "id": "items/consumables/grenade_sonic_standard_item",
+  "name": "Sonic Grenade",
+  "description": "This type of grenade causes a small explosion accompanied by a sonic blast. It has a large area of effectiveness.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_sonic",
+  "craft_cost": {
+   "consumables_manufacturing": 60
+  },
+  "unlocked_by_research": [
+   "research_tree: Sonic Grenades - Standard",
+   "research_tree_open_campaign: Sonic Grenades - Standard",
+   "research_tree_survival: Sonic Grenades - Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_sonic",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/grenade_sonic"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade_sonic.ent"
+ },
+ {
+  "id": "items/consumables/grenade_sonic_superior_item",
+  "name": "Sonic Grenade",
+  "description": "Redesigned housing of this version of the Sonic Grenade greatly enhances the effectiveness of the device.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_sonic",
+  "craft_cost": {
+   "consumables_manufacturing": 90
+  },
+  "unlocked_by_research": [
+   "research_tree: Sonic Grenades - Superior",
+   "research_tree_open_campaign: Sonic Grenades - Superior",
+   "research_tree_survival: Sonic Grenades - Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_sonic_superior",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/grenade_sonic_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade_sonic.ent"
+ },
+ {
+  "id": "items/consumables/grenade_standard_item",
+  "name": "Grenade",
+  "description": "The most basic, explosive weapon. It’s single use and deals explosive damage in its blast radius. Explodes on hitting the target or after the fuse runs out.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade",
+  "craft_cost": {
+   "consumables_manufacturing": 20
+  },
+  "unlocked_by_research": [
+   "research_tree: Grenade – Standard",
+   "research_tree_open_campaign: Grenade – Standard",
+   "research_tree_prologue: Basic Equipment",
+   "research_tree_survival: Grenade – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/grenade"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade.ent"
+ },
+ {
+  "id": "items/consumables/grenade_superior_item",
+  "name": "Grenade",
+  "description": "Enhanced version of the standard Grenade, with improved damage and increased blast radius.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/grenade_superior",
+  "craft_cost": {
+   "consumables_manufacturing": 30
+  },
+  "unlocked_by_research": [
+   "research_tree: Grenade – Superior",
+   "research_tree_open_campaign: Grenade – Superior",
+   "research_tree_survival: Grenade – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/grenade_superior",
+   "att": "att_grenade",
+   "stat_bp": "items/consumables/grenade_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/grenade.ent"
+ },
+ {
+  "id": "items/consumables/holo_decoy_advanced_item",
+  "name": "Holo Decoy",
+  "description": "Reduced energy consumption of this version of the projector allows it to stay online for longer periods.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/holo_decoy_standard",
+  "craft_cost": {
+   "consumables_manufacturing": 125
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/holo_decoy_mech_advanced",
+   "stat_bp": "items/consumables/holo_decoy_mech_advanced",
+   "owner_aim_dir": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/holo_decoy.ent"
+ },
+ {
+  "id": "items/consumables/holo_decoy_extreme_item",
+  "name": "Holo Decoy",
+  "description": "Reduced energy consumption of this version of the projector allows it to stay online for longer periods.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/holo_decoy_standard",
+  "craft_cost": {
+   "consumables_manufacturing": 175
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/holo_decoy_mech_extreme",
+   "stat_bp": "items/consumables/holo_decoy_mech_extreme",
+   "owner_aim_dir": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/holo_decoy.ent"
+ },
+ {
+  "id": "items/consumables/holo_decoy_standard_item",
+  "name": "Holo Decoy",
+  "description": "This is a portable holographic projector that can display a replica of the Mecha-Suit once it is set on the ground.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/holo_decoy_standard",
+  "craft_cost": {
+   "consumables_manufacturing": 100
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/holo_decoy_mech",
+   "stat_bp": "items/consumables/holo_decoy_mech",
+   "owner_aim_dir": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/holo_decoy.ent"
+ },
+ {
+  "id": "items/consumables/holo_decoy_superior_item",
+  "name": "Holo Decoy",
+  "description": "Reduced energy consumption of this version of the projector allows it to stay online for longer periods.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/holo_decoy_standard",
+  "craft_cost": {
+   "consumables_manufacturing": 150
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/holo_decoy_mech_superior",
+   "stat_bp": "items/consumables/holo_decoy_mech_superior",
+   "owner_aim_dir": 1
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/holo_decoy.ent"
+ },
+ {
+  "id": "items/consumables/mini_miner_advanced_item",
+  "name": "Mini Miner",
+  "description": "Refined drilling bit on this version of the device allows it to separate valuable resources from their contaminants more easily. This results in a much higher extraction efficiency.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mini_miner_advanced",
+  "craft_cost": {
+   "consumables_manufacturing": 375
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 70,
+   "blueprint": "items/consumables/mini_miner_advanced",
+   "stat_bp": "items/consumables/mini_miner_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mini_miner.ent"
+ },
+ {
+  "id": "items/consumables/mini_miner_extreme_item",
+  "name": "Mini Miner",
+  "description": "Refined drilling bit on this version of the device allows it to separate valuable resources from their contaminants more easily. This results in a much higher extraction efficiency.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mini_miner_extreme",
+  "craft_cost": {
+   "consumables_manufacturing": 525
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 90,
+   "blueprint": "items/consumables/mini_miner_extreme",
+   "stat_bp": "items/consumables/mini_miner_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mini_miner.ent"
+ },
+ {
+  "id": "items/consumables/mini_miner_standard_item",
+  "name": "Mini Miner",
+  "description": "A portable and fully autonomous power drill. Once placed on a resource deposit it will mine the resources underneath for as long as the battery lasts.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mini_miner_standard",
+  "craft_cost": {
+   "consumables_manufacturing": 300
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 60,
+   "blueprint": "items/consumables/mini_miner",
+   "stat_bp": "items/consumables/mini_miner"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mini_miner.ent"
+ },
+ {
+  "id": "items/consumables/mini_miner_superior_item",
+  "name": "Mini Miner",
+  "description": "Refined drilling bit on this version of the device allows it to separate valuable resources from their contaminants more easily. This results in a much higher extraction efficiency.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mini_miner_superior",
+  "craft_cost": {
+   "consumables_manufacturing": 450
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 80,
+   "blueprint": "items/consumables/mini_miner_superior",
+   "stat_bp": "items/consumables/mini_miner_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mini_miner.ent"
+ },
+ {
+  "id": "items/consumables/mobile_turret_advanced_item",
+  "name": "Sentry Gun",
+  "description": "A more powerful version of the Sentry Gun. Deals more damage and remains operational for longer thanks to the increased battery capacity.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mobile_turret_advanced",
+  "craft_cost": {
+   "consumables_manufacturing": 375
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Gun – Advanced",
+   "research_tree_open_campaign: Sentry Gun – Advanced",
+   "research_tree_survival: Sentry Gun – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 70,
+   "blueprint": "items/consumables/sentry_gun_advanced",
+   "stat_bp": "items/consumables/sentry_gun_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mobile_turret.ent"
+ },
+ {
+  "id": "items/consumables/mobile_turret_extreme_item",
+  "name": "Sentry Gun",
+  "description": "A more powerful version of the Sentry Gun. Deals more damage and remains operational for longer thanks to the increased battery capacity.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mobile_turret_extreme",
+  "craft_cost": {
+   "consumables_manufacturing": 525
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Gun – Extreme",
+   "research_tree_open_campaign: Sentry Gun – Extreme",
+   "research_tree_survival: Sentry Gun – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 90,
+   "blueprint": "items/consumables/sentry_gun_extreme",
+   "stat_bp": "items/consumables/sentry_gun_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mobile_turret.ent"
+ },
+ {
+  "id": "items/consumables/mobile_turret_standard_item",
+  "name": "Sentry Gun",
+  "description": "This automated defensive turret tracks targets in its vicinity. It has a medium range of operation, deals Physical damage and doesn't require external ammunition or energy to shoot. Works for a limited amount of time.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mobile_turret_standard",
+  "craft_cost": {
+   "consumables_manufacturing": 300
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Gun – Standard",
+   "research_tree_open_campaign: Sentry Gun – Standard",
+   "research_tree_survival: Sentry Gun – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 60,
+   "blueprint": "items/consumables/sentry_gun",
+   "stat_bp": "items/consumables/sentry_gun"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mobile_turret.ent"
+ },
+ {
+  "id": "items/consumables/mobile_turret_superior_item",
+  "name": "Sentry Gun",
+  "description": "A more powerful version of the Sentry Gun. Deals more damage and remains operational for longer thanks to the increased battery capacity.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mobile_turret_superior",
+  "craft_cost": {
+   "consumables_manufacturing": 450
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Gun – Superior",
+   "research_tree_open_campaign: Sentry Gun – Superior",
+   "research_tree_survival: Sentry Gun – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 80,
+   "blueprint": "items/consumables/sentry_gun_superior",
+   "stat_bp": "items/consumables/sentry_gun_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mobile_turret.ent"
+ },
+ {
+  "id": "items/consumables/mortar_sentry_advanced_item",
+  "name": "Mortar Sentry",
+  "description": "Improved range, operational time, and firepower make this a universal upgrade over the basic Mortar Sentry model.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mortar_sentry",
+  "craft_cost": {
+   "consumables_manufacturing": 375
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Mortar – Advanced",
+   "research_tree_open_campaign: Sentry Mortar – Advanced",
+   "research_tree_survival: Sentry Mortar – Advanced"
+  ],
+  "stats": {
+   "damage_type": "area",
+   "rarity": "ADVANCED",
+   "stats": {
+    "FIRE_RATE": {
+     "min_value": 0.5,
+     "max_value": 0.5,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_BURST": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_VALUE": {
+     "min_value": 130,
+     "max_value": 130,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 5.5,
+     "max_value": 5.5,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "AMMO_SPEED": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_OVER_TIME_LENGTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX"
+    },
+    "AMMO_SPREAD": {
+     "min_value": 8,
+     "max_value": 8,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 70,
+   "blueprint": "items/consumables/mortar_sentry_advanced",
+   "stat_bp": "items/consumables/mortar_sentry_advanced",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mortar_sentry.ent"
+ },
+ {
+  "id": "items/consumables/mortar_sentry_extreme_item",
+  "name": "Mortar Sentry",
+  "description": "Improved range, operational time, and firepower make this a universal upgrade over the basic Mortar Sentry model.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mortar_sentry",
+  "craft_cost": {
+   "consumables_manufacturing": 525
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Mortar – Extreme",
+   "research_tree_open_campaign: Sentry Mortar – Extreme",
+   "research_tree_survival: Sentry Mortar – Extreme"
+  ],
+  "stats": {
+   "damage_type": "area",
+   "rarity": "EXTREME",
+   "stats": {
+    "FIRE_RATE": {
+     "min_value": 0.5,
+     "max_value": 0.5,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_BURST": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_VALUE": {
+     "min_value": 200,
+     "max_value": 200,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 6.5,
+     "max_value": 6.5,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "AMMO_SPEED": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_OVER_TIME_LENGTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX"
+    },
+    "AMMO_SPREAD": {
+     "min_value": 8,
+     "max_value": 8,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 70,
+   "blueprint": "items/consumables/mortar_sentry_extreme",
+   "stat_bp": "items/consumables/mortar_sentry_extreme",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mortar_sentry.ent"
+ },
+ {
+  "id": "items/consumables/mortar_sentry_item",
+  "name": "Mortar Sentry",
+  "description": "Automated sentry tower that shoots mortar projectiles over a large distance. The tower operates only for a short time, but doesn't require additional ammo or power.",
+  "tier": null,
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mortar_sentry",
+  "craft_cost": {
+   "consumables_manufacturing": 300
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Mortar – Standard",
+   "research_tree_open_campaign: Sentry Mortar – Standard",
+   "research_tree_survival: Sentry Mortar – Standard"
+  ],
+  "stats": {
+   "damage_type": "area",
+   "stats": {
+    "FIRE_RATE": {
+     "min_value": 0.5,
+     "max_value": 0.5,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_BURST": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_VALUE": {
+     "min_value": 100,
+     "max_value": 100,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "AMMO_SPEED": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_OVER_TIME_LENGTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX"
+    },
+    "AMMO_SPREAD": {
+     "min_value": 8,
+     "max_value": 8,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 70,
+   "blueprint": "items/consumables/mortar_sentry",
+   "stat_bp": "items/consumables/mortar_sentry",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mortar_sentry.ent"
+ },
+ {
+  "id": "items/consumables/mortar_sentry_superior_item",
+  "name": "Mortar Sentry",
+  "description": "Improved range, operational time, and firepower make this a universal upgrade over the basic Mortar Sentry model.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/mortar_sentry",
+  "craft_cost": {
+   "consumables_manufacturing": 450
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Mortar – Superior",
+   "research_tree_open_campaign: Sentry Mortar – Superior",
+   "research_tree_survival: Sentry Mortar – Superior"
+  ],
+  "stats": {
+   "damage_type": "area",
+   "rarity": "SUPERIOR",
+   "stats": {
+    "FIRE_RATE": {
+     "min_value": 0.5,
+     "max_value": 0.5,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_BURST": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_VALUE": {
+     "min_value": 165,
+     "max_value": 165,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_SPLASH": {
+     "min_value": 6,
+     "max_value": 6,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "AMMO_SPEED": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX"
+    },
+    "DAMAGE_OVER_TIME_LENGTH": {
+     "min_value": 5,
+     "max_value": 5,
+     "features": "BASE_MINMAX"
+    },
+    "AMMO_SPREAD": {
+     "min_value": 8,
+     "max_value": 8,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 70,
+   "blueprint": "items/consumables/mortar_sentry_superior",
+   "stat_bp": "items/consumables/mortar_sentry_superior",
+   "disabled_conditions": "biome",
+   "disabled_values": "caverns"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/mortar_sentry.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_advanced_item",
+  "name": "Small Mine",
+  "description": "Enhanced version of the Small Mine with significantly improved damage.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_advanced",
+  "craft_cost": {
+   "consumables_manufacturing": 25
+  },
+  "unlocked_by_research": [
+   "research_tree: Proximity Mine – Advanced",
+   "research_tree_open_campaign: Proximity Mine – Advanced",
+   "research_tree_prologue: Proximity Mine – Advanced",
+   "research_tree_survival: Proximity Mine – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_advanced",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_advanced_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_cryogenic_advanced_item",
+  "name": "Cryogenic Mine",
+  "description": "Enhanced version of a Cryogenic Mine with significantly improved damage and cryogenic effects.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_cryogenic",
+  "craft_cost": {
+   "consumables_manufacturing": 50
+  },
+  "unlocked_by_research": [
+   "research_tree: Cryogenic Mine – Advanced",
+   "research_tree_open_campaign: Cryogenic Mine – Advanced",
+   "research_tree_survival: Cryogenic Mine – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_cryogenic_advanced",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_cryogenic_advanced_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_cryogenic.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_cryogenic_extreme_item",
+  "name": "Cryogenic Mine",
+  "description": "Enhanced version of a Cryogenic Mine with significantly improved damage and cryogenic effects.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_cryogenic",
+  "craft_cost": {
+   "consumables_manufacturing": 70
+  },
+  "unlocked_by_research": [
+   "research_tree: Cryogenic Mine – Extreme",
+   "research_tree_open_campaign: Cryogenic Mine – Extreme",
+   "research_tree_survival: Cryogenic Mine – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_cryogenic_extreme",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_cryogenic_extreme_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_cryogenic.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_cryogenic_standard_item",
+  "name": "Cryogenic Mine",
+  "description": "A sophisticated version of a land mine which includes cryogenic effects. It explodes with a freezing blast, doing Cryo damage and slowing down enemies that were caught in the radius of explosion.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_cryogenic",
+  "craft_cost": {
+   "consumables_manufacturing": 40
+  },
+  "unlocked_by_research": [
+   "research_tree: Cryogenic Mine – Standard",
+   "research_tree_open_campaign: Cryogenic Mine – Standard",
+   "research_tree_survival: Cryogenic Mine – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_cryogenic",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_cryogenic_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_cryogenic.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_cryogenic_superior_item",
+  "name": "Cryogenic Mine",
+  "description": "Enhanced version of a Cryogenic Mine with significantly improved damage and cryogenic effects.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_cryogenic",
+  "craft_cost": {
+   "consumables_manufacturing": 60
+  },
+  "unlocked_by_research": [
+   "research_tree: Cryogenic Mine – Superior",
+   "research_tree_open_campaign: Cryogenic Mine – Superior",
+   "research_tree_survival: Cryogenic Mine – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_cryogenic_superior",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_cryogenic_superior_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_cryogenic.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_extreme_item",
+  "name": "Small Mine",
+  "description": "Enhanced version of the Small Mine with significantly improved damage.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_extreme",
+  "craft_cost": {
+   "consumables_manufacturing": 35
+  },
+  "unlocked_by_research": [
+   "research_tree: Proximity Mine – Extreme",
+   "research_tree_open_campaign: Proximity Mine – Extreme",
+   "research_tree_prologue: Proximity Mine – Extreme",
+   "research_tree_survival: Proximity Mine – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_extreme",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_extreme_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_gravity_advanced_item",
+  "name": "Gravity Mine",
+  "description": "This mine creates a miniature black hole. The gravity rips small enemies and objects to shreds while sucking them in.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_gravity",
+  "craft_cost": {
+   "consumables_manufacturing": 75
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_gravity_advanced",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/gravity_hole_initial_blast_advanced,items/consumables/gravity_hole_damage_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_gravity.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_gravity_extreme_item",
+  "name": "Gravity Mine",
+  "description": "This mine creates a miniature black hole. The gravity rips small enemies and objects to shreds while sucking them in.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_gravity",
+  "craft_cost": {
+   "consumables_manufacturing": 105
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_gravity_extreme",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/gravity_hole_initial_blast_extreme,items/consumables/gravity_hole_damage_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_gravity.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_gravity_standard_item",
+  "name": "Gravity Mine",
+  "description": "This mine creates a miniature black hole. The gravity rips small enemies and objects to shreds while sucking them in.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_gravity",
+  "craft_cost": {
+   "consumables_manufacturing": 60
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_gravity",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/gravity_hole_initial_blast,items/consumables/gravity_hole_damage"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_gravity.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_gravity_superior_item",
+  "name": "Gravity Mine",
+  "description": "This mine creates a miniature black hole. The gravity rips small enemies and objects to shreds while sucking them in.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_gravity",
+  "craft_cost": {
+   "consumables_manufacturing": 90
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_gravity_superior",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/gravity_hole_initial_blast_superior,items/consumables/gravity_hole_damage_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_gravity.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_nuclear_advanced_item",
+  "name": "Nuclear Mine",
+  "description": "Enhanced version of a Nuclear Mine with significantly improved damage.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_nuclear",
+  "craft_cost": {
+   "consumables_manufacturing": 125
+  },
+  "unlocked_by_research": [
+   "research_tree: Nuclear Mine – Advanced",
+   "research_tree_open_campaign: Nuclear Mine – Advanced",
+   "research_tree_survival: Nuclear Mine – Advanced"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_nuclear_advanced",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_nuclear_advanced_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_nuclear.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_nuclear_extreme_item",
+  "name": "Nuclear Mine",
+  "description": "Enhanced version of a Nuclear Mine with significantly improved damage.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_nuclear",
+  "craft_cost": {
+   "consumables_manufacturing": 175
+  },
+  "unlocked_by_research": [
+   "research_tree: Nuclear Mine – Extreme",
+   "research_tree_open_campaign: Nuclear Mine – Extreme",
+   "research_tree_survival: Nuclear Mine – Extreme"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_nuclear_extreme",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_nuclear_extreme_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_nuclear.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_nuclear_standard_item",
+  "name": "Nuclear Mine",
+  "description": "Nuclear version of a land mine explodes like a miniature nuclear device. Explosion affects a wide area and deals huge amounts of damage.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_nuclear",
+  "craft_cost": {
+   "consumables_manufacturing": 100
+  },
+  "unlocked_by_research": [
+   "research_tree: Nuclear Mine – Standard",
+   "research_tree_open_campaign: Nuclear Mine – Standard",
+   "research_tree_survival: Nuclear Mine – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_nuclear",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_nuclear_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_nuclear.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_nuclear_superior_item",
+  "name": "Nuclear Mine",
+  "description": "Enhanced version of a Nuclear Mine with significantly improved damage.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_nuclear",
+  "craft_cost": {
+   "consumables_manufacturing": 150
+  },
+  "unlocked_by_research": [
+   "research_tree: Nuclear Mine – Superior",
+   "research_tree_open_campaign: Nuclear Mine – Superior",
+   "research_tree_survival: Nuclear Mine – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_nuclear_superior",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_nuclear_superior_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine_nuclear.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_standard_item",
+  "name": "Small Mine",
+  "description": "Small Mine explodes when enemies enter its proximity range. It takes a while to arm and can be destroyed before it does so avoid placing it when enemies are very close.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine",
+  "craft_cost": {
+   "consumables_manufacturing": 20
+  },
+  "unlocked_by_research": [
+   "research_tree: Basic Equipment",
+   "research_tree_open_campaign: Basic Equipment",
+   "research_tree_prologue: Basic Equipment",
+   "research_tree_survival: Basic Equipment"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine.ent"
+ },
+ {
+  "id": "items/consumables/proximity_mine_superior_item",
+  "name": "Small Mine",
+  "description": "Enhanced version of the Small Mine with significantly improved damage.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/proximity_mine_superior",
+  "craft_cost": {
+   "consumables_manufacturing": 30
+  },
+  "unlocked_by_research": [
+   "research_tree: Proximity Mine – Superior",
+   "research_tree_open_campaign: Proximity Mine – Superior",
+   "research_tree_prologue: Proximity Mine – Superior",
+   "research_tree_survival: Proximity Mine – Superior"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "bp": "items/consumables/proximity_mine_superior",
+   "season_christmas": "items/consumables/present",
+   "stat_bp": "items/consumables/proximity_mine_superior_explosion"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/proximity_mine.ent"
+ },
+ {
+  "id": "items/consumables/scanner_turret_advanced_item",
+  "name": "Bioscanner Turret",
+  "description": "Further research into mobile Bioscanner Turrets aimed at equipping them with more efficient sensors and energy cells.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/scanner_turret_advanced",
+  "craft_cost": {
+   "consumables_manufacturing": 150
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Bioscanner – Advanced",
+   "research_tree_open_campaign: Sentry Bioscanner – Advanced"
+  ],
+  "stats": {
+   "rarity": "ADVANCED",
+   "stats": {
+    "BEAM_RANGE": {
+     "min_value": 40,
+     "max_value": 40,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 25,
+   "blueprint": "items/consumables/scanner_turret_advanced",
+   "stat_bp": "items/consumables/scanner_turret_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/scanner_turret.ent"
+ },
+ {
+  "id": "items/consumables/scanner_turret_extreme_item",
+  "name": "Bioscanner Turret",
+  "description": "Further research into mobile Bioscanner Turrets aimed at equipping them with more efficient sensors and energy cells.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/scanner_turret_extreme",
+  "craft_cost": {
+   "consumables_manufacturing": 250
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Bioscanner – Extreme",
+   "research_tree_open_campaign: Sentry Bioscanner – Extreme"
+  ],
+  "stats": {
+   "rarity": "EXTREME",
+   "stats": {
+    "BEAM_RANGE": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 35,
+   "blueprint": "items/consumables/scanner_turret_extreme",
+   "stat_bp": "items/consumables/scanner_turret_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/scanner_turret.ent"
+ },
+ {
+  "id": "items/consumables/scanner_turret_standard_item",
+  "name": "Bioscanner Turret",
+  "description": "A portable scanning device that allows the Riftbreaker to quickly gather samples from the local fauna and flora, removing the need for manual sample collection.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/scanner_turret_standard",
+  "craft_cost": {
+   "consumables_manufacturing": 100
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Bioscanner – Standard",
+   "research_tree_open_campaign: Sentry Bioscanner – Standard"
+  ],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 20,
+   "blueprint": "items/consumables/scanner_turret",
+   "stat_bp": "items/consumables/scanner_turret"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/scanner_turret.ent"
+ },
+ {
+  "id": "items/consumables/scanner_turret_superior_item",
+  "name": "Bioscanner Turret",
+  "description": "Further research into mobile Bioscanner Turrets aimed at equipping them with more efficient sensors and energy cells.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/scanner_turret_superior",
+  "craft_cost": {
+   "consumables_manufacturing": 200
+  },
+  "unlocked_by_research": [
+   "research_tree: Sentry Bioscanner – Superior",
+   "research_tree_open_campaign: Sentry Bioscanner – Superior"
+  ],
+  "stats": {
+   "rarity": "SUPERIOR",
+   "stats": {
+    "BEAM_RANGE": {
+     "min_value": 45,
+     "max_value": 45,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 30,
+   "blueprint": "items/consumables/scanner_turret_superior",
+   "stat_bp": "items/consumables/scanner_turret_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/scanner_turret.ent"
+ },
+ {
+  "id": "items/consumables/tesla_turret_advanced_item",
+  "name": "Lightning Sentry",
+  "description": "A significantly more powerful version of the Lightning Sentry. A larger energy cell allows the Turret to deal higher damage to enemies in a larger radius.",
+  "tier": "advanced",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/tesla_turret_advanced",
+  "craft_cost": {
+   "consumables_manufacturing": 375
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "energy",
+   "rarity": "ADVANCED",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 40,
+     "max_value": 40,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_PENETRATION": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 34,
+     "max_value": 34,
+     "features": "BASE_MINMAX"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 3,
+     "max_value": 3,
+     "features": "BASE_MINMAX|STATISTIC"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 70,
+   "blueprint": "items/consumables/tesla_turret_advanced",
+   "stat_bp": "items/consumables/tesla_turret_advanced"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/tesla_turret.ent"
+ },
+ {
+  "id": "items/consumables/tesla_turret_extreme_item",
+  "name": "Lightning Sentry",
+  "description": "A significantly more powerful version of the Lightning Sentry. A larger energy cell allows the Turret to deal higher damage to enemies in a larger radius.",
+  "tier": "extreme",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/tesla_turret_extreme",
+  "craft_cost": {
+   "consumables_manufacturing": 525
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "energy",
+   "rarity": "EXTREME",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 60,
+     "max_value": 60,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_PENETRATION": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 37,
+     "max_value": 37,
+     "features": "BASE_MINMAX"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 3,
+     "max_value": 3,
+     "features": "BASE_MINMAX|STATISTIC"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 90,
+   "blueprint": "items/consumables/tesla_turret_extreme",
+   "stat_bp": "items/consumables/tesla_turret_extreme"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/tesla_turret.ent"
+ },
+ {
+  "id": "items/consumables/tesla_turret_standard_item",
+  "name": "Lightning Sentry",
+  "description": "This turret creates powerful electric arcs that bounce between enemies, resulting in a high amount of energy damage.",
+  "tier": "standard",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/tesla_turret_standard",
+  "craft_cost": {
+   "consumables_manufacturing": 300
+  },
+  "unlocked_by_research": [],
+  "stats": null,
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 60,
+   "blueprint": "items/consumables/tesla_turret",
+   "stat_bp": "items/consumables/tesla_turret"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/tesla_turret.ent"
+ },
+ {
+  "id": "items/consumables/tesla_turret_superior_item",
+  "name": "Lightning Sentry",
+  "description": "A significantly more powerful version of the Lightning Sentry. A larger energy cell allows the Turret to deal higher damage to enemies in a larger radius.",
+  "tier": "superior",
+  "type": "consumable",
+  "subtype": null,
+  "item_blueprint": null,
+  "icon": "gui/hud/items_icons/consumables/tesla_turret_superior",
+  "craft_cost": {
+   "consumables_manufacturing": 450
+  },
+  "unlocked_by_research": [],
+  "stats": {
+   "damage_type": "energy",
+   "rarity": "SUPERIOR",
+   "stats": {
+    "DAMAGE_VALUE": {
+     "min_value": 50,
+     "max_value": 50,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "DAMAGE_PENETRATION": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX|STATISTIC"
+    },
+    "BEAM_RANGE": {
+     "min_value": 35,
+     "max_value": 35,
+     "features": "BASE_MINMAX"
+    },
+    "BEAM_WIDTH": {
+     "min_value": 1,
+     "max_value": 1,
+     "features": "BASE_MINMAX"
+    },
+    "FIRE_PER_SHOT": {
+     "min_value": 3,
+     "max_value": 3,
+     "features": "BASE_MINMAX|STATISTIC"
+    }
+   }
+  },
+  "charge_levels": null,
+  "item_script_data": {
+   "timeout": 80,
+   "blueprint": "items/consumables/tesla_turret_superior",
+   "stat_bp": "items/consumables/tesla_turret_superior"
+  },
+  "blueprint_script_data": null,
+  "source_file": "entities/items/consumables/tesla_turret.ent"
+ }
+]

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riftbreaker Field Guide</title>
+<meta name="description" content="Riftbreaker infographics and planning tools, built from the game's own data files.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="#top">Riftbreaker <span>Field Guide</span></a>
+    <nav>
+      <a href="#calculator">Energy calculator</a>
+      <a href="#power">Power sources</a>
+      <a href="defense.html">Defense towers</a>
+      <a href="enemies.html">Enemies</a>
+      <a href="viewer.html">Data browser</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap panel first" id="calculator">
+    <div class="panel-head">
+      <div>
+        <h2>Energy calculator</h2>
+        <p class="sub">Add your buildings and set their level and count. The link updates as you go, so you can bookmark or share a layout.</p>
+      </div>
+      <div class="actions">
+        <button type="button" id="load-example" class="btn">Load example base</button>
+        <button type="button" id="copy-link" class="btn">Copy link</button>
+        <button type="button" id="clear-all" class="btn btn-quiet">Clear</button>
+      </div>
+    </div>
+
+    <div class="calc">
+      <div class="picker">
+        <label for="search" class="label">Add a building</label>
+        <input id="search" type="search" placeholder="Search, e.g. solar, laser, lab" autocomplete="off">
+        <div class="cat-filter" id="cat-filter"></div>
+        <div class="picker-list" id="picker-list"></div>
+      </div>
+
+      <div class="build">
+        <div class="summary" id="summary"></div>
+        <div class="rows" id="rows"></div>
+        <div class="extras" id="extras"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap panel" id="power">
+    <div class="panel-head">
+      <div>
+        <h2>Power sources compared</h2>
+        <p class="sub">Energy per second from one building. Hover or focus a bar for fuel and placement needs.</p>
+      </div>
+      <div class="seg" role="radiogroup" aria-label="Upgrade level" id="level-toggle">
+        <button type="button" role="radio" data-level="1" aria-checked="true">Level 1</button>
+        <button type="button" role="radio" data-level="2" aria-checked="false">Level 2</button>
+        <button type="button" role="radio" data-level="3" aria-checked="false">Level 3</button>
+      </div>
+    </div>
+    <div class="viz-root">
+      <div id="power-chart" class="bar-chart"></div>
+      <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+    </div>
+    <details class="table-view">
+      <summary>Show as table</summary>
+      <div class="table-scroll"><table id="power-table"></table></div>
+    </details>
+  </section>
+
+  <section class="wrap hero">
+    <div class="stat-row" id="stats" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <p>Data extracted from the game files with <code>tools/</code>. Rates are per second at full operation. Solar output stops at night and wind output varies with weather, so plan headroom.</p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enemies · Riftbreaker Field Guide</title>
+<meta name="description" content="Every Riftbreaker creature: health, damage, weaknesses and resistances by tier and biome, built from the game's own data files.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">Riftbreaker <span>Field Guide</span></a>
+    <nav>
+      <a href="index.html#calculator">Energy calculator</a>
+      <a href="index.html#power">Power sources</a>
+      <a href="defense.html">Defense towers</a>
+      <a href="enemies.html" aria-current="page">Enemies</a>
+      <a href="viewer.html">Data browser</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap panel first" id="enemies">
+    <div class="panel-head">
+      <div>
+        <h2>Enemies</h2>
+        <p class="sub">Find what each creature is weak to. Green cells take extra damage from that type, red cells resist it. Select a creature for its attacks and tiers. The link keeps your filters.</p>
+      </div>
+      <div class="seg" role="radiogroup" aria-label="Tier" id="e-tier">
+        <button type="button" role="radio" data-tier="normal" aria-checked="true">Normal</button>
+        <button type="button" role="radio" data-tier="alpha" aria-checked="false">Alpha</button>
+        <button type="button" role="radio" data-tier="ultra" aria-checked="false">Ultra</button>
+      </div>
+    </div>
+
+    <div class="d-filters e-filters">
+      <div class="d-search">
+        <label for="e-search" class="label">Search</label>
+        <input id="e-search" type="search" placeholder="Name or family, e.g. granan, nest, boss" autocomplete="off">
+      </div>
+      <div>
+        <span class="label" id="e-weak-label">Weak to</span>
+        <div class="cat-filter" id="e-weak" role="group" aria-labelledby="e-weak-label"></div>
+      </div>
+      <div class="d-sort">
+        <label for="e-biome" class="label">Biome</label>
+        <select id="e-biome"><option value="">Any biome</option></select>
+      </div>
+      <div class="d-sort">
+        <label for="e-show" class="label">Show</label>
+        <select id="e-show">
+          <option value="hostile">Hostile creatures</option>
+          <option value="special">Bosses, nests and towers</option>
+          <option value="neutral">Neutral wildlife</option>
+          <option value="all">Everything</option>
+        </select>
+      </div>
+      <div class="d-toggles">
+        <label class="d-check"><input type="checkbox" id="e-air"> Flying only</label>
+        <label class="d-check"><input type="checkbox" id="e-ranged"> Has a ranged attack</label>
+      </div>
+      <div class="d-sort">
+        <label for="e-sort" class="label">Sort by</label>
+        <select id="e-sort">
+          <option value="name">Name</option>
+          <option value="health">Health (highest first)</option>
+          <option value="damage">Damage per hit</option>
+          <option value="weak">Biggest weakness</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="d-meta">
+      <p class="note" id="e-count" aria-live="polite"></p>
+      <button type="button" class="btn btn-quiet" id="e-reset">Reset filters</button>
+    </div>
+
+    <div class="d-list e-list" id="e-list" role="list"></div>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <p>Data extracted from the game files with <code>tools/</code>. Resistances are damage multipliers: ×2 means the creature takes double damage of that type, ×0.1 means it takes a tenth. Values are base stats before difficulty scaling. Biomes list where a creature spawns in survival maps; creatures with no biome appear only in story missions or events.</p>
+</footer>
+
+<script src="assets/enemies.js"></script>
+</body>
+</html>

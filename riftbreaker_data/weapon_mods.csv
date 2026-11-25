@@ -1,0 +1,69 @@
+﻿id,name,tier,rarity,stat_type,function_type,value_type,min_value,max_value,craft_cost,description
+items/loot/weapon_mods/mod_ammo_cost_advanced_item,Ammo cost,advanced,ADVANCED,AMMO_COST,SUB,PERCENTAGE,19.0,22.0,"carbonium 400, steel 400",Decreases the amount of ammunition consumed by each shot.
+items/loot/weapon_mods/mod_ammo_cost_extreme_item,Ammo cost,extreme,EXTREME,AMMO_COST,SUB,PERCENTAGE,27.0,30.0,"carbonium 1600, steel 1600",Decreases the amount of ammunition consumed by each shot.
+items/loot/weapon_mods/mod_ammo_cost_standard_item,Ammo cost,standard,,AMMO_COST,SUB,PERCENTAGE,15.0,18.0,"carbonium 200, steel 200",Decreases the amount of ammunition consumed by each shot.
+items/loot/weapon_mods/mod_ammo_cost_superior_item,Ammo cost,superior,SUPERIOR,AMMO_COST,SUB,PERCENTAGE,23.0,26.0,"carbonium 800, steel 800",Decreases the amount of ammunition consumed by each shot.
+items/loot/weapon_mods/mod_ammo_spread_add_advanced_item,Spread,advanced,ADVANCED,AMMO_SPREAD,ADD,PERCENTAGE,70.0,80.0,"carbonium 400, steel 400",Modifies the spread angle of the projectiles fired by the weapon.
+items/loot/weapon_mods/mod_ammo_spread_add_extreme_item,Spread,extreme,EXTREME,AMMO_SPREAD,ADD,PERCENTAGE,90.0,100.0,"carbonium 1600, steel 1600",Modifies the spread angle of the projectiles fired by the weapon.
+items/loot/weapon_mods/mod_ammo_spread_add_standard_item,Spread,standard,,AMMO_SPREAD,ADD,PERCENTAGE,60.0,70.0,"carbonium 200, steel 200",Modifies the spread angle of the projectiles fired by the weapon.
+items/loot/weapon_mods/mod_ammo_spread_add_superior_item,Spread,superior,SUPERIOR,AMMO_SPREAD,ADD,PERCENTAGE,80.0,90.0,"carbonium 800, steel 800",Modifies the spread angle of the projectiles fired by the weapon.
+items/loot/weapon_mods/mod_ammo_spread_sub_advanced_item,Spread,advanced,ADVANCED,AMMO_SPREAD,SUB,PERCENTAGE,24.0,27.0,"carbonium 400, steel 400",Modifies the spread angle of the projectiles fired by the weapon.
+items/loot/weapon_mods/mod_ammo_spread_sub_extreme_item,Spread,extreme,EXTREME,AMMO_SPREAD,SUB,PERCENTAGE,30.0,33.0,"carbonium 1600, steel 1600",Modifies the spread angle of the projectiles fired by the weapon.
+items/loot/weapon_mods/mod_ammo_spread_sub_standard_item,Spread,standard,,AMMO_SPREAD,SUB,PERCENTAGE,21.0,24.0,"carbonium 200, steel 200",Modifies the spread angle of the projectiles fired by the weapon.
+items/loot/weapon_mods/mod_ammo_spread_sub_superior_item,Spread,superior,SUPERIOR,AMMO_SPREAD,SUB,PERCENTAGE,27.0,30.0,"carbonium 800, steel 800",Modifies the spread angle of the projectiles fired by the weapon.
+items/loot/weapon_mods/mod_autoaim_advanced_item,Weapon auto aim,advanced,ADVANCED,AMMO_AUTOAIM,ADD,PERCENTAGE,25.0,30.0,"carbonium 400, steel 400",Increases the angle of the weapon auto aiming ability.
+items/loot/weapon_mods/mod_autoaim_extreme_item,Weapon auto aim,extreme,EXTREME,AMMO_AUTOAIM,ADD,PERCENTAGE,35.0,40.0,"carbonium 1600, steel 1600",Increases the angle of the weapon auto aiming ability.
+items/loot/weapon_mods/mod_autoaim_standard_item,Weapon auto aim,standard,,AMMO_AUTOAIM,ADD,PERCENTAGE,20.0,25.0,"carbonium 200, steel 200",Increases the angle of the weapon auto aiming ability.
+items/loot/weapon_mods/mod_autoaim_superior_item,Weapon auto aim,superior,SUPERIOR,AMMO_AUTOAIM,ADD,PERCENTAGE,30.0,35.0,"carbonium 800, steel 800",Increases the angle of the weapon auto aiming ability.
+items/loot/weapon_mods/mod_cluster_projectiles_advanced_item,Cluster projectiles,advanced,ADVANCED,AMMO_CLUSTER,ADD,PERCENTAGE,25.0,30.0,"carbonium 400, steel 400",Increases the number of cluster projectiles spawned when the target is hit.
+items/loot/weapon_mods/mod_cluster_projectiles_extreme_item,Cluster projectiles,extreme,EXTREME,AMMO_CLUSTER,ADD,PERCENTAGE,35.0,40.0,"carbonium 1600, steel 1600",Increases the number of cluster projectiles spawned when the target is hit.
+items/loot/weapon_mods/mod_cluster_projectiles_standard_item,Cluster projectiles,standard,,AMMO_CLUSTER,ADD,PERCENTAGE,20.0,25.0,"carbonium 200, steel 200",Increases the number of cluster projectiles spawned when the target is hit.
+items/loot/weapon_mods/mod_cluster_projectiles_superior_item,Cluster projectiles,superior,SUPERIOR,AMMO_CLUSTER,ADD,PERCENTAGE,30.0,35.0,"carbonium 800, steel 800",Increases the number of cluster projectiles spawned when the target is hit.
+items/loot/weapon_mods/mod_critical_chance_advanced_item,,advanced,ADVANCED,DAMAGE_CRITICAL_CHANCE,ADD,PERCENTAGE,20.0,25.0,"carbonium 400, steel 400",Increases critical hit chance of the weapon.
+items/loot/weapon_mods/mod_critical_chance_extreme_item,,extreme,EXTREME,DAMAGE_CRITICAL_CHANCE,ADD,PERCENTAGE,30.0,35.0,"carbonium 1600, steel 1600",Increases critical hit chance of the weapon.
+items/loot/weapon_mods/mod_critical_chance_standard_item,,standard,,DAMAGE_CRITICAL_CHANCE,ADD,PERCENTAGE,15.0,20.0,"carbonium 200, steel 200",Increases critical hit chance of the weapon.
+items/loot/weapon_mods/mod_critical_chance_superior_item,,superior,SUPERIOR,DAMAGE_CRITICAL_CHANCE,ADD,PERCENTAGE,25.0,30.0,"carbonium 800, steel 800",Increases critical hit chance of the weapon.
+items/loot/weapon_mods/mod_damage_advanced_item,,advanced,ADVANCED,DAMAGE_VALUE,ADD,PERCENTAGE,20.0,25.0,"carbonium 400, steel 400",Increases damage value of the weapon.
+items/loot/weapon_mods/mod_damage_extreme_item,,extreme,EXTREME,DAMAGE_VALUE,ADD,PERCENTAGE,30.0,35.0,"carbonium 1600, steel 1600",Increases damage value of the weapon.
+items/loot/weapon_mods/mod_damage_over_time_advanced_item,Damage over time,advanced,ADVANCED,DAMAGE_OVER_TIME,ADD,PERCENTAGE,20.0,25.0,"carbonium 400, steel 400",Increases damage over time of the weapon.
+items/loot/weapon_mods/mod_damage_over_time_extreme_item,Damage over time,extreme,EXTREME,DAMAGE_OVER_TIME,ADD,PERCENTAGE,30.0,35.0,"carbonium 1600, steel 1600",Increases damage over time of the weapon.
+items/loot/weapon_mods/mod_damage_over_time_standard_item,Damage over time,standard,,DAMAGE_OVER_TIME,ADD,PERCENTAGE,15.0,20.0,"carbonium 200, steel 200",Increases damage over time of the weapon.
+items/loot/weapon_mods/mod_damage_over_time_superior_item,Damage over time,superior,SUPERIOR,DAMAGE_OVER_TIME,ADD,PERCENTAGE,25.0,30.0,"carbonium 800, steel 800",Increases damage over time of the weapon.
+items/loot/weapon_mods/mod_damage_penetration_advanced_item,Target piercing,advanced,ADVANCED,DAMAGE_PENETRATION,ADD,PERCENTAGE,35.0,45.0,"carbonium 400, steel 400",Increases the number of enemies that are pierced by each shot.
+items/loot/weapon_mods/mod_damage_penetration_extreme_item,Target piercing,extreme,EXTREME,DAMAGE_PENETRATION,ADD,PERCENTAGE,55.0,65.0,"carbonium 1600, steel 1600",Increases the number of enemies that are pierced by each shot.
+items/loot/weapon_mods/mod_damage_penetration_standard_item,Target piercing,standard,,DAMAGE_PENETRATION,ADD,PERCENTAGE,25.0,35.0,"carbonium 200, steel 200",Increases the number of enemies that are pierced by each shot.
+items/loot/weapon_mods/mod_damage_penetration_superior_item,Target piercing,superior,SUPERIOR,DAMAGE_PENETRATION,ADD,PERCENTAGE,45.0,55.0,"carbonium 800, steel 800",Increases the number of enemies that are pierced by each shot.
+items/loot/weapon_mods/mod_damage_standard_item,,standard,,DAMAGE_VALUE,ADD,PERCENTAGE,15.0,20.0,"carbonium 200, steel 200",Increases damage value of the weapon.
+items/loot/weapon_mods/mod_damage_superior_item,,superior,SUPERIOR,DAMAGE_VALUE,ADD,PERCENTAGE,25.0,30.0,"carbonium 800, steel 800",Increases damage value of the weapon.
+items/loot/weapon_mods/mod_fire_per_burst_advanced_item,Projectiles per burst,advanced,ADVANCED,FIRE_PER_BURST,ADD,PERCENTAGE,25.0,30.0,"carbonium 400, steel 400",Increases the number of projectiles fired consecutively with one shot.
+items/loot/weapon_mods/mod_fire_per_burst_extreme_item,Projectiles per burst,extreme,EXTREME,FIRE_PER_BURST,ADD,PERCENTAGE,35.0,40.0,"carbonium 1600, steel 1600",Increases the number of projectiles fired consecutively with one shot.
+items/loot/weapon_mods/mod_fire_per_burst_standard_item,Projectiles per burst,standard,,FIRE_PER_BURST,ADD,PERCENTAGE,20.0,25.0,"carbonium 200, steel 200",Increases the number of projectiles fired consecutively with one shot.
+items/loot/weapon_mods/mod_fire_per_burst_superior_item,Projectiles per burst,superior,SUPERIOR,FIRE_PER_BURST,ADD,PERCENTAGE,30.0,35.0,"carbonium 800, steel 800",Increases the number of projectiles fired consecutively with one shot.
+items/loot/weapon_mods/mod_fire_per_shot_advanced_item,Projectiles per shot,advanced,ADVANCED,FIRE_PER_SHOT,ADD,PERCENTAGE,25.0,30.0,"carbonium 400, steel 400",Increases the number of projectiles fired simultaneously with one shot.
+items/loot/weapon_mods/mod_fire_per_shot_extreme_item,Projectiles per shot,extreme,EXTREME,FIRE_PER_SHOT,ADD,PERCENTAGE,35.0,40.0,"carbonium 1600, steel 1600",Increases the number of projectiles fired simultaneously with one shot.
+items/loot/weapon_mods/mod_fire_per_shot_standard_item,Projectiles per shot,standard,,FIRE_PER_SHOT,ADD,PERCENTAGE,20.0,25.0,"carbonium 200, steel 200",Increases the number of projectiles fired simultaneously with one shot.
+items/loot/weapon_mods/mod_fire_per_shot_superior_item,Projectiles per shot,superior,SUPERIOR,FIRE_PER_SHOT,ADD,PERCENTAGE,30.0,35.0,"carbonium 800, steel 800",Increases the number of projectiles fired simultaneously with one shot.
+items/loot/weapon_mods/mod_fire_rate_advanced_item,Rate of fire,advanced,ADVANCED,FIRE_RATE,ADD,PERCENTAGE,30.0,35.0,"carbonium 400, steel 400",Increases fire rate of the weapon.
+items/loot/weapon_mods/mod_fire_rate_extreme_item,Rate of fire,extreme,EXTREME,FIRE_RATE,ADD,PERCENTAGE,40.0,45.0,"carbonium 1600, steel 1600",Increases fire rate of the weapon.
+items/loot/weapon_mods/mod_fire_rate_standard_item,Rate of fire,standard,,FIRE_RATE,ADD,PERCENTAGE,25.0,30.0,"carbonium 200, steel 200",Increases fire rate of the weapon.
+items/loot/weapon_mods/mod_fire_rate_superior_item,Rate of fire,superior,SUPERIOR,FIRE_RATE,ADD,PERCENTAGE,35.0,40.0,"carbonium 800, steel 800",Increases fire rate of the weapon.
+items/loot/weapon_mods/mod_homing_advanced_item,Homing projectiles,advanced,ADVANCED,AMMO_ANGLE_SPEED,ADD,PERCENTAGE,20.0,30.0,"carbonium 400, steel 400",Increases the turn speed of the projectile homing ability.
+items/loot/weapon_mods/mod_homing_extreme_item,Homing projectiles,extreme,EXTREME,AMMO_ANGLE_SPEED,ADD,PERCENTAGE,40.0,50.0,"carbonium 1600, steel 1600",Increases the turn speed of the projectile homing ability.
+items/loot/weapon_mods/mod_homing_standard_item,Homing projectiles,standard,,AMMO_ANGLE_SPEED,ADD,PERCENTAGE,10.0,20.0,"carbonium 200, steel 200",Increases the turn speed of the projectile homing ability.
+items/loot/weapon_mods/mod_homing_superior_item,Homing projectiles,superior,SUPERIOR,AMMO_ANGLE_SPEED,ADD,PERCENTAGE,30.0,40.0,"carbonium 800, steel 800",Increases the turn speed of the projectile homing ability.
+items/loot/weapon_mods/mod_lifesteal_advanced_item,,advanced,ADVANCED,DAMAGE_LIFESTEAL,ADD,PERCENTAGE,25.0,30.0,"carbonium 400, steel 400",Increases the amount of hit points stolen for each damage taken by enemies.
+items/loot/weapon_mods/mod_lifesteal_extreme_item,,extreme,EXTREME,DAMAGE_LIFESTEAL,ADD,PERCENTAGE,40.0,45.0,"carbonium 1600, steel 1600",Increases the amount of hit points stolen for each damage taken by enemies.
+items/loot/weapon_mods/mod_lifesteal_standard_item,,standard,,DAMAGE_LIFESTEAL,ADD,PERCENTAGE,20.0,25.0,"carbonium 200, steel 200",Increases the amount of hit points stolen for each damage taken by enemies.
+items/loot/weapon_mods/mod_lifesteal_superior_item,,superior,SUPERIOR,DAMAGE_LIFESTEAL,ADD,PERCENTAGE,30.0,35.0,"carbonium 800, steel 800",Increases the amount of hit points stolen for each damage taken by enemies.
+items/loot/weapon_mods/mod_range_advanced_item,Range,advanced,ADVANCED,BEAM_RANGE,ADD,PERCENTAGE,24.0,27.0,"carbonium 400, steel 400",Increases range of the weapon.
+items/loot/weapon_mods/mod_range_extreme_item,Range,extreme,EXTREME,BEAM_RANGE,ADD,PERCENTAGE,30.0,33.0,"carbonium 1600, steel 1600",Increases range of the weapon.
+items/loot/weapon_mods/mod_range_standard_item,Range,standard,,BEAM_RANGE,ADD,PERCENTAGE,20.0,24.0,"carbonium 200, steel 200",Increases range of the weapon.
+items/loot/weapon_mods/mod_range_superior_item,Range,superior,SUPERIOR,BEAM_RANGE,ADD,PERCENTAGE,27.0,30.0,"carbonium 800, steel 800",Increases range of the weapon.
+items/loot/weapon_mods/mod_splash_damage_advanced_item,,advanced,ADVANCED,DAMAGE_SPLASH,ADD,VALUE,1.25,1.45,"carbonium 400, steel 400",Increases splash damage radius of the weapon.
+items/loot/weapon_mods/mod_splash_damage_extreme_item,,extreme,EXTREME,DAMAGE_SPLASH,ADD,VALUE,1.75,2.0,"carbonium 1600, steel 1600",Increases splash damage radius of the weapon.
+items/loot/weapon_mods/mod_splash_damage_standard_item,,standard,,DAMAGE_SPLASH,ADD,VALUE,1.0,1.2,"carbonium 200, steel 200",Increases splash damage radius of the weapon.
+items/loot/weapon_mods/mod_splash_damage_superior_item,,superior,SUPERIOR,DAMAGE_SPLASH,ADD,VALUE,1.5,1.7,"carbonium 800, steel 800",Increases splash damage radius of the weapon.
+items/loot/weapon_mods/mod_stun_chance_advanced_item,Stun chance,advanced,ADVANCED,AMMO_STUN,ADD,PERCENTAGE,25.0,30.0,"carbonium 400, steel 400",Increases the chance to stun enemies.
+items/loot/weapon_mods/mod_stun_chance_extreme_item,Stun chance,extreme,EXTREME,AMMO_STUN,ADD,PERCENTAGE,35.0,40.0,"carbonium 1600, steel 1600",Increases the chance to stun enemies.
+items/loot/weapon_mods/mod_stun_chance_standard_item,Stun chance,standard,,AMMO_STUN,ADD,PERCENTAGE,20.0,25.0,"carbonium 200, steel 200",Increases the chance to stun enemies.
+items/loot/weapon_mods/mod_stun_chance_superior_item,Stun chance,superior,SUPERIOR,AMMO_STUN,ADD,PERCENTAGE,30.0,35.0,"carbonium 800, steel 800",Increases the chance to stun enemies.

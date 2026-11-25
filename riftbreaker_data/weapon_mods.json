@@ -1,0 +1,1141 @@
+[
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_cost_advanced_item",
+  "name": "Ammo cost",
+  "description": "Decreases the amount of ammunition consumed by each shot.",
+  "tier": "advanced",
+  "function_type": "SUB",
+  "max_value": 22.0,
+  "min_value": 19.0,
+  "rarity": "ADVANCED",
+  "stat_type": "AMMO_COST",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_cost_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_cost_extreme_item",
+  "name": "Ammo cost",
+  "description": "Decreases the amount of ammunition consumed by each shot.",
+  "tier": "extreme",
+  "function_type": "SUB",
+  "max_value": 30.0,
+  "min_value": 27.0,
+  "rarity": "EXTREME",
+  "stat_type": "AMMO_COST",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_cost_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_cost_standard_item",
+  "name": "Ammo cost",
+  "description": "Decreases the amount of ammunition consumed by each shot.",
+  "tier": "standard",
+  "function_type": "SUB",
+  "max_value": 18.0,
+  "min_value": 15.0,
+  "stat_type": "AMMO_COST",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_cost_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_cost_superior_item",
+  "name": "Ammo cost",
+  "description": "Decreases the amount of ammunition consumed by each shot.",
+  "tier": "superior",
+  "function_type": "SUB",
+  "max_value": 26.0,
+  "min_value": 23.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "AMMO_COST",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_cost_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_spread_add_advanced_item",
+  "name": "Spread",
+  "description": "Modifies the spread angle of the projectiles fired by the weapon.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 80.0,
+  "min_value": 70.0,
+  "rarity": "ADVANCED",
+  "stat_type": "AMMO_SPREAD",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_spread_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_spread_add_extreme_item",
+  "name": "Spread",
+  "description": "Modifies the spread angle of the projectiles fired by the weapon.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 100.0,
+  "min_value": 90.0,
+  "rarity": "EXTREME",
+  "stat_type": "AMMO_SPREAD",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_spread_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_spread_add_standard_item",
+  "name": "Spread",
+  "description": "Modifies the spread angle of the projectiles fired by the weapon.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 70.0,
+  "min_value": 60.0,
+  "stat_type": "AMMO_SPREAD",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_spread_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_spread_add_superior_item",
+  "name": "Spread",
+  "description": "Modifies the spread angle of the projectiles fired by the weapon.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 90.0,
+  "min_value": 80.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "AMMO_SPREAD",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_spread_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_spread_sub_advanced_item",
+  "name": "Spread",
+  "description": "Modifies the spread angle of the projectiles fired by the weapon.",
+  "tier": "advanced",
+  "function_type": "SUB",
+  "max_value": 27.0,
+  "min_value": 24.0,
+  "rarity": "ADVANCED",
+  "stat_type": "AMMO_SPREAD",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_spread_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_spread_sub_extreme_item",
+  "name": "Spread",
+  "description": "Modifies the spread angle of the projectiles fired by the weapon.",
+  "tier": "extreme",
+  "function_type": "SUB",
+  "max_value": 33.0,
+  "min_value": 30.0,
+  "rarity": "EXTREME",
+  "stat_type": "AMMO_SPREAD",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_spread_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_spread_sub_standard_item",
+  "name": "Spread",
+  "description": "Modifies the spread angle of the projectiles fired by the weapon.",
+  "tier": "standard",
+  "function_type": "SUB",
+  "max_value": 24.0,
+  "min_value": 21.0,
+  "stat_type": "AMMO_SPREAD",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_spread_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_ammo_spread_sub_superior_item",
+  "name": "Spread",
+  "description": "Modifies the spread angle of the projectiles fired by the weapon.",
+  "tier": "superior",
+  "function_type": "SUB",
+  "max_value": 30.0,
+  "min_value": 27.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "AMMO_SPREAD",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_spread_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_autoaim_advanced_item",
+  "name": "Weapon auto aim",
+  "description": "Increases the angle of the weapon auto aiming ability.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 25.0,
+  "rarity": "ADVANCED",
+  "stat_type": "AMMO_AUTOAIM",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_autoaim_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_autoaim_extreme_item",
+  "name": "Weapon auto aim",
+  "description": "Increases the angle of the weapon auto aiming ability.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 40.0,
+  "min_value": 35.0,
+  "rarity": "EXTREME",
+  "stat_type": "AMMO_AUTOAIM",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_autoaim_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_autoaim_standard_item",
+  "name": "Weapon auto aim",
+  "description": "Increases the angle of the weapon auto aiming ability.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 25.0,
+  "min_value": 20.0,
+  "stat_type": "AMMO_AUTOAIM",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_autoaim_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_autoaim_superior_item",
+  "name": "Weapon auto aim",
+  "description": "Increases the angle of the weapon auto aiming ability.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 30.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "AMMO_AUTOAIM",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_autoaim_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_cluster_projectiles_advanced_item",
+  "name": "Cluster projectiles",
+  "description": "Increases the number of cluster projectiles spawned when the target is hit.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 25.0,
+  "rarity": "ADVANCED",
+  "stat_type": "AMMO_CLUSTER",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_cluster_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_cluster_projectiles_extreme_item",
+  "name": "Cluster projectiles",
+  "description": "Increases the number of cluster projectiles spawned when the target is hit.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 40.0,
+  "min_value": 35.0,
+  "rarity": "EXTREME",
+  "stat_type": "AMMO_CLUSTER",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_cluster_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_cluster_projectiles_standard_item",
+  "name": "Cluster projectiles",
+  "description": "Increases the number of cluster projectiles spawned when the target is hit.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 25.0,
+  "min_value": 20.0,
+  "stat_type": "AMMO_CLUSTER",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_cluster_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_cluster_projectiles_superior_item",
+  "name": "Cluster projectiles",
+  "description": "Increases the number of cluster projectiles spawned when the target is hit.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 30.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "AMMO_CLUSTER",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_cluster_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_critical_chance_advanced_item",
+  "name": null,
+  "description": "Increases critical hit chance of the weapon.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 25.0,
+  "min_value": 20.0,
+  "rarity": "ADVANCED",
+  "stat_type": "DAMAGE_CRITICAL_CHANCE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_critcal_chance_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_critical_chance_extreme_item",
+  "name": null,
+  "description": "Increases critical hit chance of the weapon.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 30.0,
+  "rarity": "EXTREME",
+  "stat_type": "DAMAGE_CRITICAL_CHANCE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_critcal_chance_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_critical_chance_standard_item",
+  "name": null,
+  "description": "Increases critical hit chance of the weapon.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 20.0,
+  "min_value": 15.0,
+  "stat_type": "DAMAGE_CRITICAL_CHANCE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_critcal_chance_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_critical_chance_superior_item",
+  "name": null,
+  "description": "Increases critical hit chance of the weapon.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 25.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "DAMAGE_CRITICAL_CHANCE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_critcal_chance_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_advanced_item",
+  "name": null,
+  "description": "Increases damage value of the weapon.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 25.0,
+  "min_value": 20.0,
+  "rarity": "ADVANCED",
+  "stat_type": "DAMAGE_VALUE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/hud/damage_icons/acid_damage"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_extreme_item",
+  "name": null,
+  "description": "Increases damage value of the weapon.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 30.0,
+  "rarity": "EXTREME",
+  "stat_type": "DAMAGE_VALUE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/hud/damage_icons/acid_damage"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_over_time_advanced_item",
+  "name": "Damage over time",
+  "description": "Increases damage over time of the weapon.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 25.0,
+  "min_value": 20.0,
+  "rarity": "ADVANCED",
+  "stat_type": "DAMAGE_OVER_TIME",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/hud/ammo_icons/ammo_tower_liquid_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_over_time_extreme_item",
+  "name": "Damage over time",
+  "description": "Increases damage over time of the weapon.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 30.0,
+  "rarity": "EXTREME",
+  "stat_type": "DAMAGE_OVER_TIME",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/hud/ammo_icons/ammo_tower_liquid_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_over_time_standard_item",
+  "name": "Damage over time",
+  "description": "Increases damage over time of the weapon.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 20.0,
+  "min_value": 15.0,
+  "stat_type": "DAMAGE_OVER_TIME",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/hud/ammo_icons/ammo_tower_liquid_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_over_time_superior_item",
+  "name": "Damage over time",
+  "description": "Increases damage over time of the weapon.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 25.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "DAMAGE_OVER_TIME",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/hud/ammo_icons/ammo_tower_liquid_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_penetration_advanced_item",
+  "name": "Target piercing",
+  "description": "Increases the number of enemies that are pierced by each shot.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 45.0,
+  "min_value": 35.0,
+  "rarity": "ADVANCED",
+  "stat_type": "DAMAGE_PENETRATION",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_penetration_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_penetration_extreme_item",
+  "name": "Target piercing",
+  "description": "Increases the number of enemies that are pierced by each shot.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 65.0,
+  "min_value": 55.0,
+  "rarity": "EXTREME",
+  "stat_type": "DAMAGE_PENETRATION",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_penetration_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_penetration_standard_item",
+  "name": "Target piercing",
+  "description": "Increases the number of enemies that are pierced by each shot.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 25.0,
+  "stat_type": "DAMAGE_PENETRATION",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_penetration_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_penetration_superior_item",
+  "name": "Target piercing",
+  "description": "Increases the number of enemies that are pierced by each shot.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 55.0,
+  "min_value": 45.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "DAMAGE_PENETRATION",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_penetration_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_standard_item",
+  "name": null,
+  "description": "Increases damage value of the weapon.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 20.0,
+  "min_value": 15.0,
+  "stat_type": "DAMAGE_VALUE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/hud/damage_icons/acid_damage"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_damage_superior_item",
+  "name": null,
+  "description": "Increases damage value of the weapon.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 25.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "DAMAGE_VALUE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/hud/damage_icons/acid_damage"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_per_burst_advanced_item",
+  "name": "Projectiles per burst",
+  "description": "Increases the number of projectiles fired consecutively with one shot.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 25.0,
+  "rarity": "ADVANCED",
+  "stat_type": "FIRE_PER_BURST",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_per_burst_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_per_burst_extreme_item",
+  "name": "Projectiles per burst",
+  "description": "Increases the number of projectiles fired consecutively with one shot.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 40.0,
+  "min_value": 35.0,
+  "rarity": "EXTREME",
+  "stat_type": "FIRE_PER_BURST",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_per_burst_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_per_burst_standard_item",
+  "name": "Projectiles per burst",
+  "description": "Increases the number of projectiles fired consecutively with one shot.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 25.0,
+  "min_value": 20.0,
+  "stat_type": "FIRE_PER_BURST",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_per_burst_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_per_burst_superior_item",
+  "name": "Projectiles per burst",
+  "description": "Increases the number of projectiles fired consecutively with one shot.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 30.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "FIRE_PER_BURST",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_per_burst_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_per_shot_advanced_item",
+  "name": "Projectiles per shot",
+  "description": "Increases the number of projectiles fired simultaneously with one shot.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 25.0,
+  "rarity": "ADVANCED",
+  "stat_type": "FIRE_PER_SHOT",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_per_shot_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_per_shot_extreme_item",
+  "name": "Projectiles per shot",
+  "description": "Increases the number of projectiles fired simultaneously with one shot.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 40.0,
+  "min_value": 35.0,
+  "rarity": "EXTREME",
+  "stat_type": "FIRE_PER_SHOT",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_per_shot_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_per_shot_standard_item",
+  "name": "Projectiles per shot",
+  "description": "Increases the number of projectiles fired simultaneously with one shot.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 25.0,
+  "min_value": 20.0,
+  "stat_type": "FIRE_PER_SHOT",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_per_shot_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_per_shot_superior_item",
+  "name": "Projectiles per shot",
+  "description": "Increases the number of projectiles fired simultaneously with one shot.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 30.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "FIRE_PER_SHOT",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_per_shot_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_rate_advanced_item",
+  "name": "Rate of fire",
+  "description": "Increases fire rate of the weapon.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 30.0,
+  "rarity": "ADVANCED",
+  "stat_type": "FIRE_RATE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_rate_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_rate_extreme_item",
+  "name": "Rate of fire",
+  "description": "Increases fire rate of the weapon.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 45.0,
+  "min_value": 40.0,
+  "rarity": "EXTREME",
+  "stat_type": "FIRE_RATE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_rate_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_rate_standard_item",
+  "name": "Rate of fire",
+  "description": "Increases fire rate of the weapon.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 25.0,
+  "stat_type": "FIRE_RATE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_rate_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_fire_rate_superior_item",
+  "name": "Rate of fire",
+  "description": "Increases fire rate of the weapon.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 40.0,
+  "min_value": 35.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "FIRE_RATE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/fire_rate_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_homing_advanced_item",
+  "name": "Homing projectiles",
+  "description": "Increases the turn speed of the projectile homing ability.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 20.0,
+  "rarity": "ADVANCED",
+  "stat_type": "AMMO_ANGLE_SPEED",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_homing_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_homing_extreme_item",
+  "name": "Homing projectiles",
+  "description": "Increases the turn speed of the projectile homing ability.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 50.0,
+  "min_value": 40.0,
+  "rarity": "EXTREME",
+  "stat_type": "AMMO_ANGLE_SPEED",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_homing_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_homing_standard_item",
+  "name": "Homing projectiles",
+  "description": "Increases the turn speed of the projectile homing ability.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 20.0,
+  "min_value": 10.0,
+  "stat_type": "AMMO_ANGLE_SPEED",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_homing_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_homing_superior_item",
+  "name": "Homing projectiles",
+  "description": "Increases the turn speed of the projectile homing ability.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 40.0,
+  "min_value": 30.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "AMMO_ANGLE_SPEED",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_homing_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_lifesteal_advanced_item",
+  "name": null,
+  "description": "Increases the amount of hit points stolen for each damage taken by enemies.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 25.0,
+  "rarity": "ADVANCED",
+  "stat_type": "DAMAGE_LIFESTEAL",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_lifesteal_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_lifesteal_extreme_item",
+  "name": null,
+  "description": "Increases the amount of hit points stolen for each damage taken by enemies.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 45.0,
+  "min_value": 40.0,
+  "rarity": "EXTREME",
+  "stat_type": "DAMAGE_LIFESTEAL",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_lifesteal_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_lifesteal_standard_item",
+  "name": null,
+  "description": "Increases the amount of hit points stolen for each damage taken by enemies.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 25.0,
+  "min_value": 20.0,
+  "stat_type": "DAMAGE_LIFESTEAL",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_lifesteal_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_lifesteal_superior_item",
+  "name": null,
+  "description": "Increases the amount of hit points stolen for each damage taken by enemies.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 30.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "DAMAGE_LIFESTEAL",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_lifesteal_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_range_advanced_item",
+  "name": "Range",
+  "description": "Increases range of the weapon.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 27.0,
+  "min_value": 24.0,
+  "rarity": "ADVANCED",
+  "stat_type": "BEAM_RANGE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/beam_range_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_range_extreme_item",
+  "name": "Range",
+  "description": "Increases range of the weapon.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 33.0,
+  "min_value": 30.0,
+  "rarity": "EXTREME",
+  "stat_type": "BEAM_RANGE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/beam_range_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_range_standard_item",
+  "name": "Range",
+  "description": "Increases range of the weapon.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 24.0,
+  "min_value": 20.0,
+  "stat_type": "BEAM_RANGE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/beam_range_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_range_superior_item",
+  "name": "Range",
+  "description": "Increases range of the weapon.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 27.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "BEAM_RANGE",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/beam_range_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_splash_damage_advanced_item",
+  "name": null,
+  "description": "Increases splash damage radius of the weapon.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 1.45,
+  "min_value": 1.25,
+  "rarity": "ADVANCED",
+  "stat_type": "DAMAGE_SPLASH",
+  "value_type": "VALUE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_splash_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_splash_damage_extreme_item",
+  "name": null,
+  "description": "Increases splash damage radius of the weapon.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 2.0,
+  "min_value": 1.75,
+  "rarity": "EXTREME",
+  "stat_type": "DAMAGE_SPLASH",
+  "value_type": "VALUE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_splash_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_splash_damage_standard_item",
+  "name": null,
+  "description": "Increases splash damage radius of the weapon.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 1.2,
+  "min_value": 1.0,
+  "stat_type": "DAMAGE_SPLASH",
+  "value_type": "VALUE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_splash_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_splash_damage_superior_item",
+  "name": null,
+  "description": "Increases splash damage radius of the weapon.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 1.7,
+  "min_value": 1.5,
+  "rarity": "SUPERIOR",
+  "stat_type": "DAMAGE_SPLASH",
+  "value_type": "VALUE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/damage_splash_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_stun_chance_advanced_item",
+  "name": "Stun chance",
+  "description": "Increases the chance to stun enemies.",
+  "tier": "advanced",
+  "function_type": "ADD",
+  "max_value": 30.0,
+  "min_value": 25.0,
+  "rarity": "ADVANCED",
+  "stat_type": "AMMO_STUN",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 400,
+   "steel": 400
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_stun_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_stun_chance_extreme_item",
+  "name": "Stun chance",
+  "description": "Increases the chance to stun enemies.",
+  "tier": "extreme",
+  "function_type": "ADD",
+  "max_value": 40.0,
+  "min_value": 35.0,
+  "rarity": "EXTREME",
+  "stat_type": "AMMO_STUN",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 1600,
+   "steel": 1600
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_stun_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_stun_chance_standard_item",
+  "name": "Stun chance",
+  "description": "Increases the chance to stun enemies.",
+  "tier": "standard",
+  "function_type": "ADD",
+  "max_value": 25.0,
+  "min_value": 20.0,
+  "stat_type": "AMMO_STUN",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 200,
+   "steel": 200
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_stun_icon"
+ },
+ {
+  "id": "items/loot/weapon_mods/mod_stun_chance_superior_item",
+  "name": "Stun chance",
+  "description": "Increases the chance to stun enemies.",
+  "tier": "superior",
+  "function_type": "ADD",
+  "max_value": 35.0,
+  "min_value": 30.0,
+  "rarity": "SUPERIOR",
+  "stat_type": "AMMO_STUN",
+  "value_type": "PERCENTAGE",
+  "craft_cost": {
+   "carbonium": 800,
+   "steel": 800
+  },
+  "icon": "gui/menu/inventory/stat_icons/ammo_stun_icon"
+ }
+]
